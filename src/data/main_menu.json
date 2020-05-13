@@ -1,22 +1,32 @@
 [
-    {
-        "type": "internal",
-        "url": "/",
-        "title": "Home"
-    },
-    {
-        "type": "internal",
-        "url": "/about-the-demo",
-        "title": "What is this?"
-    },
-    {
-        "type": "internal",
-        "url": "/about-the-ssg",
-        "title": "About Gatsby"
-    },
-    {
-        "type": "internal",
-        "url": "/posts",
-        "title": "Blog"
-    }
+  {
+    "type": "internal",
+    "url": "/about",
+    "title": "ABOUT"
+  },
+  {
+    "type": "internal",
+    "url": "/team",
+    "title": "TEAM"
+  },
+  {
+    "type": "internal",
+    "url": "/impact",
+    "title": "IMPACT"
+  },
+  {
+    "type": "internal",
+    "url": "/get-involved",
+    "title": "GET INVOLVED"
+  },
+  {
+    "type": "internal",
+    "url": "/contact",
+    "title": "CONTACT"
+  },
+  {
+    "type": "external",
+    "url": "https://www.google.ca",
+    "title": "LOGIN"
+  }
 ]
