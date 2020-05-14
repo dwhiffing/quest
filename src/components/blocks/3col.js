@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Column from './inc/column'
+import Column from './column'
 
 const ThreeCol = ({ block }) => (
   <section className="block-3col hero is-medium">
@@ -8,8 +8,8 @@ const ThreeCol = ({ block }) => (
       <div className="container section page-content">
         {block.title && (
           <>
-          <h2 className="title is-3 has-text-centered">{block.title}</h2>
-          <hr />
+            <h2 className="title is-3 has-text-centered">{block.title}</h2>
+            <hr />
           </>
         )}
         <div className="columns">

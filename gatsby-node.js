@@ -10,7 +10,6 @@ exports.createPages = ({ graphql, actions }) => {
 
   return new Promise((resolve, reject) => {
     const templates = {
-      list: path.resolve('./src/templates/list.js'),
       single: path.resolve('./src/templates/single.js'),
       blocks: path.resolve('./src/templates/blocks.js'),
     }
@@ -74,8 +73,6 @@ exports.createPages = ({ graphql, actions }) => {
           let templateComponent
           if (page.node.frontmatter.template) {
             templateComponent = templates[page.node.frontmatter.template]
-          } else if (isIndexPage(page)) {
-            templateComponent = templates.list
           } else {
             templateComponent = templates.single
           }

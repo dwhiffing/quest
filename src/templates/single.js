@@ -21,11 +21,6 @@ class SingleTemplate extends React.Component {
         <section className="section page-content">
           <div className="container article-header has-text-centered">
             <h1 className="title is-1">{post.frontmatter.title}</h1>
-            {post.frontmatter.date && (
-              <em className="is-size-6 has-text-grey">
-                {post.frontmatter.date}
-              </em>
-            )}
             <hr />
           </div>
           <main className="container content-container">
@@ -55,7 +50,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
       }
     }
   }
