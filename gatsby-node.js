@@ -1,8 +1,8 @@
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
-function isIndexPage(post) {
-  return path.basename(post.node.fileAbsolutePath) === 'index.md'
+function isIndexPage(page) {
+  return path.basename(page.node.fileAbsolutePath) === 'index.md'
 }
 
 exports.createPages = ({ graphql, actions }) => {
@@ -33,7 +33,6 @@ exports.createPages = ({ graphql, actions }) => {
                   frontmatter {
                     title
                     template
-                    date(formatString: "MMMM DD, YYYY")
                   }
                 }
               }
@@ -46,20 +45,20 @@ exports.createPages = ({ graphql, actions }) => {
           reject(result.errors)
         }
 
-        // create the posts
-        const posts = result.data.allMarkdownRemark.edges
+        // create the pages
+        const pages = result.data.allMarkdownRemark.edges
 
-        for (post of posts) {
-          let postContext = {
-            slug: post.node.fields.slug,
+        for (page of pages) {
+          let pageContext = {
+            slug: page.node.fields.slug,
           }
 
-          // if it's a post index, add corresponding posts to context
-          if (isIndexPage(post)) {
+          // if it's a page index, add corresponding pages to context
+          if (isIndexPage(page)) {
             const parentRelPath = path.dirname(
-              path.relative(__dirname, post.node.fileAbsolutePath)
+              path.relative(__dirname, page.node.fileAbsolutePath)
             )
-            postContext.children = posts.filter(({ node }) => {
+            pageContext.children = pages.filter(({ node }) => {
               if (path.basename(node.fileAbsolutePath) === 'index.md') {
                 return false
               }
@@ -71,20 +70,20 @@ exports.createPages = ({ graphql, actions }) => {
             })
           }
 
-          // determine which layout to use for post
+          // determine which layout to use for page
           let templateComponent
-          if (post.node.frontmatter.template) {
-            templateComponent = templates[post.node.frontmatter.template]
-          } else if (isIndexPage(post)) {
+          if (page.node.frontmatter.template) {
+            templateComponent = templates[page.node.frontmatter.template]
+          } else if (isIndexPage(page)) {
             templateComponent = templates.list
           } else {
             templateComponent = templates.single
           }
 
           createPage({
-            path: post.node.fields.slug,
+            path: page.node.fields.slug,
             component: templateComponent,
-            context: postContext,
+            context: pageContext,
           })
         }
       })

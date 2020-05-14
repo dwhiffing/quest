@@ -8,7 +8,6 @@ const Feature = ({ block }) => (
         : 'block-feature hero is-medium'
     }
   >
-    {console.log(block)}
     <div className="hero-body">
       <div className="container is-fluid">
         <div
