@@ -1,22 +1,31 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { graphql, StaticQuery } from 'gatsby'
+import logo from '../images/logo.png'
+import headerImage from '../images/header.png'
 
 const Header = ({ siteTitle = '', siteLogo = {} }) => {
   return (
-    <header className="absolute min-w-full">
+    <header className="absolute min-w-full z-10">
       <section>
         <nav
           role="navigation"
           aria-label="main navigation"
-          className="min-w-full flex items-stretch justify-between"
+          className="min-w-full flex items-center justify-between px-4 py-4"
         >
-          <div>
+          <div className="flex-1 flex">
             <Link to="/">
-              <img alt={siteTitle} srcset={siteLogo.srcSet} />
+              <img alt={siteTitle} src={logo} width={195} />
             </Link>
+            <img
+              alt={siteTitle}
+              src={headerImage}
+              width={250}
+              className="relative"
+              style={{ bottom: -5, left: -20 }}
+            />
           </div>
-          <div id="mainMenu">
+          <div className="flex flex-1 justify-end">
             <StaticQuery
               query={navbarQuery}
               render={data =>
