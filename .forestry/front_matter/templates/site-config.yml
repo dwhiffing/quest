@@ -26,8 +26,3 @@ fields:
       format: markdown
   hidden: false
   default: ''
-- name: logo
-  type: file
-  config:
-    maxSize: 64
-  label: Logo
