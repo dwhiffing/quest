@@ -4,7 +4,7 @@ template: blocks
 blocks:
   - template: block__hero
     component: hero
-    background: transparent
+    background: 'transparent'
     title: Join a quest that will change our world forever
   - template: block__feature
     component: feature
