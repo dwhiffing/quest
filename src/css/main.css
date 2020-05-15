@@ -21,7 +21,7 @@ body {
   position: relative;
 }
 
-.background-image-container img {
+.background-image-container .background-image {
   z-index: 0;
   position: absolute;
   top: 0;
@@ -40,7 +40,8 @@ h1 {
   color: white;
 }
 
-nav a {
+nav a,
+nav span {
   font-family: Quatro;
   font-family: Quatro;
   font-style: normal;
@@ -63,4 +64,8 @@ nav a {
 
 .columns.is-reversed {
   flex-direction: row-reverse;
+}
+
+footer {
+  position: relative;
 }

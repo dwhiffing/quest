@@ -8,6 +8,7 @@ const Hero = ({ block }) => (
     {block.background_image && (
       <img
         alt={block.title}
+        className="background-image"
         srcset={block.background_image.childImageSharp.fluid.srcSet}
       />
     )}
