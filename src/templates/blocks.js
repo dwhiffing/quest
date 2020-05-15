@@ -67,6 +67,13 @@ export const pageQuery = graphql`
               }
             }
           }
+          background_image {
+            childImageSharp {
+              fluid(maxWidth: 1200) {
+                srcSet
+              }
+            }
+          }
           title
           subtitle
           content

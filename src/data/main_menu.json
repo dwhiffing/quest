@@ -23,10 +23,5 @@
     "type": "internal",
     "url": "/contact",
     "title": "CONTACT"
-  },
-  {
-    "type": "external",
-    "url": "https://www.google.ca",
-    "title": "LOGIN"
   }
 ]

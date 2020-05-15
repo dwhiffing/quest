@@ -1,54 +1,43 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'gatsby'
 import { graphql, StaticQuery } from 'gatsby'
 
-const Header = ({ siteTitle = '' }) => {
-  const [state, setState] = useState({ navbarOpen: false })
-
+const Header = ({ siteTitle = '', siteLogo = {} }) => {
   return (
-    <header>
+    <header className="absolute min-w-full">
       <section>
-        <nav role="navigation" aria-label="main navigation">
+        <nav
+          role="navigation"
+          aria-label="main navigation"
+          className="min-w-full flex items-stretch justify-between"
+        >
           <div>
-            <Link to="/">{siteTitle}</Link>
-
-            <span
-              onClick={() => setState({ navbarOpen: !state.navbarOpen })}
-              role="button"
-              className={state.navbarOpen ? 'is-active' : ''}
-              aria-label="menu"
-              aria-expanded="false"
-              data-target="mainMenu"
-            >
-              <span aria-hidden="true" />
-              <span aria-hidden="true" />
-              <span aria-hidden="true" />
-            </span>
+            <Link to="/">
+              <img alt={siteTitle} srcset={siteLogo.srcSet} />
+            </Link>
           </div>
-          <div id="mainMenu" className={state.navbarOpen ? 'is-active' : ''}>
-            <div>
-              <StaticQuery
-                query={navbarQuery}
-                render={data =>
-                  data.allMainMenuJson.edges.map(edge => {
-                    return edge.node.type === 'internal' ? (
-                      <Link key={edge.node.id} to={edge.node.url}>
-                        {edge.node.title}
-                      </Link>
-                    ) : (
-                      <a
-                        key={edge.node.id}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href={edge.node.url}
-                      >
-                        {edge.node.title}
-                      </a>
-                    )
-                  })
-                }
-              />
-            </div>
+          <div id="mainMenu">
+            <StaticQuery
+              query={navbarQuery}
+              render={data =>
+                data.allMainMenuJson.edges.map(edge => {
+                  return edge.node.type === 'internal' ? (
+                    <Link key={edge.node.id} to={edge.node.url}>
+                      {edge.node.title}
+                    </Link>
+                  ) : (
+                    <a
+                      key={edge.node.id}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={edge.node.url}
+                    >
+                      {edge.node.title}
+                    </a>
+                  )
+                })
+              }
+            />
           </div>
         </nav>
       </section>
