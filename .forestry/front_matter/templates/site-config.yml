@@ -23,6 +23,11 @@ fields:
   config:
     wysiwyg: true
     schema:
-      format: inline_html
+      format: markdown
   hidden: false
   default: ''
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo
