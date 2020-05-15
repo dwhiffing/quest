@@ -22,7 +22,7 @@ body {
 }
 
 .background-image-container img {
-  z-index: -1;
+  z-index: 0;
   position: absolute;
   top: 0;
   left: 0;
