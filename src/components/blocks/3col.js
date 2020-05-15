@@ -1,26 +1,33 @@
 import React from 'react'
 
-import Column from './column'
-
 const ThreeCol = ({ block }) => (
-  <section className="block-3col hero is-medium">
-    <div className="hero-body">
-      <div className="container section page-content">
+  <section>
+    <div>
+      <div>
         {block.title && (
           <>
-            <h2 className="title is-3 has-text-centered">{block.title}</h2>
+            <h2>{block.title}</h2>
             <hr />
           </>
         )}
-        <div className="columns">
-          <div className="column">
-            <Column columnData={block.col1} />
+        <div>
+          <div>
+            <aside>
+              <h3>{block.col1.title}</h3>
+              <div dangerouslySetInnerHTML={{ __html: block.col1.content }} />
+            </aside>
           </div>
-          <div className="column">
-            <Column columnData={block.col2} />
+          <div>
+            <aside>
+              <h3>{block.col2.title}</h3>
+              <div dangerouslySetInnerHTML={{ __html: block.col2.content }} />
+            </aside>
           </div>
-          <div className="column">
-            <Column columnData={block.col3} />
+          <div>
+            <aside>
+              <h3>{block.col3.title}</h3>
+              <div dangerouslySetInnerHTML={{ __html: block.col3.content }} />
+            </aside>
           </div>
         </div>
       </div>

@@ -2,25 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-
 import Header from './header'
 import Footer from './footer'
-import '../css/main.scss'
-
 import favicon from './favicon.png'
+import '../css/main.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-            footer
-          }
-        }
-      }
-    `}
+    query={layoutQuery}
     render={data => (
       <>
         <Helmet
@@ -52,3 +41,14 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+const layoutQuery = graphql`
+  query SiteTitleQuery {
+    site {
+      siteMetadata {
+        title
+        footer
+      }
+    }
+  }
+`

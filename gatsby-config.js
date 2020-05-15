@@ -56,6 +56,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     'gatsby-transformer-json',
     'gatsby-plugin-sass',
+    'gatsby-plugin-postcss',
     'gatsby-plugin-catch-links',
   ],
 }
