@@ -8,9 +8,12 @@ blocks:
     title: Join a quest that will change our world forever
     subtitle: ''
     background_image: '/src/images/bg1.png'
+    button:
+      url: https://google.ca
+      text: Learn more
   - template: block__feature
     component: feature
-    image: '/src/images/note.png'
+    image: '/src/images/sword.png'
     background: primary
     orientation: normal
     title: Join the quest
@@ -27,7 +30,7 @@ blocks:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
       ut, condimentum est.
-    image: '/src/images/sword.png'
+    image: '/src/images/shield.png'
   - template: block__feature
     component: feature
     background: dark

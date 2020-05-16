@@ -8,6 +8,30 @@
 }
 
 @font-face {
+  font-family: 'Quatro';
+  src: url('../fonts/Quatro_Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url('../fonts/Quatro_UltraBlack.otf') format('opentype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url('../fonts/Quatro_Medium.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Quatro';
+  src: url('../fonts/Quatro_Book.otf') format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
   font-family: 'Inter';
   src: url('../fonts/Inter-Regular.ttf') format('truetype');
 }
@@ -15,6 +39,23 @@
 body {
   background-repeat: repeat;
   min-height: 100vh;
+  background-color: #0c1222;
+  min-width: 411px;
+}
+
+.button {
+  padding: 4px 24px 0px;
+  border-radius: 20px;
+  font-family: Quatro;
+  font-weight: 500;
+  min-width: 80px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
 }
 
 .background-image-container {
@@ -33,26 +74,37 @@ body {
 
 h1 {
   font-family: Quatro;
-  font-style: normal;
-  font-weight: bold;
   font-size: 50px;
   line-height: 58px;
+  font-style: normal;
+  font-weight: bold;
   color: white;
 }
 
-nav a,
-nav span {
-  font-family: Quatro;
+p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+.quatro {
   font-family: Quatro;
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
+}
+
+.nav-link {
+  font-family: Quatro;
+  font-style: normal;
+  font-weight: 400;
   line-height: 16px;
   text-align: right;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: white;
-  margin: 0 12px;
+  white-space: nowrap;
 }
 
 .page-content {
@@ -68,4 +120,10 @@ nav span {
 
 footer {
   position: relative;
+}
+
+input {
+  background: transparent;
+  border: 0;
+  width: 100%;
 }
