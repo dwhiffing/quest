@@ -19,4 +19,10 @@ fields:
   - block__3col
   - block__cta
 pages:
+- src/pages/about.md
+- src/pages/contact.md
+- src/pages/get-involved.md
+- src/pages/impact.md
 - src/pages/index.md
+- src/pages/team.md
+- src/pages/terms.md
