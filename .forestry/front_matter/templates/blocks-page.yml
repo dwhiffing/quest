@@ -18,6 +18,7 @@ fields:
   - block__feature
   - block__3col
   - block__cta
+  - block__image
 pages:
 - src/pages/about.md
 - src/pages/contact.md

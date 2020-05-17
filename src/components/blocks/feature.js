@@ -1,8 +1,14 @@
 import React from 'react'
 
 const Feature = ({ block }) => (
-  <section className="bg-dark-blue">
-    <div className="container mx-auto py-40">
+  <section
+    className={`background-image-container bg-${block.background ||
+      'dark-blue'}`}
+  >
+    <div
+      className="container mx-auto py-40 relative z-10"
+      style={{ minHeight: block.height || 500 }}
+    >
       <div
         className={`flex justify-between ${
           block.orientation === 'reverse' ? 'flex-row-reverse' : 'flex-row'
@@ -18,11 +24,23 @@ const Feature = ({ block }) => (
           )}
         </div>
         <div className="flex flex-col flex-1 text-white justify-center">
-          <h1>{block.title}</h1>
-          <div dangerouslySetInnerHTML={{ __html: block.content }} />
+          <div
+            className="flex flex-col flex-1 text-white justify-center"
+            style={{ maxWidth: 400 }}
+          >
+            <h1>{block.title}</h1>
+            <div dangerouslySetInnerHTML={{ __html: block.content }} />
+          </div>
         </div>
       </div>
     </div>
+    {block.background_image && (
+      <img
+        alt={block.title}
+        className="background-image"
+        srcset={block.background_image.childImageSharp.fluid.srcSet}
+      />
+    )}
   </section>
 )
 

@@ -14,16 +14,19 @@ blocks:
   - template: block__feature
     component: feature
     image: '/src/images/sword.png'
-    background: primary
+    background: dark-blue
     orientation: normal
     title: Join the quest
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
       ut, condimentum est.
+  - template: block__image
+    component: image
+    image: '/src/images/ruins.png'
   - template: block__feature
     component: feature
-    background: light
+    background: dark-blue
     orientation: reverse
     title: Our Impact
     content:
@@ -31,10 +34,15 @@ blocks:
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
       ut, condimentum est.
     image: '/src/images/shield.png'
+  - template: block__image
+    component: image
+    image: '/src/images/clouds.png'
   - template: block__feature
     component: feature
-    background: dark
+    background: blue
+    background_image: '/src/images/mountain.png'
     orientation: normal
+    height: 750
     title: Get Involved
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
@@ -43,8 +51,8 @@ blocks:
     image: ''
   - template: block__cta
     component: cta
-    background: primary
-    title: Join the Quest
+    background: dark-blue
+    title: Get in touch
     subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit ut, condimentum est.
     button:
       url: https://google.ca

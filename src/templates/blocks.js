@@ -10,6 +10,7 @@ import ThreeCol from '../components/blocks/3col'
 import Feature from '../components/blocks/feature'
 import CTA from '../components/blocks/cta'
 import Hero from '../components/blocks/hero'
+import Image from '../components/blocks/image'
 
 class BlocksTemplate extends React.Component {
   render() {
@@ -34,6 +35,8 @@ class BlocksTemplate extends React.Component {
               return <CTA block={block} />
             case 'hero':
               return <Hero block={block} />
+            case 'image':
+              return <Image block={block} />
             default:
               return ''
           }
@@ -77,6 +80,7 @@ export const pageQuery = graphql`
           title
           subtitle
           content
+          height
           orientation
           background
           button {

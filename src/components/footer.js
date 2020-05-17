@@ -6,24 +6,32 @@ import { NavLinks } from './header'
 
 const Footer = ({ content }) => (
   <footer>
-    <div className="flex background-image-container bg-dark-blue min-h-screen">
+    <div
+      className="flex background-image-container bg-dark-blue"
+      style={{ height: 750 }}
+    >
       <img
         className="background-image"
         alt="footer-background"
         src={footerImage}
+        style={{ top: -210, height: '130%' }}
       />
-      <div className="relative z-10 flex-1 flex justify-between flex-col">
-        <div className="mx-auto max-w-xl flex flex-1 justify-center mt-40 pt-40 relative z-10">
+      <div
+        className="relative z-10 flex-1 flex justify-between items-center flex-col self-end"
+        style={{ height: 530 }}
+      >
+        <div className="mx-auto max-w-xl flex justify-center relative z-10">
           <div className="flex flex-col items-center">
-            <img alt="logo" src={logo} width={220} className="mb-20" />
+            <img alt="logo" src={logo} width={200} className="mb-10" />
             <NavLinks />
           </div>
         </div>
+
         <div
-          className="flex flex-col justify-center items-center bg-dark-blue text-white max-w-lg px-6 py-10 mt-10 mb-10 mx-auto"
+          className="flex flex-col justify-center items-center bg-dark-blue text-white max-w-lg px-10 py-10 mx-10"
           style={{ borderRadius: 12 }}
         >
-          <p className="quatro text-center">
+          <p className="quatro text-center text-sm">
             Sign up for our mailing list for exclusive news and updates
           </p>
           <div className="flex mt-6 w-full justify-between border-2 rounded-full">
@@ -36,7 +44,8 @@ const Footer = ({ content }) => (
             </button>
           </div>
         </div>
-        <div className="flex justify-between items-center w-full max-w-6xl mx-auto my-10">
+
+        <div className="flex justify-between items-center w-full max-w-6xl px-4 my-10">
           <img
             alt="logo"
             src={headerImage}
@@ -46,14 +55,14 @@ const Footer = ({ content }) => (
           <nav>
             <span
               target="_blank"
-              className="nav-link mx-3 text-sm"
+              className="nav-link mx-3 text-xs"
               rel="noopener noreferrer"
             >
               © All Rights Reserved
             </span>
             <a
               target="_blank"
-              className="nav-link mx-3 text-sm"
+              className="nav-link mx-3 text-xs"
               rel="noopener noreferrer"
               href="/privacy"
             >
@@ -61,7 +70,7 @@ const Footer = ({ content }) => (
             </a>
             <a
               target="_blank"
-              className="nav-link mx-3 text-sm"
+              className="nav-link mx-3 text-xs"
               rel="noopener noreferrer"
               href="/terms"
             >
