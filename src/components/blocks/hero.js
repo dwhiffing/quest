@@ -36,7 +36,7 @@ const Hero = ({ block }) => (
       <img
         alt={block.title}
         className="background-image"
-        srcset={block.background_image.childImageSharp.fluid.srcSet}
+        srcSet={block.background_image.childImageSharp.fluid.srcSet}
         style={
           block.variant === 'bottom'
             ? {

@@ -38,7 +38,7 @@ export function Nav({ siteTitle }) {
       aria-label="main navigation"
       className="container relative select-none bg-grey md:flex md:items-center mx-auto px-0 md:px-10 py-6"
     >
-      <div class="flex">
+      <div className="flex">
         <div className="flex-1 flex items-center ">
           <div className="flex-1 flex justify-center mt-2 mb-4">
             <Link to="/">
@@ -64,8 +64,8 @@ export function Nav({ siteTitle }) {
 
 export function NavLinks() {
   return (
-    <div class="flex md:items-stretch md:flex-no-shrink md:flex-grow justify-center md:justify-end">
-      <div class="flex items-stretch justify-between max-w-sm md:max-w-full">
+    <div className="flex md:items-stretch md:flex-no-shrink md:flex-grow justify-center md:justify-end">
+      <div className="flex items-stretch justify-between max-w-sm md:max-w-full">
         <StaticQuery
           query={navbarQuery}
           render={data =>

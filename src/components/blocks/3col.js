@@ -6,36 +6,36 @@ const ThreeCol = ({ block }) => (
       'dark-blue'} text-${block.textColor || 'white'}`}
   >
     <div
-      className="container flex mx-auto py-40 relative z-10"
+      className="container flex mx-auto py-40 relative z-10 flex-col md:flex-row"
       style={{ minHeight: block.height || 500 }}
     >
-      <div className="text-center flex-1 mx-4">
+      <div className="text-center flex-1 mx-4 mt-4">
         {block.col1.image && (
           <img
             alt={block.col1.title}
-            srcset={block.col1.image.childImageSharp.fluid.srcSet}
+            srcSet={block.col1.image.childImageSharp.fluid.srcSet}
             className="mb-4"
           />
         )}
         <h1>{block.col1.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: block.col1.content }} />
       </div>
-      <div className="text-center flex-1 mx-4">
+      <div className="text-center flex-1 mx-4 mt-4">
         {block.col2.image && (
           <img
             alt={block.col2.title}
-            srcset={block.col2.image.childImageSharp.fluid.srcSet}
+            srcSet={block.col2.image.childImageSharp.fluid.srcSet}
             className="mb-4"
           />
         )}
         <h1>{block.col2.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: block.col2.content }} />
       </div>
-      <div className="text-center flex-1 mx-4">
+      <div className="text-center flex-1 mx-4 mt-4">
         {block.col3.image && (
           <img
             alt={block.col3.title}
-            srcset={block.col3.image.childImageSharp.fluid.srcSet}
+            srcSet={block.col3.image.childImageSharp.fluid.srcSet}
             className="mb-4"
           />
         )}

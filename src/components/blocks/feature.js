@@ -10,15 +10,17 @@ const Feature = ({ block }) => (
       style={{ minHeight: block.height || 500 }}
     >
       <div
-        className={`flex flex-1 justify-between ${
-          block.orientation === 'reverse' ? 'flex-row-reverse' : 'flex-row'
+        className={`flex flex-1 justify-between flex-col ${
+          block.orientation === 'reverse'
+            ? 'md:flex-row-reverse'
+            : 'md:flex-row'
         }`}
       >
         <div className="flex flex-1 justify-center items-center">
           {block.image && (
             <img
               alt={block.title}
-              srcset={block.image.childImageSharp.fluid.srcSet}
+              srcSet={block.image.childImageSharp.fluid.srcSet}
               width={300}
             />
           )}
@@ -54,7 +56,7 @@ const Feature = ({ block }) => (
       <img
         alt={block.title}
         className="background-image"
-        srcset={block.background_image.childImageSharp.fluid.srcSet}
+        srcSet={block.background_image.childImageSharp.fluid.srcSet}
         style={
           block.variant === 'bottom'
             ? {

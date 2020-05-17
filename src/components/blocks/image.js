@@ -6,7 +6,7 @@ const Image = ({ block }) => (
       alt={block.title}
       className={`background-image bg-${block.background || 'transparent'}`}
       style={{ height: 'auto', position: 'static' }}
-      srcset={block.image.childImageSharp.fluid.srcSet}
+      srcSet={block.image.childImageSharp.fluid.srcSet}
     />
   </section>
 )
