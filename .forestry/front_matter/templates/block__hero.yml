@@ -52,3 +52,4 @@ fields:
     options:
     - normal
     - bottom
+  label: Variant
