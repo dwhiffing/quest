@@ -4,7 +4,7 @@ template: blocks
 blocks:
   - template: block__hero
     component: hero
-    background: '#0C1222'
+    background: dark-blue
     title: Join a quest that will change our world forever
     subtitle: ''
     background_image: '/src/images/bg1.png'

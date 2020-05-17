@@ -4,7 +4,7 @@ const Image = ({ block }) => (
   <section className="background-image-container">
     <img
       alt={block.title}
-      className="background-image"
+      className={`background-image bg-${block.background || 'transparent'}`}
       style={{ height: 'auto', position: 'static' }}
       srcset={block.image.childImageSharp.fluid.srcSet}
     />

@@ -28,9 +28,22 @@ fields:
         type: simple
       options:
         - transparent
-        - primary
-        - dark
-        - light
+        - dark-blue
+        - light-blue
+        - light-pink
+        - blue
+        - pink
+        - white
+  - type: select
+    name: textColor
+    config:
+      source:
+        type: simple
+      options:
+        - transparent
+        - dark-blue
+        - blue
+        - white
     label: Background
     default: primary
   - type: select
@@ -51,16 +64,21 @@ fields:
   - type: text
     name: height
     label: Height
-  - type: text
+  - type: select
     name: variant
-    label: Variant
+    config:
+      source:
+        type: simple
+      options:
+        - normal
+        - bottom
   - type: field_group
     name: button
     label: Button
     fields:
-    - type: text
-      name: url
-      label: URL
-    - type: text
-      name: text
-      label: Text
+      - type: text
+        name: url
+        label: URL
+      - type: text
+        name: text
+        label: Text

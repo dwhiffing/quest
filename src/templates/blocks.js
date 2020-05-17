@@ -82,6 +82,7 @@ export const pageQuery = graphql`
           content
           height
           variant
+          textColor
           orientation
           background
           button {
@@ -89,14 +90,35 @@ export const pageQuery = graphql`
             text
           }
           col1 {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  srcSet
+                }
+              }
+            }
             title
             content
           }
           col2 {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  srcSet
+                }
+              }
+            }
             title
             content
           }
           col3 {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  srcSet
+                }
+              }
+            }
             title
             content
           }

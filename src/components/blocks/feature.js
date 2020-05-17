@@ -29,7 +29,8 @@ const Feature = ({ block }) => (
           }`}
         >
           <div
-            className="flex flex-col flex-1 text-white justify-center items-start"
+            className={`flex flex-col flex-1 text-white justify-center items-start text-${block.textColor ||
+              'white'}`}
             style={{ maxWidth: 400 }}
           >
             <h1>{block.title}</h1>
@@ -39,7 +40,8 @@ const Feature = ({ block }) => (
                 target="_blank"
                 rel="noopener noreferrer"
                 href={block.button.url}
-                className="button mt-10 bg-white text-black"
+                className={`button mt-10 bg-${block.textColor ||
+                  'white'} text-${block.background || 'dark-blue'}`}
               >
                 {block.button.text}
               </a>
@@ -60,7 +62,7 @@ const Feature = ({ block }) => (
                 top: 'auto',
                 height: 'auto',
               }
-            : {}
+            : { height: 'auto' }
         }
       />
     )}

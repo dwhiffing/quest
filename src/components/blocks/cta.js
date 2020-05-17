@@ -1,18 +1,26 @@
 import React from 'react'
 
 const CTA = ({ block }) => (
-  <section className="container mx-auto">
-    <div className="my-20 text-white max-w-md mx-auto text-center">
-      <h1 className="mb-6">{block.title}</h1>
-      {block.subtitle && <p>{block.subtitle}</p>}
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href={block.button.url}
-        className="button mt-10 bg-white text-black"
+  <section className={`background-image-container bg-${block.background}`}>
+    <div className="container mx-auto">
+      <div
+        className={`py-20 max-w-md mx-auto text-center text-${block.textColor ||
+          'white'}`}
       >
-        {block.button.text}
-      </a>
+        <h1 className="mb-6">{block.title}</h1>
+        {block.subtitle && <p>{block.subtitle}</p>}
+        {block.button && (
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={block.button.url}
+            className={`button mt-10 bg-${block.textColor ||
+              'white'} text-${block.background || 'dark-blue'}`}
+          >
+            {block.button.text}
+          </a>
+        )}
+      </div>
     </div>
   </section>
 )

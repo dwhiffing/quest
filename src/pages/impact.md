@@ -1,61 +1,69 @@
 ---
-title: Impact
+title: Our Impact
+date: '2020-05-01T22:12:03.284Z'
 template: blocks
 blocks:
   - template: block__hero
     component: hero
-    background: '#0C1222'
-    title: Impact
-    subtitle: ''
+    background: dark-blue
+    title: Our Impact
+    background_image: '/src/images/waves.png'
+    variant: bottom
+    subtitle:
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
+      lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
+      ut, condimentum est.
   - template: block__3col
     component: 3col
     title: Quest
+    background: white
+    textColor: dark-blue
     col1:
       title: Research
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit ut, condimentum est.
-      image: ''
+      image: '/src/images/dna.png'
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
     col2:
       title: Doctors
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit ut, condimentum est.
-      image: ''
+      image: '/src/images/heart.png'
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
     col3:
       title: The Future
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit ut, condimentum est.
-      image: ''
+      image: '/src/images/ball.png'
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
   - template: block__feature
     component: feature
-    image: '/src/images/sword.png'
-    background: primary
+    image: '/src/images/team.png'
+    background: light-pink
+    textColor: dark-blue
     orientation: normal
-    title: Join the quest
+    title: Our Quest
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
       ut, condimentum est.
+    button:
+      url: https://google.ca
+      text: Learn more
   - template: block__feature
     component: feature
-    background: light
-    orientation: reverse
-    title: Our Impact
-    content:
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-      lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-      ut, condimentum est.
-    image: '/src/images/sword.png'
-  - template: block__feature
-    component: feature
-    background: dark
+    background: white
+    background_image: '/src/images/village.png'
+    height: 1000
+    variant: bottom
+    textColor: dark-blue
     orientation: normal
-    title: Get Involved
+    title: A Project by Princess Margaret Cancer Center
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
       ut, condimentum est.
-    image: ''
+    button:
+      url: https://google.ca
+      text: Learn more
   - template: block__feature
     component: feature
     image: '/src/images/sword.png'
-    background: primary
+    background: dark-blue
     orientation: normal
     title: Join the quest
     content:
@@ -64,5 +72,5 @@ blocks:
       ut, condimentum est.
     button:
       url: https://google.ca
-      text: Get Involved
+      text: Learn more
 ---
