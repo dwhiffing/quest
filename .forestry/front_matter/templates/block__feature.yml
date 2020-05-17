@@ -34,6 +34,7 @@ fields:
     - blue
     - pink
     - white
+  label: Background
 - type: select
   name: textColor
   config:
@@ -72,6 +73,7 @@ fields:
     options:
     - normal
     - bottom
+  label: Variant
 - type: field_group
   name: button
   label: Button
