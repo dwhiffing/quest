@@ -37,6 +37,7 @@ fields:
     - dark-blue
     - blue
     - white
+  label: Text Color
 - type: field_group
   name: button
   label: Button
