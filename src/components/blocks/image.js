@@ -8,7 +8,6 @@ const Image = ({ block }) => (
       style={{ height: 'auto', position: 'static' }}
       srcset={block.image.childImageSharp.fluid.srcSet}
     />
-    )}
   </section>
 )
 

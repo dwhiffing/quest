@@ -9,7 +9,7 @@ blocks:
     subtitle: ''
   - template: block__feature
     component: feature
-    image: '/src/images/note.png'
+    image: '/src/images/sword.png'
     background: primary
     orientation: normal
     title: Join the quest

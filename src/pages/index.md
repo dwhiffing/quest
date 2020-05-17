@@ -21,6 +21,9 @@ blocks:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
       ut, condimentum est.
+    button:
+      url: https://google.ca
+      text: Learn more
   - template: block__image
     component: image
     image: '/src/images/ruins.png'
@@ -34,6 +37,9 @@ blocks:
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
       ut, condimentum est.
     image: '/src/images/shield.png'
+    button:
+      url: https://google.ca
+      text: Learn more
   - template: block__image
     component: image
     image: '/src/images/clouds.png'
@@ -42,13 +48,17 @@ blocks:
     background: blue
     background_image: '/src/images/mountain.png'
     orientation: normal
-    height: 750
+    height: 900
+    variant: bottom
     title: Get Involved
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
       ut, condimentum est.
     image: ''
+    button:
+      url: https://google.ca
+      text: Learn more
   - template: block__cta
     component: cta
     background: dark-blue

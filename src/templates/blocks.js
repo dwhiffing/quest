@@ -81,6 +81,7 @@ export const pageQuery = graphql`
           subtitle
           content
           height
+          variant
           orientation
           background
           button {
