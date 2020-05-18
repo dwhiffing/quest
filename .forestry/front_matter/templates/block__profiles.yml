@@ -37,6 +37,16 @@ fields:
         name: text
         label: Text
   - type: field_group
+    name: button2
+    label: Button 2
+    fields:
+      - type: text
+        name: url
+        label: URL
+      - type: text
+        name: text
+        label: Text
+  - type: field_group
     name: col1
     label: Column 1
     fields:
@@ -59,4 +69,12 @@ fields:
       - type: include
         name: col3
         label: col3
+        template: column
+  - type: field_group
+    name: col4
+    label: Column 4
+    fields:
+      - type: include
+        name: col4
+        label: col4
         template: column

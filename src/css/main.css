@@ -132,3 +132,7 @@ input {
     width: 250px !important;
   }
 }
+
+.rounded-xl {
+  border-radius: 30px;
+}

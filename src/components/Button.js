@@ -1,10 +1,17 @@
 import React from 'react'
-export const Button = ({ button, background, textColor, className = '' }) =>
+export const Button = ({
+  button,
+  background,
+  textColor,
+  style,
+  className = '',
+}) =>
   button ? (
     <a
       target="_blank"
       rel="noopener noreferrer"
       href={button.url}
+      style={style}
       className={`button inline-flex bg-${textColor ||
         'white'} text-${background} ${className}`}
     >

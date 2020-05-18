@@ -24,24 +24,37 @@ blocks:
     button:
       url: https://google.ca
       text: Learn more
-    background_image: '/src/images/river.png'
+    button2:
+      url: https://google.ca
+      text: View All Questers
+    background: white
+    textColor: dark-blue
+    variant: bottom
+    height: 100vh
+    imageWidth: 500
+    background_image: '/src/images/fade-ruins.png'
     col1:
-      title: Research
-      image: '/src/images/dna.png'
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
+      title: '@handle'
+      image: '/src/images/avatar.png'
+      content: 12 streams
     col2:
-      title: Doctors
-      image: '/src/images/heart.png'
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
+      title: '@handle'
+      image: '/src/images/avatar.png'
+      content: 12 streams
     col3:
-      title: The Future
-      image: '/src/images/ball.png'
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
+      title: '@handle'
+      image: '/src/images/avatar.png'
+      content: 12 streams
+    col4:
+      title: '@handle'
+      image: '/src/images/avatar.png'
+      content: 12 streams
   - template: block__feature
     component: feature
     image: '/src/images/joystick.png'
     background: white
     imageWidth: 280
+    height: 50vh
     textColor: dark-blue
     orientation: reverse
     title: DIY Streamers
@@ -60,7 +73,7 @@ blocks:
     component: cta
     background: light-blue
     background_image: '/src/images/river.png'
-    height: 110vh
+    height: 130vh
     top: 50
     variant: bottom
     textColor: dark-blue

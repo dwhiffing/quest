@@ -2,6 +2,8 @@ import React from 'react'
 import { TextSection } from '../TextSection'
 import { BackgroundImage } from '../BackgroundImage'
 
+// TODO: needs to be able to disable option image below heading and below button
+
 const CTA = ({ block }) => (
   <section className={`background-image-container bg-${block.background}`}>
     <div

@@ -97,6 +97,10 @@ export const pageQuery = graphql`
             url
             text
           }
+          button2 {
+            url
+            text
+          }
           col1 {
             image {
               childImageSharp {
@@ -120,6 +124,17 @@ export const pageQuery = graphql`
             content
           }
           col3 {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  srcSet
+                }
+              }
+            }
+            title
+            content
+          }
+          col4 {
             image {
               childImageSharp {
                 fluid(maxWidth: 800) {
