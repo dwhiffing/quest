@@ -35,8 +35,8 @@ blocks:
     component: cta
     background: light-blue
     background_image: '/src/images/trees.png'
-    height: 1300
-    top: 200
+    height: 1120
+    top: 50
     variant: bottom
     textColor: dark-blue
     title: Fundraise
@@ -49,7 +49,6 @@ blocks:
       text: Learn more
   - template: block__3col
     component: 3col
-    title: Quest
     background: white
     textColor: dark-blue
     col1:
@@ -59,6 +58,20 @@ blocks:
     col2:
       title: Other
       image: '/src/images/icon2.png'
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
+  - template: block__list
+    component: list
+    title: Attend an Event
+    subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
+    background: light-pink
+    textColor: dark-blue
+    col1:
+      title: Event A
+      image: '/src/images/event.png'
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
+    col2:
+      title: Event B
+      image: '/src/images/event.png'
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
   - template: block__feature
     component: feature

@@ -11,6 +11,7 @@ import Feature from '../components/blocks/feature'
 import CTA from '../components/blocks/cta'
 import Hero from '../components/blocks/hero'
 import Image from '../components/blocks/image'
+import List from '../components/blocks/list'
 
 class BlocksTemplate extends React.Component {
   render() {
@@ -37,6 +38,8 @@ class BlocksTemplate extends React.Component {
               return <Hero key={`block${index}`} block={block} />
             case 'image':
               return <Image key={`block${index}`} block={block} />
+            case 'list':
+              return <List key={`block${index}`} block={block} />
             default:
               return ''
           }
