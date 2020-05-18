@@ -13,6 +13,8 @@ import Hero from '../components/blocks/hero'
 import Image from '../components/blocks/image'
 import List from '../components/blocks/list'
 import Profiles from '../components/blocks/profiles'
+import Contact from '../components/blocks/contact'
+import Terms from '../components/blocks/terms'
 
 class BlocksTemplate extends React.Component {
   render() {
@@ -43,6 +45,10 @@ class BlocksTemplate extends React.Component {
               return <List key={`block${index}`} block={block} />
             case 'profiles':
               return <Profiles key={`block${index}`} block={block} />
+            case 'contact':
+              return <Contact key={`block${index}`} block={block} />
+            case 'terms':
+              return <Terms key={`block${index}`} block={block} />
             default:
               return ''
           }
@@ -86,6 +92,8 @@ export const pageQuery = graphql`
           title
           subtitle
           content
+          security
+          cookies
           height
           top
           imageWidth

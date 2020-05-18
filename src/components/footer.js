@@ -8,13 +8,13 @@ const Footer = ({ content }) => (
   <footer>
     <div
       className="flex background-image-container bg-dark-blue"
-      style={{ height: 750, overflow: 'visible' }}
+      style={{ height: 750 }}
     >
       <img
         className="background-image"
         alt="footer-background"
         src={footerImage}
-        style={{ top: -210, height: '130%' }}
+        style={{ top: -200, height: '130%' }}
       />
       <div
         className="relative z-10 flex-1 flex justify-between items-center flex-col self-end"

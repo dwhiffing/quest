@@ -2,8 +2,8 @@
 title: Contact
 template: blocks
 blocks:
-  - template: block__hero
-    component: hero
+  - template: block__contact
+    component: contact
     background: dark-blue
     title: Get Involved
     subtitle:

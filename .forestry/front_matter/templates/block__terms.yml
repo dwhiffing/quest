@@ -1,0 +1,34 @@
+---
+label: block__terms
+hide_body: false
+display_field: title
+fields:
+  - type: text
+    name: component
+    label: component
+    hidden: true
+    default: terms
+  - type: text
+    name: title
+    label: Title
+  - type: text
+    name: content
+    label: Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html
+  - type: text
+    name: security
+    label: Security Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html
+  - type: text
+    name: cookies
+    label: Cookie Content
+    config:
+      wysiwyg: true
+      schema:
+        format: html
