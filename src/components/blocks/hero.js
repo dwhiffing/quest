@@ -8,23 +8,23 @@ const Hero = ({ block }) => (
       <div
         className={`relative min-h-screen flex flex-col justify-center z-10 text-white ${
           block.variant === 'bottom'
-            ? 'text-center items-center max-w-md mx-auto'
+            ? 'text-center items-center max-w-md mx-auto md:pb-20'
             : 'text-left items-start'
         }`}
       >
         <h1
-          className="md:text-5xl"
+          className="text-3xl md:text-5xl"
           style={{ maxWidth: block.variant === 'bottom' ? '100%' : 650 }}
         >
           {block.title}
         </h1>
-        <div className="my-3" />
+        <div className="my-2" />
         {block.subtitle && <p>{block.subtitle}</p>}
         {block.button && (
           <a
             target="_blank"
             rel="noopener noreferrer"
-            className="button bg-pink"
+            className="button inline-flex bg-pink"
             href={block.button.url}
           >
             {block.button.text}
@@ -40,7 +40,7 @@ const Hero = ({ block }) => (
         style={
           block.variant === 'bottom'
             ? {
-                bottom: 0,
+                bottom: -1,
                 top: 'auto',
                 height: 'auto',
               }

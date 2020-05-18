@@ -34,18 +34,38 @@ blocks:
   - template: block__cta
     component: cta
     background: light-blue
+    background_image: '/src/images/trees.png'
+    height: 1300
+    top: 200
+    variant: bottom
     textColor: dark-blue
     title: Fundraise
-    subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit ut, condimentum est.
+    subtitle:
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
+      lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
+      ut, condimentum est.
     button:
       url: https://google.ca
-      text: Get Involved
+      text: Learn more
+  - template: block__3col
+    component: 3col
+    title: Quest
+    background: white
+    textColor: dark-blue
+    col1:
+      title: Stream
+      image: '/src/images/icon1.png'
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
+    col2:
+      title: Other
+      image: '/src/images/icon2.png'
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
   - template: block__feature
     component: feature
     image: '/src/images/sword.png'
     background: dark-blue
     orientation: normal
-    title: Join the quest
+    title: Join the Quest
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit

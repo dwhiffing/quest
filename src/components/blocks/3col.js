@@ -31,17 +31,19 @@ const ThreeCol = ({ block }) => (
         <h1>{block.col2.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: block.col2.content }} />
       </div>
-      <div className="text-center flex-1 mx-4 mt-4">
-        {block.col3.image && (
-          <img
-            alt={block.col3.title}
-            srcSet={block.col3.image.childImageSharp.fluid.srcSet}
-            className="mb-4"
-          />
-        )}
-        <h1>{block.col3.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: block.col3.content }} />
-      </div>
+      {block.col3 && (
+        <div className="text-center flex-1 mx-4 mt-4">
+          {block.col3.image && (
+            <img
+              alt={block.col3.title}
+              srcSet={block.col3.image.childImageSharp.fluid.srcSet}
+              className="mb-4"
+            />
+          )}
+          <h1>{block.col3.title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: block.col3.content }} />
+        </div>
+      )}
     </div>
   </section>
 )

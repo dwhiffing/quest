@@ -6,8 +6,8 @@ const Feature = ({ block }) => (
       'dark-blue'}`}
   >
     <div
-      className="container flex mx-auto py-40 relative z-10"
-      style={{ minHeight: block.height || 500 }}
+      className="container flex mx-auto relative py-20 z-10"
+      style={{ minHeight: block.height || 450 }}
     >
       <div
         className={`flex flex-1 justify-between flex-col ${
@@ -16,33 +16,36 @@ const Feature = ({ block }) => (
             : 'md:flex-row'
         }`}
       >
-        <div className="flex flex-1 justify-center items-center">
+        <div className="flex flex-1 justify-center items-center my-4">
           {block.image && (
             <img
+              className="small-image-mobile"
               alt={block.title}
               srcSet={block.image.childImageSharp.fluid.srcSet}
-              width={300}
+              style={{ width: block.imageWidth }}
             />
           )}
         </div>
         <div
-          className={`flex flex-col flex-1 text-white justify-center ${
-            block.orientation === 'reverse' ? 'items-end' : 'items-start'
-          }`}
+          className={`flex flex-col flex-1 text-white justify-center items-center`}
         >
           <div
-            className={`flex flex-col flex-1 text-white justify-center items-start text-${block.textColor ||
+            className={`flex flex-col flex-1 text-white justify-center text-center md:text-left items-center md:items-start text-${block.textColor ||
               'white'}`}
-            style={{ maxWidth: 400 }}
+            style={{
+              maxWidth: 400,
+              position: block.top ? 'absolute' : 'static',
+              top: block.top,
+            }}
           >
-            <h1>{block.title}</h1>
+            <h1 className="mb-6">{block.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: block.content }} />
             {block.button && (
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href={block.button.url}
-                className={`button mt-10 bg-${block.textColor ||
+                className={`button inline-flex mt-6 bg-${block.textColor ||
                   'white'} text-${block.background || 'dark-blue'}`}
               >
                 {block.button.text}
@@ -60,7 +63,7 @@ const Feature = ({ block }) => (
         style={
           block.variant === 'bottom'
             ? {
-                bottom: 0,
+                bottom: -1,
                 top: 'auto',
                 height: 'auto',
               }

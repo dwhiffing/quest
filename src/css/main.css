@@ -48,11 +48,10 @@ body {
   border-radius: 20px;
   font-family: Quatro;
   font-weight: 500;
-  min-width: 80px;
+  min-width: 100px;
   text-align: center;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  display: inline-flex;
   justify-content: center;
   align-items: center;
   height: 40px;
@@ -125,4 +124,10 @@ input {
   background: transparent;
   border: 0;
   width: 100%;
+}
+
+@media (max-width: 640px) {
+  .small-image-mobile {
+    width: 200px !important;
+  }
 }

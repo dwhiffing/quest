@@ -36,11 +36,11 @@ export function Nav({ siteTitle }) {
     <nav
       role="navigation"
       aria-label="main navigation"
-      className="container relative select-none bg-grey md:flex md:items-center mx-auto px-0 md:px-10 py-6"
+      className="relative select-none bg-grey md:flex mx-auto px-0 md:px-10 py-4"
     >
       <div className="flex">
-        <div className="flex-1 flex items-center ">
-          <div className="flex-1 flex justify-center mt-2 mb-4">
+        <div className="flex-1 flex items-center">
+          <div className="flex-1 flex justify-center mt-8 mb-4">
             <Link to="/">
               <img
                 alt={siteTitle}
@@ -52,8 +52,8 @@ export function Nav({ siteTitle }) {
           <img
             alt={siteTitle}
             src={headerImage}
-            className="relative flex-1 hidden lg:block ml-3 mt-3"
-            style={{ width: 200 }}
+            className="relative flex-1 hidden xl:block ml-3 mt-3"
+            style={{ width: 220, top: 20, left: 4 }}
           />
         </div>
       </div>
@@ -65,14 +65,14 @@ export function Nav({ siteTitle }) {
 export function NavLinks() {
   return (
     <div className="flex md:items-stretch md:flex-no-shrink md:flex-grow justify-center md:justify-end">
-      <div className="flex items-stretch justify-between max-w-sm md:max-w-full">
+      <div className="mt-6">
         <StaticQuery
           query={navbarQuery}
           render={data =>
             data.allMainMenuJson.edges.map(edge => {
               return edge.node.type === 'internal' ? (
                 <Link
-                  className="nav-link text-xs lg:text-sm mx-1 md:mx-5"
+                  className="nav-link text-xs lg:text-sm mx-2 lg:mx-4"
                   key={edge.node.id}
                   to={edge.node.url}
                 >
@@ -83,7 +83,7 @@ export function NavLinks() {
                   key={edge.node.id}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="nav-link text-xs lg:text-sm mx-1 md:mx-5"
+                  className="button bg-white text-dark-blue text-xs lg:text-sm ml-2 hidden md:inline-flex"
                   href={edge.node.url}
                 >
                   {edge.node.title}

@@ -81,6 +81,8 @@ export const pageQuery = graphql`
           subtitle
           content
           height
+          top
+          imageWidth
           variant
           textColor
           orientation

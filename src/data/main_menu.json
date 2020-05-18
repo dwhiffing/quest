@@ -23,5 +23,10 @@
     "type": "internal",
     "url": "/contact",
     "title": "CONTACT"
+  },
+  {
+    "type": "external",
+    "url": "https://www.google.com",
+    "title": "LOGIN"
   }
 ]

@@ -6,7 +6,7 @@ blocks:
   - template: block__hero
     component: hero
     background: dark-blue
-    title: About us
+    title: About Us
     background_image: '/src/images/waves.png'
     variant: bottom
     subtitle:
@@ -18,6 +18,8 @@ blocks:
     image: '/src/images/joystick.png'
     background: white
     textColor: dark-blue
+    imageWidth: 280
+    height: 580
     orientation: normal
     title: Who We Are
     content:
@@ -35,7 +37,7 @@ blocks:
     component: cta
     background: light-blue
     textColor: dark-blue
-    title: A Project by Princess Margaret Cancer Center
+    title: A project by Princess Margaret Cancer Center
     subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit ut, condimentum est.
     button:
       url: https://google.ca
@@ -45,6 +47,8 @@ blocks:
     image: '/src/images/shield.png'
     background: white
     textColor: dark-blue
+    imageWidth: 380
+    height: 650
     orientation: reverse
     title: What we do
     content:
@@ -60,7 +64,8 @@ blocks:
     textColor: dark-blue
     background_image: '/src/images/mountain.png'
     orientation: normal
-    height: 800
+    height: 900
+    top: 200
     variant: bottom
     title: How it Works
     content:
@@ -76,7 +81,7 @@ blocks:
     image: '/src/images/sword.png'
     background: dark-blue
     orientation: normal
-    title: Join the quest
+    title: Join the Quest
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit

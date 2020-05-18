@@ -44,16 +44,16 @@ blocks:
     button:
       url: https://google.ca
       text: Learn more
-  - template: block__feature
-    component: feature
+  - template: block__cta
+    component: cta
     background: white
     background_image: '/src/images/village.png'
-    height: 1000
+    height: 700
     variant: bottom
     textColor: dark-blue
     orientation: normal
     title: A Project by Princess Margaret Cancer Center
-    content:
+    subtitle:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
       ut, condimentum est.
@@ -65,7 +65,7 @@ blocks:
     image: '/src/images/sword.png'
     background: dark-blue
     orientation: normal
-    title: Join the quest
+    title: Join the Quest
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
