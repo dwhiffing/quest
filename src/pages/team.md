@@ -13,12 +13,9 @@ blocks:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
       ut, condimentum est.
-  - template: block__feature
-    component: feature
+  - template: block__profiles
+    component: profiles
     image: '/src/images/team.png'
-    background: white
-    textColor: dark-blue
-    orientation: normals
     title: The Quest Community
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
@@ -27,6 +24,19 @@ blocks:
     button:
       url: https://google.ca
       text: Learn more
+    background_image: '/src/images/river.png'
+    col1:
+      title: Research
+      image: '/src/images/dna.png'
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
+    col2:
+      title: Doctors
+      image: '/src/images/heart.png'
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
+    col3:
+      title: The Future
+      image: '/src/images/ball.png'
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue.
   - template: block__feature
     component: feature
     image: '/src/images/joystick.png'

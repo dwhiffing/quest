@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import { graphql, StaticQuery } from 'gatsby'
 import logo from '../images/logo.png'
 import headerImage from '../images/header.png'
+import { Button } from './Button'
 
 const Header = ({ siteTitle = '' }) => {
   return (
@@ -79,15 +80,10 @@ export function NavLinks() {
                   {edge.node.title}
                 </Link>
               ) : (
-                <a
-                  key={edge.node.id}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="button bg-white text-dark-blue text-xs lg:text-sm ml-2 hidden md:inline-flex"
-                  href={edge.node.url}
-                >
-                  {edge.node.title}
-                </a>
+                <Button
+                  button={{ text: edge.node.title, url: edge.node.url }}
+                  className="bg-white text-dark-blue text-xs lg:text-sm ml-2 hidden md:inline-flex"
+                />
               )
             })
           }

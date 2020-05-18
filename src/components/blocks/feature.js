@@ -1,4 +1,6 @@
 import React from 'react'
+import { TextSection } from '../TextSection'
+import { BackgroundImage } from '../BackgroundImage'
 
 const Feature = ({ block }) => (
   <section
@@ -27,11 +29,10 @@ const Feature = ({ block }) => (
             />
           )}
         </div>
-        <div
-          className={`flex flex-col flex-1 text-white justify-center items-center`}
-        >
+
+        <div className={`flex flex-1 justify-center items-center`}>
           <div
-            className={`flex flex-col flex-1 text-white justify-center text-center md:text-left items-center md:items-start text-${block.textColor ||
+            className={`flex flex-col flex-1 text-white justify-center text-center items-center md:text-left md:items-start text-${block.textColor ||
               'white'}`}
             style={{
               maxWidth: 400,
@@ -39,39 +40,13 @@ const Feature = ({ block }) => (
               top: block.top,
             }}
           >
-            <h1 className="mb-6">{block.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: block.content }} />
-            {block.button && (
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={block.button.url}
-                className={`button inline-flex mt-6 bg-${block.textColor ||
-                  'white'} text-${block.background || 'dark-blue'}`}
-              >
-                {block.button.text}
-              </a>
-            )}
+            <TextSection {...block} />
           </div>
         </div>
       </div>
     </div>
-    {block.background_image && (
-      <img
-        alt={block.title}
-        className="background-image"
-        srcSet={block.background_image.childImageSharp.fluid.srcSet}
-        style={
-          block.variant === 'bottom'
-            ? {
-                bottom: -1,
-                top: 'auto',
-                height: 'auto',
-              }
-            : { height: 'auto' }
-        }
-      />
-    )}
+
+    <BackgroundImage {...block} />
   </section>
 )
 

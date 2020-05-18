@@ -12,6 +12,7 @@ import CTA from '../components/blocks/cta'
 import Hero from '../components/blocks/hero'
 import Image from '../components/blocks/image'
 import List from '../components/blocks/list'
+import Profiles from '../components/blocks/profiles'
 
 class BlocksTemplate extends React.Component {
   render() {
@@ -40,6 +41,8 @@ class BlocksTemplate extends React.Component {
               return <Image key={`block${index}`} block={block} />
             case 'list':
               return <List key={`block${index}`} block={block} />
+            case 'profiles':
+              return <Profiles key={`block${index}`} block={block} />
             default:
               return ''
           }
