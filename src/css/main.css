@@ -59,6 +59,7 @@ body {
 
 .background-image-container {
   position: relative;
+  overflow: hidden;
 }
 
 .background-image-container .background-image {
@@ -126,8 +127,8 @@ input {
   width: 100%;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 767px) {
   .small-image-mobile {
-    width: 200px !important;
+    width: 250px !important;
   }
 }

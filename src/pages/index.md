@@ -16,9 +16,9 @@ blocks:
     image: '/src/images/sword.png'
     background: dark-blue
     orientation: normal
+    imageWidth: 390
     title: Join the Quest
-    imageWidth: 420
-    height: 470
+    height: 40vh
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
@@ -33,8 +33,8 @@ blocks:
     component: feature
     background: dark-blue
     orientation: reverse
-    imageWidth: 410
-    height: 630
+    imageWidth: 380
+    height: 80vh
     title: Our Impact
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
@@ -52,7 +52,7 @@ blocks:
     background: blue
     background_image: '/src/images/mountain.png'
     orientation: normal
-    height: 900
+    height: 110vh
     top: 200
     variant: bottom
     title: Get Involved

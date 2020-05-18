@@ -50,8 +50,8 @@ blocks:
     component: cta
     background: light-blue
     background_image: '/src/images/river.png'
-    height: 1000
-    top: 200
+    height: 110vh
+    top: 50
     variant: bottom
     textColor: dark-blue
     title: Our Partners
@@ -67,6 +67,8 @@ blocks:
     image: '/src/images/sword.png'
     background: dark-blue
     orientation: normal
+    imageWidth: 350
+    height: 50vh
     title: Join the Quest
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula

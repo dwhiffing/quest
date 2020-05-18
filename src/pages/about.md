@@ -19,7 +19,7 @@ blocks:
     background: white
     textColor: dark-blue
     imageWidth: 280
-    height: 580
+    height: 75vh
     orientation: normal
     title: Who We Are
     content:
@@ -37,6 +37,8 @@ blocks:
     component: cta
     background: light-blue
     textColor: dark-blue
+    background_image: '/src/images/islands.png'
+    height: 120vh
     title: A project by Princess Margaret Cancer Center
     subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit ut, condimentum est.
     button:
@@ -48,7 +50,7 @@ blocks:
     background: white
     textColor: dark-blue
     imageWidth: 380
-    height: 650
+    height: 100vh
     orientation: reverse
     title: What we do
     content:
@@ -64,7 +66,7 @@ blocks:
     textColor: dark-blue
     background_image: '/src/images/mountain.png'
     orientation: normal
-    height: 900
+    height: 120vh
     top: 200
     variant: bottom
     title: How it Works
@@ -81,6 +83,8 @@ blocks:
     image: '/src/images/sword.png'
     background: dark-blue
     orientation: normal
+    imageWidth: 350
+    height: 50vh
     title: Join the Quest
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula

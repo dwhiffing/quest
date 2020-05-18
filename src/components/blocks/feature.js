@@ -2,12 +2,13 @@ import React from 'react'
 
 const Feature = ({ block }) => (
   <section
-    className={`background-image-container bg-${block.background ||
-      'dark-blue'}`}
+    className={`${
+      block.background_image ? 'background-image-container' : ''
+    } bg-${block.background || 'dark-blue'}`}
   >
     <div
-      className="container flex mx-auto relative py-20 z-10"
-      style={{ minHeight: block.height || 450 }}
+      className="container flex mx-auto relative py-10 z-10"
+      style={{ minHeight: block.height || '100vh' }}
     >
       <div
         className={`flex flex-1 justify-between flex-col ${
@@ -16,7 +17,7 @@ const Feature = ({ block }) => (
             : 'md:flex-row'
         }`}
       >
-        <div className="flex flex-1 justify-center items-center my-4">
+        <div className="flex flex-1 justify-center items-center my-8">
           {block.image && (
             <img
               className="small-image-mobile"

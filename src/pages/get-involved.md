@@ -15,8 +15,10 @@ blocks:
       ut, condimentum est.
   - template: block__feature
     component: feature
+    imageWidth: 350
     image: '/src/images/profile.png'
     background: white
+    height: 70vh
     textColor: dark-blue
     orientation: reverse
     title: Donate
@@ -35,8 +37,8 @@ blocks:
     component: cta
     background: light-blue
     background_image: '/src/images/trees.png'
-    height: 1120
-    top: 50
+    height: 160vh
+    top: 100
     variant: bottom
     textColor: dark-blue
     title: Fundraise
@@ -50,6 +52,7 @@ blocks:
   - template: block__3col
     component: 3col
     background: white
+    height: 100vh
     textColor: dark-blue
     col1:
       title: Stream
@@ -78,6 +81,8 @@ blocks:
     image: '/src/images/sword.png'
     background: dark-blue
     orientation: normal
+    imageWidth: 350
+    height: 50vh
     title: Join the Quest
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula

@@ -37,6 +37,8 @@ blocks:
     textColor: dark-blue
     orientation: normal
     title: Our Quest
+    imageWidth: 500
+    height: 100vh
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
@@ -48,7 +50,8 @@ blocks:
     component: cta
     background: white
     background_image: '/src/images/village.png'
-    height: 700
+    height: 120vh
+    top: 150
     variant: bottom
     textColor: dark-blue
     orientation: normal
@@ -65,6 +68,8 @@ blocks:
     image: '/src/images/sword.png'
     background: dark-blue
     orientation: normal
+    imageWidth: 350
+    height: 50vh
     title: Join the Quest
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
