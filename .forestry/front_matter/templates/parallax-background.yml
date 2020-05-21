@@ -4,8 +4,8 @@ hide_body: false
 display_field: image1
 fields:
   - type: text
-  name: height
-  label: Height
+    name: height
+    label: Height
   - type: field_group
     name: image1
     label: Image 1
