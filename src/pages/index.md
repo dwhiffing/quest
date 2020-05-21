@@ -7,7 +7,23 @@ blocks:
     background: dark-blue
     title: Join a quest that will change our world forever
     subtitle: ''
-    background_image: '/src/images/bg1.png'
+    parallax_background:
+      image1:
+        minY: -0
+        maxY: 0
+        image: '/src/images/lander1.png'
+      image2:
+        minY: -30
+        maxY: 30
+        image: '/src/images/lander2.png'
+      image3:
+        minY: -60
+        maxY: 60
+        image: '/src/images/lander3.png'
+      image4:
+        minY: -100
+        maxY: 100
+        image: '/src/images/lander4.png'
     button:
       url: https://google.ca
       text: Learn more
@@ -46,7 +62,24 @@ blocks:
       text: Learn more
   - template: block__image
     component: image
-    image: '/src/images/clouds.png'
+    parallax_background:
+      height: 500
+      image1:
+        minY: -30
+        maxY: 30
+        image: '/src/images/clouds1.png'
+      image2:
+        minY: -20
+        maxY: 20
+        image: '/src/images/clouds2.png'
+      image3:
+        minY: -10
+        maxY: 10
+        image: '/src/images/clouds3.png'
+      image4:
+        minY: 0
+        maxY: 0
+        image: '/src/images/clouds4.png'
   - template: block__feature
     component: feature
     background: blue

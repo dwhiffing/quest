@@ -14,7 +14,7 @@ module.exports = {
         xs: '.7rem',
       },
       colors: {
-        'dark-blue': '#0C1222',
+        'dark-blue': '#101424',
         blue: '#252D6F',
         'light-blue': '#dfe2fc',
         'light-purple': '#dec9e6',

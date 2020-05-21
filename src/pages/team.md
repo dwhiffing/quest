@@ -7,7 +7,20 @@ blocks:
     component: hero
     background: dark-blue
     title: Become a Quester
-    background_image: '/src/images/waves.png'
+    parallax_background:
+      height: 220
+      image1:
+        minY: -0
+        maxY: 0
+        image: '/src/images/waves1.png'
+      image2:
+        minY: -30
+        maxY: 30
+        image: '/src/images/waves2.png'
+      image3:
+        minY: -60
+        maxY: 60
+        image: '/src/images/waves3.png'
     variant: bottom
     subtitle:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
@@ -68,7 +81,24 @@ blocks:
   - template: block__image
     component: image
     background: white
-    image: '/src/images/clouds-white.png'
+    parallax_background:
+      height: 500
+      image1:
+        minY: -30
+        maxY: 30
+        image: '/src/images/clouds-white1.png'
+      image2:
+        minY: -20
+        maxY: 20
+        image: '/src/images/clouds-white2.png'
+      image3:
+        minY: -10
+        maxY: 10
+        image: '/src/images/clouds-white3.png'
+      image4:
+        minY: 0
+        maxY: 0
+        image: '/src/images/clouds-white4.png'
   - template: block__cta
     component: cta
     background: light-blue

@@ -7,7 +7,20 @@ blocks:
     component: hero
     background: dark-blue
     title: Our Impact
-    background_image: '/src/images/waves.png'
+    parallax_background:
+      height: 220
+      image1:
+        minY: -0
+        maxY: 0
+        image: '/src/images/waves1.png'
+      image2:
+        minY: -30
+        maxY: 30
+        image: '/src/images/waves2.png'
+      image3:
+        minY: -60
+        maxY: 60
+        image: '/src/images/waves3.png'
     variant: bottom
     subtitle:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
