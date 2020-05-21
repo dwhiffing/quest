@@ -11,50 +11,50 @@ fields:
     label: Image 1
     fields:
       - type: file
-      name: image
-      label: Image
+        name: image
+        label: Image
       - type: text
-      name: minY
-      label: min Y
+        name: minY
+        label: min Y
       - type: text
-      name: maxY
-      label: max Y
+        name: maxY
+        label: max Y
   - type: field_group
     name: image2
     label: Image 2
     fields:
       - type: file
-      name: image
-      label: Image
+        name: image
+        label: Image
       - type: text
-      name: minY
-      label: min Y
+        name: minY
+        label: min Y
       - type: text
-      name: maxY
-      label: max Y
+        name: maxY
+        label: max Y
   - type: field_group
     name: image3
     label: Image 3
     fields:
       - type: file
-      name: image
-      label: Image
+        name: image
+        label: Image
       - type: text
-      name: minY
-      label: min Y
+        name: minY
+        label: min Y
       - type: text
-      name: maxY
-      label: max Y
+        name: maxY
+        label: max Y
   - type: field_group
     name: image4
     label: Image 4
     fields:
       - type: file
-      name: image
-      label: Image
+        name: image
+        label: Image
       - type: text
-      name: minY
-      label: min Y
+        name: minY
+        label: min Y
       - type: text
-      name: maxY
-      label: max Y
+        name: maxY
+        label: max Y
