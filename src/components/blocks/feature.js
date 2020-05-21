@@ -10,6 +10,9 @@ const Feature = ({ block }) => (
   >
     <div
       className="container flex mx-auto relative py-10 z-10"
+      data-sal="slide-up"
+      data-sal-duration="800"
+      data-sal-delay="200"
       style={{ minHeight: block.height || '100vh' }}
     >
       <FeatureContent block={block} />

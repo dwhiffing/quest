@@ -9,6 +9,9 @@ const Hero = ({ block }) => (
   >
     <div className="container mx-auto">
       <div
+        data-sal="slide-up"
+        data-sal-duration="800"
+        data-sal-delay="200"
         className={`relative h-screen flex flex-col justify-center z-10 text-white ${
           block.variant === 'bottom'
             ? 'text-center items-center max-w-md mx-auto md:pb-20'

@@ -13,6 +13,9 @@ const CTA = ({ block }) => (
       <div
         className={`relative z-10 py-20 max-w-xl mx-auto text-center text-${block.textColor ||
           'white'}`}
+        data-sal="slide-up"
+        data-sal-duration="800"
+        data-sal-delay="200"
         style={{
           position: block.top ? 'absolute' : 'static',
           top: block.top,
