@@ -1,4 +1,5 @@
 import React from 'react'
+import { ParallaxProvider } from 'react-scroll-parallax'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
@@ -11,7 +12,7 @@ const Layout = ({ children }) => (
   <StaticQuery
     query={layoutQuery}
     render={data => (
-      <>
+      <ParallaxProvider>
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
@@ -31,7 +32,7 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         {children}
         <Footer content={data.site.siteMetadata.footer} />
-      </>
+      </ParallaxProvider>
     )}
   />
 )

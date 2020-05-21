@@ -109,6 +109,53 @@ export const pageQuery = graphql`
             url
             text
           }
+          parallax_background {
+            height
+            image1 {
+              minY
+              maxY
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 800) {
+                    srcSet
+                  }
+                }
+              }
+            }
+            image2 {
+              minY
+              maxY
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 800) {
+                    srcSet
+                  }
+                }
+              }
+            }
+            image3 {
+              minY
+              maxY
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 800) {
+                    srcSet
+                  }
+                }
+              }
+            }
+            image4 {
+              minY
+              maxY
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 800) {
+                    srcSet
+                  }
+                }
+              }
+            }
+          }
           col1 {
             image {
               childImageSharp {

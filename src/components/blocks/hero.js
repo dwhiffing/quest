@@ -1,15 +1,15 @@
 import React from 'react'
-import { BackgroundImage } from '../BackgroundImage'
+import { BackgroundImage, ParallaxBackgroundImage } from '../BackgroundImage'
 import { Button } from '../Button'
 import { Body, Heading } from '../TextSection'
 
 const Hero = ({ block }) => (
   <section
-    className={`background-image-container min-h-screen bg-${block.background}`}
+    className={`background-image-container h-screen bg-${block.background}`}
   >
     <div className="container mx-auto">
       <div
-        className={`relative min-h-screen flex flex-col justify-center z-10 text-white ${
+        className={`relative h-screen flex flex-col justify-center z-10 text-white ${
           block.variant === 'bottom'
             ? 'text-center items-center max-w-md mx-auto md:pb-20'
             : 'text-left items-start'
@@ -30,6 +30,7 @@ const Hero = ({ block }) => (
       </div>
     </div>
 
+    <ParallaxBackgroundImage {...block} />
     <BackgroundImage {...block} />
   </section>
 )
