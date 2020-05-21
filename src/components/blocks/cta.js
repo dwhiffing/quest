@@ -1,6 +1,6 @@
 import React from 'react'
 import { TextSection } from '../TextSection'
-import { BackgroundImage } from '../BackgroundImage'
+import { BackgroundImage, ParallaxBackgroundImage } from '../BackgroundImage'
 
 // TODO: needs to be able to disable option image below heading and below button
 
@@ -22,6 +22,7 @@ const CTA = ({ block }) => (
       </div>
     </div>
 
+    <ParallaxBackgroundImage {...block} />
     <BackgroundImage {...block} />
   </section>
 )

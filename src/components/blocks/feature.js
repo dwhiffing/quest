@@ -1,6 +1,6 @@
 import React from 'react'
 import { TextSection } from '../TextSection'
-import { BackgroundImage } from '../BackgroundImage'
+import { BackgroundImage, ParallaxBackgroundImage } from '../BackgroundImage'
 
 const Feature = ({ block }) => (
   <section
@@ -15,6 +15,7 @@ const Feature = ({ block }) => (
       <FeatureContent block={block} />
     </div>
 
+    <ParallaxBackgroundImage {...block} />
     <BackgroundImage {...block} />
   </section>
 )
