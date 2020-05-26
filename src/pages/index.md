@@ -21,8 +21,8 @@ blocks:
         maxY: 60
         image: '/src/images/lander3.png'
       image4:
-        minY: -100
-        maxY: 100
+        minY: -60
+        maxY: 60
         image: '/src/images/lander4.png'
     button:
       url: https://google.ca
@@ -63,7 +63,7 @@ blocks:
   - template: block__image
     component: image
     parallax_background:
-      height: 500
+      height: 350
       image1:
         minY: -30
         maxY: 30

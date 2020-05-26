@@ -72,6 +72,14 @@ body {
   object-fit: cover;
 }
 
+.background-image .parallax-inner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}
+
 h1 {
   font-family: Quatro;
   font-size: 50px;
@@ -141,10 +149,6 @@ input {
   border-radius: 30px;
 }
 
-.background-image .parallax-inner {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
+[data-sal='slide-up'] {
+  transform: translateY(10%);
 }

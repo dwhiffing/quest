@@ -12,7 +12,9 @@ import 'sal.js/dist/sal.css'
 import '../css/main.css'
 
 const Layout = ({ children }) => {
-  useEffect(() => sal(), [])
+  useEffect(() => {
+    sal()
+  }, [])
 
   return (
     <StaticQuery
