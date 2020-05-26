@@ -6,6 +6,9 @@
   "dependencies": {
     "@forestryio/gatsby-remark-normalize-paths": "^1.0.0",
     "bulma": "^0.7.2",
+    "child_process": "^1.0.2",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
     "gatsby": "^2.3.3",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-catch-links": "^2.0.9",
@@ -23,6 +26,8 @@
     "gatsby-transformer-json": "^2.1.6",
     "gatsby-transformer-remark": "^2.1.15",
     "gatsby-transformer-sharp": "^2.1.8",
+    "google-spreadsheet": "^3.0.11",
+    "net": "^1.0.2",
     "node-sass": "^4.11.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -30,7 +35,8 @@
     "react-scroll-parallax": "^2.3.2",
     "sal.js": "^0.7.5",
     "sharp": "^0.22.1",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^1.4.6",
+    "tls": "0.0.1"
   },
   "keywords": [
     "gatsby"

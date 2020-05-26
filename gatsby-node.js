@@ -1,6 +1,10 @@
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
+require('dotenv').config({
+  path: '.env',
+})
+
 function isIndexPage(page) {
   return path.basename(page.node.fileAbsolutePath) === 'index.md'
 }
@@ -99,4 +103,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
+}
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    node: {
+      fs: 'empty',
+      net: 'empty',
+      child_process: 'empty',
+    },
+  })
 }
