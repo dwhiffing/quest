@@ -84,7 +84,7 @@ export const pageQuery = graphql`
           }
           background_image {
             childImageSharp {
-              fluid(maxWidth: 1200) {
+              fluid(maxWidth: 1920, quality: 90) {
                 srcSet
               }
             }
@@ -116,7 +116,7 @@ export const pageQuery = graphql`
               maxY
               image {
                 childImageSharp {
-                  fluid(maxWidth: 800) {
+                  fluid(maxWidth: 1920, quality: 90) {
                     srcSet
                   }
                 }
@@ -127,7 +127,7 @@ export const pageQuery = graphql`
               maxY
               image {
                 childImageSharp {
-                  fluid(maxWidth: 800) {
+                  fluid(maxWidth: 1920, quality: 90) {
                     srcSet
                   }
                 }
@@ -138,7 +138,7 @@ export const pageQuery = graphql`
               maxY
               image {
                 childImageSharp {
-                  fluid(maxWidth: 800) {
+                  fluid(maxWidth: 1920, quality: 90) {
                     srcSet
                   }
                 }
@@ -149,7 +149,7 @@ export const pageQuery = graphql`
               maxY
               image {
                 childImageSharp {
-                  fluid(maxWidth: 800) {
+                  fluid(maxWidth: 1920, quality: 90) {
                     srcSet
                   }
                 }

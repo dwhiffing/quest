@@ -45,8 +45,8 @@ const Footer = ({ content }) => (
                 className="pl-4 outline-none"
                 placeholder="your email here"
                 type="email"
-                autocapitalize="off"
-                autocorrect="off"
+                autoCapitalize="off"
+                autoCorrect="off"
                 name="MERGE0"
                 id="MERGE0"
               />
