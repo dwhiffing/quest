@@ -31,18 +31,32 @@ const Footer = ({ content }) => (
           className="flex flex-col justify-center items-center bg-dark-blue text-white max-w-lg px-10 py-10 mx-10"
           style={{ borderRadius: 12 }}
         >
-          <p className="quatro text-center text-sm">
-            Sign up for our mailing list for exclusive news and updates
-          </p>
-          <div className="flex mt-6 w-full justify-between border-2 rounded-full">
-            <input
-              className="pl-4 outline-none"
-              placeholder="your email here"
-            />
-            <button className="button text-black bg-white rounded-full text-sm px-4">
-              Submit
-            </button>
-          </div>
+          <form
+            action="https://thepmcf.us1.list-manage.com/subscribe/post"
+            method="post"
+          >
+            <input type="hidden" name="u" value="aa449736ade3b13ffe2102e4a" />
+            <input type="hidden" name="id" value="0cd3d3511b" />
+            <p className="quatro text-center text-sm">
+              Sign up for our mailing list for exclusive news and updates
+            </p>
+            <div className="flex mt-6 w-full justify-between border-2 rounded-full">
+              <input
+                className="pl-4 outline-none"
+                placeholder="your email here"
+                type="email"
+                autocapitalize="off"
+                autocorrect="off"
+                name="MERGE0"
+                id="MERGE0"
+              />
+              <input
+                type="submit"
+                label="submit"
+                className="button text-black bg-white rounded-full text-sm px-4"
+              />
+            </div>
+          </form>
         </div>
 
         <div className="flex justify-between items-center w-full max-w-6xl px-4 my-10">
