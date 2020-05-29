@@ -81,8 +81,8 @@ blocks:
       maxY: "1"
     image2:
       image: "/src/images/2c.png"
-      minY: "0"
-      maxY: "20"
+      minY: "-20"
+      maxY: "0"
     image3:
       image: "/src/images/2b.png"
       minY: "-40"
