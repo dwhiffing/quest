@@ -80,11 +80,11 @@ blocks:
       minY: "0"
       maxY: "1"
     image2:
-      image: "/src/images/2c.png"
+      image: "/src/images/frame-33.png"
       minY: "-20"
       maxY: "0"
     image3:
-      image: "/src/images/2b.png"
+      image: "/src/images/frame-33.png"
       minY: "-40"
       maxY: "40"
     image4:
