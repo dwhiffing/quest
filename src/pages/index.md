@@ -73,7 +73,7 @@ blocks:
   image: ''
   background: ''
   parallax_background:
-    height: "920"
+    height: "500"
     image1:
       image: "/src/images/c1.png"
       minY: "0"
