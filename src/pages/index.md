@@ -83,11 +83,11 @@ blocks:
       minY: "0"
       maxY: "1"
     image3:
-      image: "/src/images/bb4.png"
+      image: "/src/images/c3.png"
       minY: "0"
       maxY: "1"
     image4:
-      image: "/src/images/bb4-1.png"
+      image: "/src/images/c4.png"
       minY: "0"
       maxY: "1"
 - template: block__feature
