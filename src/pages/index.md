@@ -80,16 +80,16 @@ blocks:
       maxY: "1"
     image2:
       image: "/src/images/2c.png"
-      minY: "0"
-      maxY: "1"
+      minY: "-20"
+      maxY: "20"
     image3:
       image: "/src/images/2b.png"
-      minY: "0"
-      maxY: "1"
+      minY: "-40"
+      maxY: "40"
     image4:
       image: "/src/images/2a.png"
-      minY: "0"
-      maxY: "1"
+      minY: "-60"
+      maxY: "60"
 - template: block__feature
   component: feature
   background: dark-blue
