@@ -6,7 +6,7 @@ export const Button = ({
   style,
   className = '',
 }) =>
-  button ? (
+  button && button.text ? (
     <a
       target="_blank"
       rel="noopener noreferrer"

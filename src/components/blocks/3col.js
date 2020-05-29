@@ -20,7 +20,7 @@ const ThreeCol = ({ block }) => (
 export default ThreeCol
 
 function Column({ col }) {
-  return col ? (
+  return col && col.image ? (
     <div className="text-center flex-1 mx-4 my-8" style={{ maxWidth: 400 }}>
       {col.image && (
         <img

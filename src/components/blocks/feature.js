@@ -51,7 +51,10 @@ export function FeatureContent({ block, imageChild, maxWidth = 400 }) {
             'white'}`}
           style={{
             maxWidth: maxWidth,
-            position: block.top ? 'absolute' : 'static',
+            position:
+              block.top && block.top !== '0' && block.top !== '0px'
+                ? 'absolute'
+                : 'static',
             top: block.top,
           }}
         >

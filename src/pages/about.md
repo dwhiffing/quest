@@ -194,7 +194,7 @@ blocks:
     background_image: '/src/images/mountain.png'
     orientation: normal
     height: 120vh
-    top: '200'
+    top: 200px
     variant: bottom
     title: How it Works
     content:

@@ -134,7 +134,7 @@ blocks:
     background: light-blue
     background_image: '/src/images/river.png'
     height: 130vh
-    top: '50'
+    top: 50px
     variant: bottom
     textColor: dark-blue
     title: Our Partners
