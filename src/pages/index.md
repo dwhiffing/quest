@@ -32,7 +32,7 @@ blocks:
   variant: ''
 - template: block__feature
   component: feature
-  image: "/src/images/sword.png"
+  image: "/src/images/swordstone.png"
   background: dark-blue
   orientation: normal
   imageWidth: 390px
