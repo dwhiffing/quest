@@ -143,7 +143,7 @@ blocks:
   component: cta
   background: light-blue
   background_image: ''
-  height: 150vh
+  height: 140vh
   top: 50px
   variant: bottom
   textColor: dark-blue
