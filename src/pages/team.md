@@ -162,15 +162,15 @@ blocks:
       minY: '0'
       maxY: '0'
     image2:
-      image: ''
+      image: "/src/images/f2.png"
       minY: '0'
       maxY: '0'
     image3:
-      image: ''
+      image: "/src/images/f3.png"
       minY: '0'
       maxY: '0'
     image4:
-      image: ''
+      image: "/src/images/f4.png"
       minY: '0'
       maxY: '0'
   imageWidth: 0px
