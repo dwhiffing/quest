@@ -1,12 +1,12 @@
 ---
-title: Our Questers
+title: Team
 date: '2020-05-01T22:12:03.284Z'
 template: blocks
 blocks:
 - template: block__hero
   component: hero
   background: dark-blue
-  title: Become a Quester
+  title: Our Team
   parallax_background:
     height: 250px
     image1:
@@ -26,9 +26,7 @@ blocks:
       minY: '0'
       maxY: '0'
   variant: bottom
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  subtitle: Our community of supporters who are helping conquer cancer through gaming.
   background_image: ''
   button:
     url: ''
@@ -37,9 +35,11 @@ blocks:
   component: profiles
   image: "/src/images/team.png"
   title: The Quest Community
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  content: Our mission is clear. Our community consists of passionate gamers, eager
+    to make a difference while doing what they love most. This greater purpose will
+    unite gamers who, even in the heat of competition, will be playing as one team.
+    They will mobilize themselves and their communities, with enthusiasm and pride,
+    to make a real impact on our cause.
   button:
     url: https://google.ca
     text: Learn more
@@ -88,7 +88,7 @@ blocks:
   height: 50vh
   textColor: dark-blue
   orientation: reverse
-  title: Streamers
+  title: DIY Streamers
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
     lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
     ut, condimentum est.
@@ -138,10 +138,11 @@ blocks:
       maxY: "0"
       image: "/src/images/clouds-white4.png"
   image: ''
+  overflow: false
 - template: block__cta
   component: cta
   background: light-blue
-  background_image: "/src/images/river.png"
+  background_image: ''
   height: 130vh
   top: 50px
   variant: bottom
@@ -157,7 +158,7 @@ blocks:
   parallax_background:
     height: auto
     image1:
-      image: ''
+      image: "/src/images/f1.png"
       minY: '0'
       maxY: '0'
     image2:
