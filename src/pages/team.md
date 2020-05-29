@@ -88,10 +88,11 @@ blocks:
   height: 50vh
   textColor: dark-blue
   orientation: reverse
-  title: DIY Streamers
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  title: Streamers
+  content: Anyone can play an integral part in defeating cancer. We welcome any and
+    all streamers to introduce Quest to their audiences of one or millions. By hosting
+    a charity stream on our behalf, streamers can do what they love for a lasting
+    global impact.
   button:
     url: https://google.ca
     text: Learn more
