@@ -70,16 +70,16 @@ blocks:
   variant: ''
 - template: block__image
   component: image
-  image: "/src/images/ruins.png"
+  image: ''
   background: ''
   parallax_background:
     height: auto
     image1:
-      image: ''
+      image: "/src/images/bb2.png"
       minY: "0"
       maxY: "1"
     image2:
-      image: ''
+      image: "/src/images/bb3.png"
       minY: "0"
       maxY: "1"
     image3:
