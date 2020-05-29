@@ -11,19 +11,19 @@ blocks:
     height: auto
     image1:
       minY: '0'
-      maxY: '10'
+      maxY: '1'
       image: "/src/images/a1.png"
     image2:
       minY: "-31"
-      maxY: '30'
+      maxY: '31'
       image: "/src/images/lander2.png"
     image3:
-      minY: "-60"
-      maxY: '60'
+      minY: "-61"
+      maxY: '61'
       image: "/src/images/lander3.png"
     image4:
-      minY: "-60"
-      maxY: '60'
+      minY: "-61"
+      maxY: '61'
       image: "/src/images/lander4.png"
   button:
     url: https://google.ca
