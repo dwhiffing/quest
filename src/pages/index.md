@@ -174,16 +174,16 @@ blocks:
       maxY: '0'
     image2:
       image: "/src/images/e2.png"
-      minY: '0'
-      maxY: '0'
+      minY: "-5"
+      maxY: '5'
     image3:
       image: "/src/images/e3.png"
-      minY: '0'
-      maxY: '0'
+      minY: "-10"
+      maxY: '10'
     image4:
       image: "/src/images/e4.png"
-      minY: '0'
-      maxY: '0'
+      minY: "-20"
+      maxY: '20'
   imageWidth: 0px
 - template: block__cta
   component: cta
