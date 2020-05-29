@@ -124,17 +124,17 @@ blocks:
       minY: '0'
       maxY: '0'
     image2:
-      image: ''
-      minY: '0'
-      maxY: '0'
+      image: "/src/images/g2.png"
+      minY: "-20"
+      maxY: '20'
     image3:
-      image: ''
-      minY: '0'
-      maxY: '0'
+      image: "/src/images/g3.png"
+      minY: "-30"
+      maxY: '30'
     image4:
-      image: ''
-      minY: '0'
-      maxY: '0'
+      image: "/src/images/g4.png"
+      minY: "-50"
+      maxY: '50'
   imageWidth: 0px
   zIndex: 
 - template: block__feature
