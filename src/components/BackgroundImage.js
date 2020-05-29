@@ -30,7 +30,7 @@ export const ParallaxBackgroundImage = ({ title, parallax_background }) => {
 
   return (
     <div style={{ minHeight: height }}>
-      {image4 && (
+      {image4 && image4.image && (
         <Parallax
           className="background-image"
           y={[image4.minY || 0, image4.maxY || 0]}
@@ -43,7 +43,7 @@ export const ParallaxBackgroundImage = ({ title, parallax_background }) => {
           />
         </Parallax>
       )}
-      {image3 && (
+      {image3 && image3.image && (
         <Parallax
           className="background-image"
           y={[image3.minY || 0, image3.maxY || 0]}
@@ -56,7 +56,7 @@ export const ParallaxBackgroundImage = ({ title, parallax_background }) => {
           />
         </Parallax>
       )}
-      {image2 && (
+      {image2 && image2.image && (
         <Parallax
           className="background-image"
           y={[image2.minY || 0, image2.maxY || 0]}
@@ -69,17 +69,19 @@ export const ParallaxBackgroundImage = ({ title, parallax_background }) => {
           />
         </Parallax>
       )}
-      <Parallax
-        className="background-image"
-        y={[image1.minY || 0, image1.maxY || 0]}
-        styleInner={{ maxHeight: height }}
-      >
-        <img
-          alt={title}
+      {image1 && image1.image && (
+        <Parallax
           className="background-image"
-          srcSet={image1.image.childImageSharp.fluid.srcSet}
-        />
-      </Parallax>
+          y={[image1.minY || 0, image1.maxY || 0]}
+          styleInner={{ maxHeight: height }}
+        >
+          <img
+            alt={title}
+            className="background-image"
+            srcSet={image1.image.childImageSharp.fluid.srcSet}
+          />
+        </Parallax>
+      )}
     </div>
   )
 }

@@ -3,7 +3,7 @@ label: parallax_background
 hide_body: false
 display_field: image1
 fields:
-  - type: text
+  - type: number
     name: height
     label: Height
   - type: field_group
@@ -13,10 +13,10 @@ fields:
       - type: file
         name: image
         label: Image
-      - type: text
+      - type: number
         name: minY
         label: min Y
-      - type: text
+      - type: number
         name: maxY
         label: max Y
   - type: field_group
@@ -26,10 +26,10 @@ fields:
       - type: file
         name: image
         label: Image
-      - type: text
+      - type: number
         name: minY
         label: min Y
-      - type: text
+      - type: number
         name: maxY
         label: max Y
   - type: field_group
@@ -39,10 +39,10 @@ fields:
       - type: file
         name: image
         label: Image
-      - type: text
+      - type: number
         name: minY
         label: min Y
-      - type: text
+      - type: number
         name: maxY
         label: max Y
   - type: field_group
@@ -52,9 +52,9 @@ fields:
       - type: file
         name: image
         label: Image
-      - type: text
+      - type: number
         name: minY
         label: min Y
-      - type: text
+      - type: number
         name: maxY
         label: max Y
