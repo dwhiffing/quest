@@ -130,7 +130,7 @@ blocks:
     height: 350px
     image1:
       minY: -30
-      maxY: 30
+      maxY: 31
       image: "/src/images/clouds1.png"
     image2:
       minY: -20
