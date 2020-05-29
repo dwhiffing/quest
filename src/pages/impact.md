@@ -102,7 +102,7 @@ blocks:
 - template: block__cta
   component: cta
   background: white
-  background_image: "/src/images/teepee.png"
+  background_image: ''
   height: 120vh
   top: 150px
   variant: bottom
@@ -120,7 +120,7 @@ blocks:
   parallax_background:
     height: auto
     image1:
-      image: ''
+      image: "/src/images/g1.png"
       minY: '0'
       maxY: '0'
     image2:
