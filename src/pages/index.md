@@ -22,8 +22,8 @@ blocks:
       maxY: '40'
       image: "/src/images/aa3.png"
     image4:
-      minY: "-1"
-      maxY: '1'
+      minY: '0'
+      maxY: '0'
       image: "/src/images/abg.png"
   button:
     url: https://google.ca
