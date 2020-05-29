@@ -42,7 +42,7 @@ blocks:
     minY: ''
     maxY: ''
   image4:
-    image: ''
+    image: "/src/images/swordstone.png"
     minY: ''
     maxY: ''
   variant: ''
