@@ -169,21 +169,21 @@ blocks:
   parallax_background:
     height: auto
     image1:
-      image: "/src/images/d1.png"
+      image: "/src/images/e1.png"
       minY: '0'
       maxY: '0'
     image2:
-      image: "/src/images/d2.png"
-      minY: '0'
-      maxY: '0'
+      image: "/src/images/e2.png"
+      minY: "-20"
+      maxY: '20'
     image3:
-      image: "/src/images/d3.png"
-      minY: '0'
-      maxY: '0'
+      image: "/src/images/e3.png"
+      minY: "-40"
+      maxY: '40'
     image4:
-      image: "/src/images/d4.png"
-      minY: '0'
-      maxY: '0'
+      image: "/src/images/e4.png"
+      minY: "-80"
+      maxY: '80'
   imageWidth: 0px
 - template: block__cta
   component: cta
