@@ -96,10 +96,12 @@ blocks:
   orientation: reverse
   imageWidth: 380px
   height: 80vh
-  title: Our Impact
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  title: Our Quest
+  content: Our goal is to create incredible fundraising experiences that fuel groundbreaking
+    cancer research. Alongside world-class researchers, clinicians, and caregivers
+    at Princess Margaret Cancer Centre, Questers will do what they do best to move
+    the world closer to Conquering Cancer In Our Lifetime. When Questers play, future
+    cancer patients can win.
   image: "/src/images/shield.png"
   button:
     url: https://google.ca
