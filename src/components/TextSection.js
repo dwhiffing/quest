@@ -10,12 +10,16 @@ export const TextSection = block => (
 )
 
 export const Heading = ({ children, style, className = '' }) => (
-  <h1 className={className} style={style}>
-    {children}
-  </h1>
+  <h1
+    className={className}
+    style={style}
+    dangerouslySetInnerHTML={{ __html: children }}
+  />
 )
 export const Body = ({ children, style, className = '' }) => (
-  <p className={className} style={style}>
-    {children}
-  </p>
+  <p
+    className={className}
+    style={style}
+    dangerouslySetInnerHTML={{ __html: children }}
+  />
 )
