@@ -11,6 +11,7 @@ fields:
   - type: number
     name: height
     label: Height
+    default: 0
   - type: field_group
     name: col1
     label: Column 1

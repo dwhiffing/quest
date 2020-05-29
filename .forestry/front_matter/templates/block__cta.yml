@@ -57,6 +57,7 @@ fields:
     label: Parallax Background
     fields:
       - type: number
+        default: 0
         name: height
         label: Height
       - type: field_group
@@ -67,9 +68,11 @@ fields:
             name: image
             label: Image
           - type: number
+            default: 0
             name: minY
             label: min Y
           - type: number
+            default: 0
             name: maxY
             label: max Y
       - type: field_group
@@ -80,9 +83,11 @@ fields:
             name: image
             label: Image
           - type: number
+            default: 0
             name: minY
             label: min Y
           - type: number
+            default: 0
             name: maxY
             label: max Y
       - type: field_group
@@ -93,9 +98,11 @@ fields:
             name: image
             label: Image
           - type: number
+            default: 0
             name: minY
             label: min Y
           - type: number
+            default: 0
             name: maxY
             label: max Y
       - type: field_group
@@ -106,18 +113,23 @@ fields:
             name: image
             label: Image
           - type: number
+            default: 0
             name: minY
             label: min Y
           - type: number
+            default: 0
             name: maxY
             label: max Y
   - type: number
+    default: 0
     name: height
     label: Height
   - type: number
+    default: 0
     name: top
     label: Top
   - type: number
+    default: 0
     name: imageWidth
     label: Image Width
   - type: field_group
