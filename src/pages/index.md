@@ -35,8 +35,8 @@ blocks:
     maxY: ''
   image2:
     image: "/src/images/lander2.png"
-    minY: ''
-    maxY: ''
+    minY: "-50"
+    maxY: '50'
   image3:
     image: "/src/images/lander1.png"
     minY: ''
