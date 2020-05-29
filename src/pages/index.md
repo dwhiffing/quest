@@ -14,12 +14,12 @@ blocks:
       maxY: '1'
       image: "/src/images/a1.png"
     image2:
-      minY: "-31"
-      maxY: '31'
+      minY: "-30"
+      maxY: '30'
       image: "/src/images/lander2.png"
     image3:
-      minY: "-61"
-      maxY: '61'
+      minY: "-60"
+      maxY: '60'
       image: "/src/images/lander3.png"
     image4:
       minY: "-61"
@@ -75,19 +75,19 @@ blocks:
     image1:
       image: ''
       minY: 0
-      maxY: 0
+      maxY: 1
     image2:
       image: ''
       minY: 0
-      maxY: 0
+      maxY: 1
     image3:
       image: ''
       minY: 0
-      maxY: 0
+      maxY: 1
     image4:
       image: ''
       minY: 0
-      maxY: 0
+      maxY: 1
 - template: block__feature
   component: feature
   background: dark-blue
