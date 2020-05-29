@@ -102,7 +102,7 @@ blocks:
 - template: block__cta
   component: cta
   background: white
-  background_image: "/src/images/village.png"
+  background_image: "/src/images/teepee.png"
   height: 120vh
   top: 150px
   variant: bottom
