@@ -70,9 +70,11 @@ blocks:
   title: Our Quest
   imageWidth: 500px
   height: 100vh
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  content: Our goal is to create incredible fundraising experiences that fuel groundbreaking
+    cancer research. Alongside world-class researchers, teachers, and caregivers at
+    Princess Margaret Cancer Foundation, Questers will do what they do best to move
+    the world closer and closer to a cure. When Questers play, future cancer patients
+    will win.
   button:
     url: https://google.ca
     text: Learn more
@@ -107,9 +109,10 @@ blocks:
   textColor: dark-blue
   orientation: normal
   title: A Project by Princess Margaret Cancer Center
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  subtitle: The Foundation is dedicated to Conquering Cancer In Our Lifetime, raising
+    funds that accelerate cancer research, education and clinical care benefitting
+    patients at The Princess Margaret, across Canada, and around the world. The Princess
+    Margaret is one of the top five cancer research centers in the world.
   button:
     url: https://google.ca
     text: Learn more
@@ -136,15 +139,14 @@ blocks:
   zIndex: 
 - template: block__feature
   component: feature
-  image: "/src/images/sword.png"
+  image: "/src/images/swordstone.png"
   background: dark-blue
   orientation: normal
   imageWidth: 350px
   height: 50vh
   title: Join the Quest
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  content: Whether a streamer, spectator, or supporter, there’s a place in this Quest
+    for you.
   button:
     url: https://google.ca
     text: Learn more
