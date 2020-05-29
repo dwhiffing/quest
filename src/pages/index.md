@@ -27,7 +27,7 @@ blocks:
   button:
     url: https://google.ca
     text: Learn more
-  background_image: "/src/images/lander4.png"
+  background_image: ''
   height: ''
   image1:
     image: "/src/images/lander3.png"
