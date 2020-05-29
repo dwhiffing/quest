@@ -10,21 +10,21 @@ blocks:
     parallax_background:
       height: 221px
       image1:
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
         image: '/src/images/waves1.png'
       image2:
-        minY: -30
-        maxY: 30
+        minY: '-30'
+        maxY: '30'
         image: '/src/images/waves2.png'
       image3:
-        minY: -60
-        maxY: 60
+        minY: '-60'
+        maxY: '60'
         image: '/src/images/waves3.png'
       image4:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
     variant: bottom
     subtitle:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
@@ -39,7 +39,7 @@ blocks:
     image: '/src/images/joystick.png'
     background: white
     textColor: dark-blue
-    imageWidth: 280
+    imageWidth: 280px
     height: 75vh
     orientation: normal
     title: Who We Are
@@ -55,21 +55,21 @@ blocks:
       height: 'auto'
       image1:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image2:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image3:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image4:
         image: ''
-        minY: 0
-        maxY: 0
-    top: 0
+        minY: '0'
+        maxY: '0'
+    top: '0'
     variant: ''
   - template: block__image
     component: image
@@ -79,40 +79,40 @@ blocks:
       height: 'auto'
       image1:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image2:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image3:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image4:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
   - template: block__image
     component: image
     background: white
     parallax_background:
       height: 500px
       image1:
-        minY: -30
-        maxY: 30
+        minY: '-30'
+        maxY: '30'
         image: '/src/images/clouds-white1.png'
       image2:
-        minY: -20
-        maxY: 20
+        minY: '-20'
+        maxY: '20'
         image: '/src/images/clouds-white2.png'
       image3:
-        minY: -10
-        maxY: 10
+        minY: '-10'
+        maxY: '10'
         image: '/src/images/clouds-white3.png'
       image4:
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
         image: '/src/images/clouds-white4.png'
     image: ''
   - template: block__cta
@@ -134,28 +134,28 @@ blocks:
       height: 'auto'
       image1:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image2:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image3:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image4:
         image: ''
-        minY: 0
-        maxY: 0
-    top: 0
-    imageWidth: 0
+        minY: '0'
+        maxY: '0'
+    top: '0'
+    imageWidth: 0px
   - template: block__feature
     component: feature
     image: '/src/images/shield.png'
     background: white
     textColor: dark-blue
-    imageWidth: 380
+    imageWidth: 380px
     height: 100vh
     orientation: reverse
     title: What we do
@@ -171,21 +171,21 @@ blocks:
       height: 'auto'
       image1:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image2:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image3:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image4:
         image: ''
-        minY: 0
-        maxY: 0
-    top: 0
+        minY: '0'
+        maxY: '0'
+    top: '0'
     variant: ''
   - template: block__feature
     component: feature
@@ -194,7 +194,7 @@ blocks:
     background_image: '/src/images/mountain.png'
     orientation: normal
     height: 120vh
-    top: 200
+    top: '200'
     variant: bottom
     title: How it Works
     content:
@@ -209,27 +209,27 @@ blocks:
       height: 'auto'
       image1:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image2:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image3:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image4:
         image: ''
-        minY: 0
-        maxY: 0
-    imageWidth: 0
+        minY: '0'
+        maxY: '0'
+    imageWidth: 0px
   - template: block__feature
     component: feature
     image: '/src/images/sword.png'
     background: dark-blue
     orientation: normal
-    imageWidth: 350
+    imageWidth: 350px
     height: 50vh
     title: Join the Quest
     content:
@@ -245,20 +245,20 @@ blocks:
       height: 'auto'
       image1:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image2:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image3:
         image: ''
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
       image4:
         image: ''
-        minY: 0
-        maxY: 0
-    top: 0
+        minY: '0'
+        maxY: '0'
+    top: '0'
     variant: ''
 ---
