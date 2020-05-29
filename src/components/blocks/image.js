@@ -8,7 +8,7 @@ const Image = ({ block }) => (
       block.parallax_background && {
         backgroundColor: block.background,
         overflow: 'visible',
-        zIndex: 10,
+        zIndex: block.zIndex || 10,
       }
     }
   >

@@ -5,8 +5,14 @@ import { BackgroundImage, ParallaxBackgroundImage } from '../BackgroundImage'
 const Feature = ({ block }) => (
   <section
     className={`${
-      block.background_image ? 'background-image-container' : ''
+      block.background_image ||
+      (block.parallax_background &&
+        block.parallax_background &&
+        block.parallax_background.image1.image)
+        ? 'background-image-container'
+        : ''
     } bg-${block.background || 'dark-blue'}`}
+    style={{ zIndex: block.zIndex || 0 }}
   >
     <div
       className="container flex mx-auto relative py-10 z-10"

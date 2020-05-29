@@ -12,8 +12,9 @@ export const Button = ({
       rel="noopener noreferrer"
       href={button.url}
       style={style}
-      className={`button inline-flex bg-${textColor ||
-        'white'} text-${background} ${className}`}
+      className={`button inline-flex bg-${textColor || 'white'} text-${
+        background === 'transparent' ? 'dark-blue' : background
+      } ${className}`}
     >
       {button.text}
     </a>
