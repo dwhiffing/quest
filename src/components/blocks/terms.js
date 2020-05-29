@@ -7,7 +7,10 @@ const Contact = ({ block }) => (
       <div
         className={`relative z-10 py-20 text-${block.textColor || 'white'}`}
         style={{
-          position: block.top ? 'absolute' : 'static',
+          position:
+            block.top && block.top !== '0' && block.top !== '0px'
+              ? 'absolute'
+              : 'static',
           top: block.top,
         }}
       >

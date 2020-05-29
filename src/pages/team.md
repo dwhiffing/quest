@@ -8,7 +8,7 @@ blocks:
     background: dark-blue
     title: Become a Quester
     parallax_background:
-      height: 221px
+      height: 250px
       image1:
         minY: '0'
         maxY: '0'

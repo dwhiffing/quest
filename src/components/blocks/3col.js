@@ -9,7 +9,7 @@ const ThreeCol = ({ block }) => (
   >
     <div
       className="container justify-evenly flex mx-auto py-20 relative z-10 flex-col lg:flex-row items-center"
-      style={{ minHeight: block.height || '100vh' }}
+      style={{ height: block.height || '100vh', maxHeight: 1500 }}
     >
       <Column col={block.col1} />
       <Column col={block.col2} />

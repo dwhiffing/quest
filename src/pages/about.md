@@ -8,7 +8,7 @@ blocks:
     background: dark-blue
     title: About Us
     parallax_background:
-      height: 221px
+      height: 250px
       image1:
         minY: '0'
         maxY: '0'

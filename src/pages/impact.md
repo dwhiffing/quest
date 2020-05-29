@@ -8,7 +8,7 @@ blocks:
     background: dark-blue
     title: Our Impact
     parallax_background:
-      height: 221px
+      height: 250px
       image1:
         minY: '50'
         maxY: '60'

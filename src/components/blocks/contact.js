@@ -42,7 +42,10 @@ const Contact = ({ block }) => {
             className={`relative z-10 py-20 max-w-xl mx-auto text-center text-${block.textColor ||
               'white'}`}
             style={{
-              position: block.top ? 'absolute' : 'static',
+              position:
+                block.top && block.top !== '0' && block.top !== '0px'
+                  ? 'absolute'
+                  : 'static',
               top: block.top,
             }}
           >
