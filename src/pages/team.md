@@ -3,199 +3,203 @@ title: Become a Quester
 date: '2020-05-01T22:12:03.284Z'
 template: blocks
 blocks:
-- template: block__hero
-  component: hero
-  background: dark-blue
-  title: Become a Quester
-  parallax_background:
-    height: 221px
-    image1:
-      minY: 
-      maxY: 
-      image: "/src/images/waves1.png"
-    image2:
-      minY: -30
-      maxY: 30
-      image: "/src/images/waves2.png"
-    image3:
-      minY: -60
-      maxY: 60
-      image: "/src/images/waves3.png"
-    image4:
-      image: ''
-      minY: 
-      maxY: 
-  variant: bottom
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
-  background_image: ''
-  button:
-    url: ''
-    text: ''
-- template: block__profiles
-  component: profiles
-  image: "/src/images/team.png"
-  title: The Quest Community
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
-  button:
-    url: https://google.ca
-    text: Learn more
-  button2:
-    url: https://google.ca
-    text: View All Questers
-  background: white
-  textColor: dark-blue
-  variant: bottom
-  height: 100vh
-  imageWidth: 500
-  background_image: "/src/images/fade-ruins.png"
-  col1:
-    title: "@handle"
-    image: "/src/images/avatar.png"
-    content: 12 streams
-  col2:
-    title: "@handle"
-    image: "/src/images/avatar.png"
-    content: 12 streams
-  col3:
-    title: "@handle"
-    image: "/src/images/avatar.png"
-    content: 12 streams
-  col4:
-    title: "@handle"
-    image: "/src/images/avatar.png"
-    content: 12 streams
-- template: block__feature
-  component: feature
-  image: "/src/images/joystick.png"
-  background: white
-  imageWidth: 280
-  height: 50vh
-  textColor: dark-blue
-  orientation: reverse
-  title: DIY Streamers
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
-  button:
-    url: https://google.ca
-    text: Learn more
-  background_image: ''
-  parallax_background:
-    height: ''
-    image1:
-      image: ''
-      minY: 
-      maxY: 
-    image2:
-      image: ''
-      minY: 
-      maxY: 
-    image3:
-      image: ''
-      minY: 
-      maxY: 
-    image4:
-      image: ''
-      minY: 
-      maxY: 
-  top: 
-  variant: ''
-- template: block__image
-  component: image
-  background: white
-  parallax_background:
-    height: 500px
-    image1:
-      minY: -30
-      maxY: 30
-      image: "/src/images/clouds-white1.png"
-    image2:
-      minY: -20
-      maxY: 20
-      image: "/src/images/clouds-white2.png"
-    image3:
-      minY: -10
-      maxY: 10
-      image: "/src/images/clouds-white3.png"
-    image4:
-      minY: 
-      maxY: 
-      image: "/src/images/clouds-white4.png"
-  image: ''
-- template: block__cta
-  component: cta
-  background: light-blue
-  background_image: "/src/images/river.png"
-  height: 130vh
-  top: 50
-  variant: bottom
-  textColor: dark-blue
-  title: Our Partners
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
-  button:
-    url: https://google.ca
-    text: Learn more
-  image: ''
-  parallax_background:
-    height: ''
-    image1:
-      image: ''
-      minY: 
-      maxY: 
-    image2:
-      image: ''
-      minY: 
-      maxY: 
-    image3:
-      image: ''
-      minY: 
-      maxY: 
-    image4:
-      image: ''
-      minY: 
-      maxY: 
-  imageWidth: 
-- template: block__feature
-  component: feature
-  image: "/src/images/sword.png"
-  background: dark-blue
-  orientation: normal
-  imageWidth: 350
-  height: 50vh
-  title: Join the Quest
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
-  button:
-    url: https://google.ca
-    text: Learn more
-  textColor: ''
-  background_image: ''
-  parallax_background:
-    height: ''
-    image1:
-      image: ''
-      minY: 
-      maxY: 
-    image2:
-      image: ''
-      minY: 
-      maxY: 
-    image3:
-      image: ''
-      minY: 
-      maxY: 
-    image4:
-      image: ''
-      minY: 
-      maxY: 
-  top: 
-  variant: ''
-
+  - template: block__hero
+    component: hero
+    background: dark-blue
+    title: Become a Quester
+    parallax_background:
+      height: 221px
+      image1:
+        minY: 0
+        maxY: 0
+        image: '/src/images/waves1.png'
+      image2:
+        minY: -30
+        maxY: 30
+        image: '/src/images/waves2.png'
+      image3:
+        minY: -60
+        maxY: 60
+        image: '/src/images/waves3.png'
+      image4:
+        image: ''
+        minY: 0
+        maxY: 0
+    variant: bottom
+    subtitle:
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
+      lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
+      ut, condimentum est.
+    background_image: ''
+    button:
+      url: ''
+      text: ''
+  - template: block__profiles
+    component: profiles
+    image: '/src/images/team.png'
+    title: The Quest Community
+    content:
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
+      lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
+      ut, condimentum est.
+    button:
+      url: https://google.ca
+      text: Learn more
+    button2:
+      url: https://google.ca
+      text: View All Questers
+    background: white
+    textColor: dark-blue
+    variant: bottom
+    height: 100vh
+    imageWidth: 500
+    background_image: '/src/images/fade-ruins.png'
+    col1:
+      title: '@handle'
+      image: '/src/images/avatar.png'
+      content: 12 streams
+    col2:
+      title: '@handle'
+      image: '/src/images/avatar.png'
+      content: 12 streams
+    col3:
+      title: '@handle'
+      image: '/src/images/avatar.png'
+      content: 12 streams
+    col4:
+      title: '@handle'
+      image: '/src/images/avatar.png'
+      content: 12 streams
+  - template: block__feature
+    component: feature
+    image: '/src/images/joystick.png'
+    background: white
+    imageWidth: 280
+    height: 50vh
+    textColor: dark-blue
+    orientation: reverse
+    title: DIY Streamers
+    content:
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
+      lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
+      ut, condimentum est.
+    button:
+      url: https://google.ca
+      text: Learn more
+    background_image: ''
+    parallax_background:
+      height: 'auto'
+      image1:
+        image: ''
+        minY: 0
+        maxY: 0
+      image2:
+        image: ''
+        minY: 0
+        maxY: 0
+      image3:
+        image: ''
+        minY: 0
+        maxY: 0
+      image4:
+        image: ''
+        minY: 0
+        maxY: 0
+    top: 0
+    variant: ''
+  - template: block__image
+    component: image
+    background: white
+    parallax_background:
+      height: 500px
+      image1:
+        minY: -30
+        maxY: 30
+        image: '/src/images/clouds-white1.png'
+      image2:
+        minY: -20
+        maxY: 20
+        image: '/src/images/clouds-white2.png'
+      image3:
+        minY: -10
+        maxY: 10
+        image: '/src/images/clouds-white3.png'
+      image4:
+        minY: 0
+        maxY: 0
+        image: '/src/images/clouds-white4.png'
+    image: ''
+  - template: block__cta
+    component: cta
+    background: light-blue
+    background_image: '/src/images/river.png'
+    height: 130vh
+    top: 50
+    variant: bottom
+    textColor: dark-blue
+    title: Our Partners
+    subtitle:
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
+      lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
+      ut, condimentum est.
+    button:
+      url: https://google.ca
+      text: Learn more
+    image: ''
+    parallax_background:
+      height: 'auto'
+      image1:
+        image: ''
+        minY: 0
+        maxY: 0
+      image2:
+        image: ''
+        minY: 0
+        maxY: 0
+      image3:
+        image: ''
+        minY: 0
+        maxY: 0
+      image4:
+        image: ''
+        minY: 0
+        maxY: 0
+    imageWidth: 0
+  - template: block__feature
+    component: feature
+    image: '/src/images/sword.png'
+    background: dark-blue
+    orientation: normal
+    imageWidth: 350
+    height: 50vh
+    title: Join the Quest
+    content:
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
+      lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
+      ut, condimentum est.
+    button:
+      url: https://google.ca
+      text: Learn more
+    textColor: ''
+    background_image: ''
+    parallax_background:
+      height: 'auto'
+      image1:
+        image: ''
+        minY: 0
+        maxY: 0
+      image2:
+        image: ''
+        minY: 0
+        maxY: 0
+      image3:
+        image: ''
+        minY: 0
+        maxY: 0
+      image4:
+        image: ''
+        minY: 0
+        maxY: 0
+    top: 0
+    variant: ''
 ---
