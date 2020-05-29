@@ -2,90 +2,90 @@
 label: block__image
 hide_body: true
 fields:
-- name: image
-  type: file
-  config:
-    maxSize: 64
-  label: Image
-- type: select
-  name: background
-  config:
-    source:
-      type: simple
-    options:
-    - transparent
-    - dark-blue
-    - light-blue
-    - light-pink
-    - blue
-    - pink
-    - white
-  label: Background
-- name: parallax_background
-  type: field_group
-  label: Parallax Background
-  fields:
-  - type: text
-    name: height
-    label: Height
-    default: auto
-  - type: field_group
-    name: image1
-    label: Image 1
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - type: select
+    name: background
+    config:
+      source:
+        type: simple
+      options:
+        - transparent
+        - dark-blue
+        - light-blue
+        - light-pink
+        - blue
+        - pink
+        - white
+    label: Background
+  - name: parallax_background
+    type: field_group
+    label: Parallax Background
     fields:
-    - type: file
-      name: image
-      label: Image
-    - type: number
-      default: 0
-      name: minY
-      label: min Y
-    - type: number
-      default: 0
-      name: maxY
-      label: max Y
-  - type: field_group
-    name: image2
-    label: Image 2
-    fields:
-    - type: file
-      name: image
-      label: Image
-    - type: number
-      default: 0
-      name: minY
-      label: min Y
-    - type: number
-      default: 0
-      name: maxY
-      label: max Y
-  - type: field_group
-    name: image3
-    label: Image 3
-    fields:
-    - type: file
-      name: image
-      label: Image
-    - type: number
-      default: 0
-      name: minY
-      label: min Y
-    - type: number
-      default: 0
-      name: maxY
-      label: max Y
-  - type: field_group
-    name: image4
-    label: Image 4
-    fields:
-    - type: file
-      name: image
-      label: Image
-    - type: number
-      default: 0
-      name: minY
-      label: min Y
-    - type: number
-      default: 0
-      name: maxY
-      label: max Y
+      - type: text
+        name: height
+        label: Height
+        default: auto
+      - type: field_group
+        name: image1
+        label: Image 1
+        fields:
+          - type: file
+            name: image
+            label: Image
+          - type: text
+            default: '0'
+            name: minY
+            label: min Y
+          - type: text
+            default: '0'
+            name: maxY
+            label: max Y
+      - type: field_group
+        name: image2
+        label: Image 2
+        fields:
+          - type: file
+            name: image
+            label: Image
+          - type: text
+            default: '0'
+            name: minY
+            label: min Y
+          - type: text
+            default: '0'
+            name: maxY
+            label: max Y
+      - type: field_group
+        name: image3
+        label: Image 3
+        fields:
+          - type: file
+            name: image
+            label: Image
+          - type: text
+            default: '0'
+            name: minY
+            label: min Y
+          - type: text
+            default: '0'
+            name: maxY
+            label: max Y
+      - type: field_group
+        name: image4
+        label: Image 4
+        fields:
+          - type: file
+            name: image
+            label: Image
+          - type: text
+            default: '0'
+            name: minY
+            label: min Y
+          - type: text
+            default: '0'
+            name: maxY
+            label: max Y
