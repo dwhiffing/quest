@@ -188,7 +188,7 @@ blocks:
   component: feature
   background: light-pink
   textColor: dark-blue
-  background_image: "/src/images/mountain.png"
+  background_image: ''
   orientation: normal
   height: 120vh
   top: 200px
@@ -204,21 +204,21 @@ blocks:
   parallax_background:
     height: auto
     image1:
-      image: ''
+      image: "/src/images/11.png"
       minY: '0'
       maxY: '0'
     image2:
-      image: ''
-      minY: '0'
-      maxY: '0'
+      image: "/src/images/22.png"
+      minY: "-10"
+      maxY: '10'
     image3:
-      image: ''
-      minY: '0'
-      maxY: '0'
+      image: "/src/images/33.png"
+      minY: "-20"
+      maxY: '20'
     image4:
-      image: ''
-      minY: '0'
-      maxY: '0'
+      image: "/src/images/44.png"
+      minY: "-40"
+      maxY: '40'
   imageWidth: 0px
 - template: block__feature
   component: feature
