@@ -18,12 +18,12 @@ blocks:
       maxY: '30'
       image: "/src/images/aa2.png"
     image3:
-      minY: "-60"
-      maxY: '60'
+      minY: "-50"
+      maxY: '50'
       image: "/src/images/aa3.png"
     image4:
-      minY: "-120"
-      maxY: '120'
+      minY: "-80"
+      maxY: '80'
       image: "/src/images/abg.png"
   button:
     url: https://google.ca
