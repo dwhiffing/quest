@@ -189,9 +189,7 @@ blocks:
   component: cta
   background: dark-blue
   title: Get in Touch
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  subtitle: Interested in learning more?
   button:
     url: https://google.ca
     text: Contact CTA
