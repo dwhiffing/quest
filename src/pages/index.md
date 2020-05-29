@@ -10,20 +10,20 @@ blocks:
   parallax_background:
     height: auto
     image1:
-      minY: "-1"
-      maxY: '3'
+      minY: "-160"
+      maxY: '160'
       image: "/src/images/a12.png"
     image2:
-      minY: "-20"
-      maxY: '20'
+      minY: "-80"
+      maxY: '80'
       image: "/src/images/aa2.png"
     image3:
-      minY: "-120"
-      maxY: '120'
+      minY: "-40"
+      maxY: '40'
       image: "/src/images/aa3.png"
     image4:
-      minY: "-60"
-      maxY: '60'
+      minY: "-1"
+      maxY: '1'
       image: "/src/images/abg.png"
   button:
     url: https://google.ca
