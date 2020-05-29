@@ -153,7 +153,7 @@ blocks:
 - template: block__feature
   component: feature
   background: blue
-  background_image: "/src/images/mountain.png"
+  background_image: ''
   orientation: normal
   height: 110vh
   top: 200px
@@ -169,19 +169,19 @@ blocks:
   parallax_background:
     height: auto
     image1:
-      image: ''
+      image: "/src/images/d1.png"
       minY: '0'
       maxY: '0'
     image2:
-      image: ''
+      image: "/src/images/d2.png"
       minY: '0'
       maxY: '0'
     image3:
-      image: ''
+      image: "/src/images/d3.png"
       minY: '0'
       maxY: '0'
     image4:
-      image: ''
+      image: "/src/images/d4.png"
       minY: '0'
       maxY: '0'
   imageWidth: 0px
