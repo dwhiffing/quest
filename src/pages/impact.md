@@ -6,7 +6,7 @@ blocks:
 - template: block__hero
   component: hero
   background: dark-blue
-  title: Defeating our common enemy
+  title: Our Impact
   parallax_background:
     height: 250px
     image1:
@@ -26,13 +26,7 @@ blocks:
       minY: '0'
       maxY: '0'
   variant: bottom
-  subtitle: Humankind is facing a massive surge in cancer diagnoses, unlike anything
-    we’ve seen before. Cancer is the second leading cause of death internationally,
-    replacing infectious diseases worldwide as the top killer. In Canada, it’s expected
-    the number of cancer diagnoses will double by 2035. At The Princess Margaret,
-    we feel a sense of urgency to accelerate the pace of discovery now. We are one
-    of the top 5 cancer research centres in the world. With your support, we can go
-    a long way towards defeating cancer in our lifetime.
+  subtitle: Defeating our common enemy
   background_image: ''
   button:
     url: ''
@@ -45,24 +39,24 @@ blocks:
   col1:
     title: Research
     image: "/src/images/dna.png"
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-      lectus, quis ullamcorper augue.
+    content: 200+ types of cancer treated including many of the world's most complex
+      and rare cases
     button:
       text: ''
       url: ''
   col2:
     title: Doctors
     image: "/src/images/heart.png"
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-      lectus, quis ullamcorper augue.
+    content: 3,200+ people working on cancer research and care, from healthcare professionals
+      to scientists
     button:
       text: ''
       url: ''
   col3:
     title: The Future
-    image: "/src/images/ball.png"
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-      lectus, quis ullamcorper augue.
+    image: "/src/images/globe.png"
+    content: World leader in cancer fields from Stem Cells in Cancer, Immunotherapy,
+      Cancer Genomics, and more
     button:
       url: ''
       text: ''
