@@ -21,25 +21,23 @@ const Layout = ({ children }) => {
       query={layoutQuery}
       render={data => (
         <ParallaxProvider>
-          <Helmet
-            title={data.site.siteMetadata.title}
-            meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
-            ]}
-            link={[
-              {
-                rel: 'shortcut icon',
-                type: 'image/png',
-                href: `${favicon}`,
-              },
-            ]}
-          >
-            <html lang="en" />
-          </Helmet>
-          <Header siteTitle={data.site.siteMetadata.title} />
-          {children}
-          <Footer content={data.site.siteMetadata.footer} />
+          <div className="mx-auto" style={{ maxWidth: 2560 }}>
+            <Helmet
+              title={data.site.siteMetadata.title}
+              meta={[
+                { name: 'description', content: 'Sample' },
+                { name: 'keywords', content: 'sample, something' },
+              ]}
+              link={[
+                { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` },
+              ]}
+            >
+              <html lang="en" />
+            </Helmet>
+            <Header siteTitle={data.site.siteMetadata.title} />
+            {children}
+            <Footer content={data.site.siteMetadata.footer} />
+          </div>
         </ParallaxProvider>
       )}
     />
