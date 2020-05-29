@@ -21,9 +21,6 @@ fields:
     - pink
     - white
   label: Background
-- name: overflow
-  type: boolean
-  label: Overflow
 - name: parallax_background
   type: field_group
   label: Parallax Background
