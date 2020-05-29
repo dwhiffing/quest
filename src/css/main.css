@@ -152,3 +152,8 @@ input {
 [data-sal='slide-up'] {
   transform: translateY(10%);
 }
+
+h1,
+p {
+  white-space: pre-wrap;
+}
