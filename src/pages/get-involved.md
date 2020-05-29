@@ -100,9 +100,7 @@ blocks:
   variant: bottom
   textColor: dark-blue
   title: Fundraise
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  subtitle: Join the Quest by creating a movement of your own.
   button:
     url: https://google.ca
     text: Learn more
@@ -135,16 +133,21 @@ blocks:
   col1:
     title: Stream
     image: "/src/images/icon1.png"
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-      lectus, quis ullamcorper augue.
+    content: Anyone can play an integral part in conquering cancer. We welcome any
+      and all streamers to introduce Quest to their audiences of one or millions.
+      By hosting a charity stream on our behalf, streamers can do what they love for
+      a lasting global impact. Whether you’re experienced or new to streaming, our
+      tools, support, and resources will get you started on your Quest today.
     button:
       text: test
       url: http://www.google.ca
   col2:
     title: Other
     image: "/src/images/icon2.png"
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-      lectus, quis ullamcorper augue.
+    content: Not a streamer? You can still join the quest and raise money in ways
+      that work for you! We welcome gamers to get creative with fundraising, from
+      asking for donations to Quest in lieu of gifts or to donating sales of video
+      games.
     button:
       text: Google
       url: http://www.google.ca
@@ -158,8 +161,9 @@ blocks:
 - template: block__list
   component: list
   title: Attend an Event
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue.
+  subtitle: We partner with gaming leaders and brands to create unique gaming experiences.
+    These events will bring our community together, strengthen our impact, celebrate
+    our supporters, and inspire more to join our mission to conquer cancer.
   background: light-pink
   textColor: dark-blue
   col1:
