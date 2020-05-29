@@ -158,10 +158,9 @@ blocks:
   height: 110vh
   top: 200px
   variant: bottom
-  title: Get Involved
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  title: Strength in Numbers
+  content: In order to Conquer Cancer In Our Lifetime, we need everyone to take part.
+    Find out how you can make a difference.
   image: blank
   button:
     url: https://google.ca
