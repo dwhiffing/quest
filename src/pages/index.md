@@ -27,22 +27,22 @@ blocks:
   button:
     url: https://google.ca
     text: Learn more
-  background_image: ''
+  background_image: "/src/images/lander4.png"
   height: ''
   image1:
     image: "/src/images/lander3.png"
     minY: ''
     maxY: ''
   image2:
-    image: ''
+    image: "/src/images/lander2.png"
     minY: "-50"
     maxY: '50'
   image3:
-    image: ''
+    image: "/src/images/lander1.png"
     minY: ''
     maxY: ''
   image4:
-    image: ''
+    image: "/src/images/trees.png"
     minY: ''
     maxY: ''
   variant: ''
