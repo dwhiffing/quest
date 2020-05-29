@@ -38,9 +38,11 @@ blocks:
   imageWidth: 390px
   title: Join the Quest
   height: 40vh
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  content: We’re calling for gamers to unite with fellow players, friends, and family
+    to create a new and lasting movement through support and donations. By triumphing
+    in the gaming world, we can go a long way towards triumphing in the real world
+    over the common adversary we call cancer. <br><br>Whether you’re a streamer or
+    a spectator, there’s a place in this Quest for you.
   button:
     url: https://google.ca
     text: Learn more
