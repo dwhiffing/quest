@@ -24,11 +24,11 @@ blocks:
     image4:
       minY: "-61"
       maxY: '61'
-      image: "/src/images/aa4.png"
+      image: "/src/images/abg.png"
   button:
     url: https://google.ca
     text: Learn more
-  background_image: "/src/images/lander4.png"
+  background_image: ''
   variant: ''
 - template: block__feature
   component: feature
