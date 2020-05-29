@@ -191,15 +191,14 @@ blocks:
       text: ''
 - template: block__feature
   component: feature
-  image: "/src/images/sword.png"
+  image: "/src/images/swordstone.png"
   background: dark-blue
   orientation: normal
   imageWidth: 350px
   height: 50vh
   title: Join the Quest
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  content: Whether a streamer, spectator or supporter, there’s a place in this Quest
+    for you.
   button:
     url: https://google.ca
     text: Learn more
