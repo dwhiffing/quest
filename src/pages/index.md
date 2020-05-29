@@ -11,7 +11,7 @@ blocks:
     height: auto
     image1:
       minY: "-1"
-      maxY: '1'
+      maxY: '3'
       image: "/src/images/a12.png"
     image2:
       minY: "-60"
