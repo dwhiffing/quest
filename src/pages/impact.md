@@ -135,7 +135,7 @@ blocks:
       image: "/src/images/g4.png"
       minY: "-50"
       maxY: '50'
-  imageWidth: auto
+  imageWidth: 0px
   zIndex: 
 - template: block__feature
   component: feature
