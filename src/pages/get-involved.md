@@ -94,7 +94,7 @@ blocks:
 - template: block__cta
   component: cta
   background: light-blue
-  background_image: "/src/images/trees.png"
+  background_image: ''
   height: 160vh
   top: 100px
   variant: bottom
@@ -108,21 +108,21 @@ blocks:
   parallax_background:
     height: auto
     image1:
-      image: ''
+      image: "/src/images/h1.png"
       minY: '0'
       maxY: '0'
     image2:
-      image: ''
-      minY: '0'
-      maxY: '0'
+      image: "/src/images/h2.png"
+      minY: "-10"
+      maxY: '10'
     image3:
-      image: ''
-      minY: '0'
-      maxY: '0'
+      image: "/src/images/h3.png"
+      minY: "-25"
+      maxY: '25'
     image4:
-      image: ''
-      minY: '0'
-      maxY: '0'
+      image: "/src/images/h4.png"
+      minY: "-30"
+      maxY: '30'
   imageWidth: 0px
   zIndex: 
 - template: block__3col
