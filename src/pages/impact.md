@@ -6,7 +6,7 @@ blocks:
 - template: block__hero
   component: hero
   background: dark-blue
-  title: Our Impact
+  title: Our Impact on Cancer
   parallax_background:
     height: 250px
     image1:
