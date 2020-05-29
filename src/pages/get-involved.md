@@ -8,7 +8,7 @@ blocks:
     background: dark-blue
     title: Get Involved
     parallax_background:
-      height: 220
+      height: 220px
       image1:
         minY: -0
         maxY: 0
@@ -46,7 +46,7 @@ blocks:
     component: image
     background: white
     parallax_background:
-      height: 500
+      height: 500px
       image1:
         minY: -30
         maxY: 30

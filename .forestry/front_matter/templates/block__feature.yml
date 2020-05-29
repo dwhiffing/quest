@@ -66,10 +66,10 @@ fields:
     type: field_group
     label: Parallax Background
     fields:
-      - type: number
-        default: 0
+      - type: text
         name: height
         label: Height
+        default: 'auto'
       - type: field_group
         name: image1
         label: Image 1
@@ -130,10 +130,10 @@ fields:
             default: 0
             name: maxY
             label: max Y
-  - type: number
-    default: 0
+  - type: text
     name: height
     label: Height
+    default: 'auto'
   - type: number
     default: 0
     name: top

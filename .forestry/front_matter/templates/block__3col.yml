@@ -8,10 +8,10 @@ fields:
     label: component
     hidden: true
     default: 3col
-  - type: number
+  - type: text
     name: height
     label: Height
-    default: 0
+    default: 'auto'
   - type: field_group
     name: col1
     label: Column 1

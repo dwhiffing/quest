@@ -38,10 +38,10 @@ fields:
     type: field_group
     label: Parallax Background
     fields:
-      - type: number
-        default: 0
+      - type: text
         name: height
         label: Height
+        default: 'auto'
       - type: field_group
         name: image1
         label: Image 1

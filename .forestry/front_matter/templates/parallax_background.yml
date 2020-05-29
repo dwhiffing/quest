@@ -3,10 +3,10 @@ label: parallax_background
 hide_body: false
 display_field: image1
 fields:
-  - type: number
-    default: 0
+  - type: text
     name: height
     label: Height
+    default: 'auto'
   - type: field_group
     name: image1
     label: Image 1

@@ -8,7 +8,7 @@ blocks:
     background: dark-blue
     title: Our Impact
     parallax_background:
-      height: 220
+      height: 220px
       image1:
         minY: 50
         maxY: 60
@@ -57,7 +57,7 @@ blocks:
       content:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
         lectus, quis ullamcorper augue.
-    height: 0
+    height: '100px'
   - template: block__feature
     component: feature
     image: '/src/images/team.png'

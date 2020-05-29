@@ -8,6 +8,7 @@ blocks:
     title: Join a quest that will change our world forever
     subtitle: ''
     parallax_background:
+      height: auto
       image1:
         minY: -0
         maxY: 0
@@ -63,7 +64,7 @@ blocks:
   - template: block__image
     component: image
     parallax_background:
-      height: 350
+      height: 350px
       image1:
         minY: -30
         maxY: 30
