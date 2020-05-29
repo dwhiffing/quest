@@ -176,15 +176,13 @@ blocks:
   imageWidth: 0px
 - template: block__feature
   component: feature
-  image: "/src/images/sword.png"
+  image: "/src/images/swordstone.png"
   background: dark-blue
   orientation: normal
   imageWidth: 350px
   height: 50vh
   title: Join the Quest
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  content: Sign up. Set a goal. And begin your Quest.
   button:
     url: https://google.ca
     text: Learn more
