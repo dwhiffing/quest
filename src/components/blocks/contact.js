@@ -188,9 +188,9 @@ export default Contact
 function Select({ label, value, onChange, children, ...props }) {
   return (
     <div className="flex-1 mx-2 mb-6">
-      <Body className="mb-1" style={{ fontSize: 18 }}>
+      <p className="mb-1" style={{ fontSize: 18 }}>
         {label} {props.required && '*'}
-      </Body>
+      </p>
       <div className="border" style={{ borderColor: '#4f5463' }}>
         <div className="mr-3">
           <select
@@ -209,9 +209,9 @@ function Select({ label, value, onChange, children, ...props }) {
 function Input({ label, value, type, onChange, ...props }) {
   return (
     <div className="flex-1 mx-2 mb-6">
-      <Body className="mb-1" style={{ fontSize: 18 }}>
+      <p className="mb-1" style={{ fontSize: 18 }}>
         {label} {props.required && '*'}
-      </Body>
+      </p>
       <div className="border" style={{ borderColor: '#4f5463' }}>
         <input
           value={value}
@@ -229,9 +229,9 @@ function Input({ label, value, type, onChange, ...props }) {
 function TextArea({ label, value, onChange, ...props }) {
   return (
     <div className="flex-1 mx-2 mb-6">
-      <Body className="mb-1" style={{ fontSize: 18 }}>
+      <p className="mb-1" style={{ fontSize: 18 }}>
         {label} {props.required && '*'}
-      </Body>
+      </p>
       <div className="border" style={{ borderColor: '#4f5463' }}>
         <textarea
           value={value}

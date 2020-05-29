@@ -11,7 +11,7 @@ const List = ({ block }) => (
     </div>
     <div
       className="container flex flex-col mx-auto relative z-10 mt-20 pb-20"
-      style={{ height: block.height || '100vh', maxHeight: 1500 }}
+      style={{ height: block.height || '100vh' }}
     >
       <Item col={block.col1} />
       <Item col={block.col2} />

@@ -50,7 +50,7 @@ blocks:
     background: white
     textColor: dark-blue
     variant: bottom
-    height: 100vh
+    height: auto
     imageWidth: 500px
     background_image: '/src/images/fade-ruins.png'
     col1:
@@ -86,7 +86,7 @@ blocks:
     image: '/src/images/joystick.png'
     background: white
     imageWidth: 280px
-    height: 50vh
+    height: auto
     textColor: dark-blue
     orientation: reverse
     title: Streamers
@@ -147,7 +147,7 @@ blocks:
     background: light-blue
     background_image: ''
     height: 140vh
-    top: 50px
+    top: 150px
     variant: bottom
     textColor: dark-blue
     title: Our Partners
@@ -185,7 +185,8 @@ blocks:
     background: dark-blue
     orientation: normal
     imageWidth: 350px
-    height: 50vh
+    height: auto
+    zIndex: 20
     title: Join the Quest
     content: Sign up. Set a goal. And begin your Quest.
     button:

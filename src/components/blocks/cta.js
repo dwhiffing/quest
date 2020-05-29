@@ -7,7 +7,7 @@ import { BackgroundImage, ParallaxBackgroundImage } from '../BackgroundImage'
 const CTA = ({ block }) => (
   <section
     className={`background-image-container bg-${block.background}`}
-    style={{ overflow: 'visible' }}
+    style={{ overflow: 'hidden' }}
   >
     <div
       className="container mx-auto flex justify-center items-center"

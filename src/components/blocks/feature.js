@@ -19,7 +19,7 @@ const Feature = ({ block }) => (
       data-sal="slide-up"
       data-sal-duration="800"
       data-sal-delay="200"
-      style={{ height: block.height || '100vh', maxHeight: 1500 }}
+      style={{ height: block.height || '100vh' }}
     >
       <FeatureContent block={block} />
     </div>

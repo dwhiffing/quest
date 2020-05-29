@@ -11,7 +11,7 @@ const Profiles = ({ block }) => (
   >
     <div
       className="container flex flex-col mx-auto relative z-10"
-      style={{ height: block.height || '100vh', maxHeight: 1500 }}
+      style={{ height: block.height || '100vh' }}
     >
       <div style={{ maxHeight: 640 }}>
         <FeatureContent
