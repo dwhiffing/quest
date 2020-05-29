@@ -166,6 +166,10 @@ export const pageQuery = graphql`
             }
             title
             content
+            button {
+              url
+              text
+            }
           }
           col2 {
             image {
@@ -177,6 +181,10 @@ export const pageQuery = graphql`
             }
             title
             content
+            button {
+              url
+              text
+            }
           }
           col3 {
             image {

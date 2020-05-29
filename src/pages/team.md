@@ -58,10 +58,16 @@ blocks:
       title: '@handle'
       image: '/src/images/avatar.png'
       content: 12 streams
+      button:
+        text: ''
+        url: ''
     col2:
       title: '@handle'
       image: '/src/images/avatar.png'
       content: 12 streams
+      button:
+        text: ''
+        url: ''
     col3:
       title: '@handle'
       image: '/src/images/avatar.png'

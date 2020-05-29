@@ -140,12 +140,18 @@ blocks:
       content:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
         lectus, quis ullamcorper augue.
+      button:
+        text: test
+        url: http://www.google.ca
     col2:
       title: Other
       image: '/src/images/icon2.png'
       content:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
         lectus, quis ullamcorper augue.
+      button:
+        text: test
+        url: http://www.google.ca
     col3:
       image: ''
       title: ''
@@ -164,12 +170,18 @@ blocks:
       content:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
         lectus, quis ullamcorper augue.
+      button:
+        text: ''
+        url: ''
     col2:
       title: Event B
       image: '/src/images/event.png'
       content:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
         lectus, quis ullamcorper augue.
+      button:
+        text: ''
+        url: ''
     col3:
       image: ''
       title: ''

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Body, Heading } from '../TextSection'
+import { Button } from '../Button'
 
 const ThreeCol = ({ block }) => (
   <section
@@ -21,7 +22,13 @@ export default ThreeCol
 
 function Column({ col }) {
   return col && col.image ? (
-    <div className="text-center flex-1 mx-4 my-8" style={{ maxWidth: 400 }}>
+    <div
+      className="flex-1 mx-4 my-8"
+      style={{
+        maxWidth: 400,
+        textAlign: col.button && col.button.text ? 'left' : 'center',
+      }}
+    >
       {col.image && (
         <img
           alt={col.title}
@@ -32,6 +39,9 @@ function Column({ col }) {
       )}
       <Heading>{col.title}</Heading>
       <Body>{col.content}</Body>
+      {col.button && (
+        <Button button={col.button} className="bg-dark-blue text-white mt-3" />
+      )}
     </div>
   ) : (
     false

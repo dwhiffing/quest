@@ -45,12 +45,18 @@ blocks:
       content:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
         lectus, quis ullamcorper augue.
+      button:
+        text: ''
+        url: ''
     col2:
       title: Doctors
       image: '/src/images/heart.png'
       content:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
         lectus, quis ullamcorper augue.
+      button:
+        text: ''
+        url: ''
     col3:
       title: The Future
       image: '/src/images/ball.png'
