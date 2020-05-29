@@ -1,7 +1,7 @@
 import React from 'react'
 import footerImage from '../images/footer.png'
 import logo from '../images/logo.png'
-import headerImage from '../images/header.png'
+import headerImage from '../images/header2.png'
 import { NavLinks } from './header'
 
 const Footer = ({ content }) => (
@@ -54,6 +54,7 @@ const Footer = ({ content }) => (
                 type="submit"
                 label="submit"
                 className="button text-black bg-white rounded-full text-sm px-4"
+                style={{ width: 150 }}
               />
             </div>
           </form>

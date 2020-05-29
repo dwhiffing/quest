@@ -3,7 +3,9 @@ import { TextSection, Body } from '../TextSection'
 import { GoogleSpreadsheet } from 'google-spreadsheet'
 
 // TODO: Use a form to get validation on email for free
-// TODO: support multiple sheets for each form type
+// Email, Full Name, Comments, Company, Where did you hear about us will be mandatory fields
+// Phone Number and optional field
+// Instead of having different silos, can we have a "Type of Inquiry" dropdown with "General/Game Developer/Press/Brand Partner"? This section will also be optional.
 const Contact = ({ block }) => {
   const [hasSubmitted, setHasSubmitted] = useState(false)
   const [sheet, setSheet] = useState({})
@@ -11,10 +13,12 @@ const Contact = ({ block }) => {
     name: '',
     email: '',
     about: '',
+    phone: '',
     comments: '',
     company: '',
+    type: 'General',
   })
-  const { name, email, about, comments, company } = state
+  const { name, email, about, comments, company, phone, type } = state
 
   useEffect(() => {
     const doThing = async () => {
@@ -48,81 +52,127 @@ const Contact = ({ block }) => {
 
         {hasSubmitted ? (
           <div className="flex flex-1 flex-col text-white max-w-xl mx-auto">
-            <div className="flex flex-1">
-              <p>Thanks for your submission</p>
+            <div className="flex flex-1 justify-center">
+              <p>Thanks for your submission!</p>
             </div>
           </div>
         ) : (
           <div className="flex flex-1 flex-col text-white max-w-xl mx-auto">
-            <div className="flex flex-1">
-              <Input
-                value={state.name}
-                onChange={e =>
-                  setState({
-                    ...state,
-                    name: e.target.value,
-                  })
-                }
-                label="Full Name"
-              />
-              <Input
-                value={state.email}
-                onChange={e =>
-                  setState({
-                    ...state,
-                    email: e.target.value,
-                  })
-                }
-                type="email"
-                label="Email Address"
-              />
-            </div>
-
-            <div className="flex flex-1">
-              <Input
-                onChange={e =>
-                  setState({
-                    ...state,
-                    company: e.target.value,
-                  })
-                }
-                value={state.company}
-                label="Company"
-              />
-              <Input
-                onChange={e =>
-                  setState({
-                    ...state,
-                    about: e.target.value,
-                  })
-                }
-                value={state.about}
-                label="Where did you hear about us?"
-              />
-            </div>
-
-            <div className="flex flex-1">
-              <TextArea
-                onChange={e =>
-                  setState({
-                    ...state,
-                    comments: e.target.value,
-                  })
-                }
-                value={state.comments}
-                label="Comments"
-              />
-            </div>
-
-            <button
-              onClick={async () => {
-                await sheet.addRow({ name, email, comments, about, company })
+            <form
+              onSubmit={async e => {
+                e.preventDefault()
+                await sheet.addRow({
+                  name,
+                  email,
+                  comments,
+                  about,
+                  company,
+                  phone,
+                  type,
+                })
                 setHasSubmitted(true)
               }}
-              className="button text-black bg-white rounded-full text-sm px-4 self-start"
             >
-              Submit
-            </button>
+              <div className="flex flex-1">
+                <Select
+                  label="Type of Inquiry"
+                  value={type}
+                  onChange={e => setState({ ...state, type: e.target.value })}
+                >
+                  <option label="General" value="general" />
+                  <option label="Game Developer" value="game_developer" />
+                  <option label="Press" value="press" />
+                  <option label="Brand Partner" value="brand_partner" />
+                </Select>
+              </div>
+
+              <div className="flex flex-1">
+                <Input
+                  value={state.name}
+                  required
+                  onChange={e =>
+                    setState({
+                      ...state,
+                      name: e.target.value,
+                    })
+                  }
+                  label="Full Name"
+                />
+                <Input
+                  value={state.email}
+                  required
+                  onChange={e =>
+                    setState({
+                      ...state,
+                      email: e.target.value,
+                    })
+                  }
+                  type="email"
+                  label="Email Address"
+                />
+              </div>
+
+              <div className="flex flex-1">
+                <Input
+                  onChange={e =>
+                    setState({
+                      ...state,
+                      company: e.target.value,
+                    })
+                  }
+                  value={state.company}
+                  required
+                  label="Company"
+                />
+                <Input
+                  onChange={e =>
+                    setState({
+                      ...state,
+                      phone: e.target.value,
+                    })
+                  }
+                  value={state.phone}
+                  label="Phone number"
+                  type="tel"
+                  pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{4}"
+                />
+              </div>
+
+              <div className="flex flex-1">
+                <Input
+                  onChange={e =>
+                    setState({
+                      ...state,
+                      about: e.target.value,
+                    })
+                  }
+                  value={state.about}
+                  required
+                  label="Where did you hear about us?"
+                />
+              </div>
+
+              <div className="flex flex-1">
+                <TextArea
+                  onChange={e =>
+                    setState({
+                      ...state,
+                      comments: e.target.value,
+                    })
+                  }
+                  value={state.comments}
+                  required
+                  label="Comments"
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="button text-black bg-white rounded-full text-sm px-4 self-start"
+              >
+                Submit
+              </button>
+            </form>
           </div>
         )}
       </div>
@@ -132,11 +182,32 @@ const Contact = ({ block }) => {
 
 export default Contact
 
-function Input({ label, value, type, onChange }) {
+function Select({ label, value, onChange, children, ...props }) {
   return (
     <div className="flex-1 mx-2 mb-6">
       <Body className="mb-1" style={{ fontSize: 18 }}>
-        {label}
+        {label} {props.required && '*'}
+      </Body>
+      <div className="border" style={{ borderColor: '#4f5463' }}>
+        <div className="mr-3">
+          <select
+            className="block appearance-none w-full bg-transparent px-4 py-3"
+            value={value}
+            onChange={onChange}
+          >
+            {children}
+          </select>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function Input({ label, value, type, onChange, ...props }) {
+  return (
+    <div className="flex-1 mx-2 mb-6">
+      <Body className="mb-1" style={{ fontSize: 18 }}>
+        {label} {props.required && '*'}
       </Body>
       <div className="border" style={{ borderColor: '#4f5463' }}>
         <input
@@ -145,17 +216,18 @@ function Input({ label, value, type, onChange }) {
           onChange={onChange}
           className="pl-4 outline-none"
           style={{ minHeight: 40 }}
+          {...props}
         />
       </div>
     </div>
   )
 }
 
-function TextArea({ label, value, onChange }) {
+function TextArea({ label, value, onChange, ...props }) {
   return (
     <div className="flex-1 mx-2 mb-6">
       <Body className="mb-1" style={{ fontSize: 18 }}>
-        {label}
+        {label} {props.required && '*'}
       </Body>
       <div className="border" style={{ borderColor: '#4f5463' }}>
         <textarea
@@ -163,6 +235,7 @@ function TextArea({ label, value, onChange }) {
           onChange={onChange}
           className="pl-4 outline-none h-full w-full bg-transparent"
           style={{ minHeight: 100, resize: 'none' }}
+          {...props}
         />
       </div>
     </div>

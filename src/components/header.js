@@ -40,8 +40,8 @@ export function Nav({ siteTitle }) {
       className="relative select-none bg-grey md:flex mx-auto px-0 md:px-10 py-4"
     >
       <div className="flex">
-        <div className="flex-1 flex items-center">
-          <div className="flex-1 flex justify-center mt-8 mb-4">
+        <div className="flex-1 flex items-center mt-6">
+          <div className="flex-1 flex justify-center">
             <Link to="/">
               <img
                 alt={siteTitle}
@@ -53,8 +53,8 @@ export function Nav({ siteTitle }) {
           <img
             alt={siteTitle}
             src={headerImage}
-            className="relative flex-1 hidden xl:block ml-3 mt-3"
-            style={{ width: 220, top: 20, left: 4 }}
+            className="flex-1 hidden xl:block ml-6"
+            style={{ width: 220 }}
           />
         </div>
       </div>
