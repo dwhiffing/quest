@@ -3,57 +3,57 @@ label: block__hero
 hide_body: false
 display_field: title
 fields:
+- type: text
+  name: component
+  label: component
+  hidden: true
+  default: hero
+- type: text
+  name: title
+  label: Title
+- type: text
+  name: subtitle
+  label: Subtitle
+- type: select
+  name: background
+  config:
+    source:
+      type: simple
+    options:
+    - transparent
+    - dark-blue
+    - light-blue
+    - light-pink
+    - blue
+    - pink
+    - white
+  label: Background
+  default: transparent
+- name: background_image
+  type: file
+  config:
+    maxSize: 64
+  label: Background Image
+- name: parallax_background
+  type: include
+  template: parallax_background
+  label: Parallax Background
+- type: field_group
+  name: button
+  label: Button
+  fields:
   - type: text
-    name: component
-    label: component
-    hidden: true
-    default: hero
+    name: url
+    label: URL
   - type: text
-    name: title
-    label: Title
-  - type: text
-    name: subtitle
-    label: Subtitle
-  - type: select
-    name: background
-    config:
-      source:
-        type: simple
-      options:
-        - transparent
-        - dark-blue
-        - light-blue
-        - light-pink
-        - blue
-        - pink
-        - white
-    label: Background
-    default: transparent
-  - name: background_image
-    type: file
-    config:
-      maxSize: 64
-    label: Background Image
-  - name: parallax_background
-    type: include
-    template: parallax_background
-    label: Parallax Background
-  - type: field_group
-    name: button
-    label: Button
-    fields:
-      - type: text
-        name: url
-        label: URL
-      - type: text
-        name: text
-        label: Text
-  - type: select
-    name: variant
-    config:
-      source:
-        type: simple
-      options:
-        - normal
-        - bottom
-    label: Variant
+    name: text
+    label: Text
+- type: select
+  name: variant
+  config:
+    source:
+      type: simple
+    options:
+    - normal
+    - bottom
+  label: Variant
