@@ -155,22 +155,6 @@ blocks:
       text: Learn more
     textColor: ''
     background_image: ''
-    image1:
-      image: ''
-      minY: '0'
-      maxY: '0'
-    image2:
-      image: ''
-      minY: '0'
-      maxY: '0'
-    image3:
-      image: ''
-      minY: '0'
-      maxY: '0'
-    image4:
-      image: ''
-      minY: '0'
-      maxY: '0'
     top: '0'
     variant: ''
     parallax_background:

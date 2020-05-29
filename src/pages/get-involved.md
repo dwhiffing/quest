@@ -77,20 +77,20 @@ blocks:
     parallax_background:
       height: 500px
       image1:
-        minY: -30
-        maxY: 30
+        minY: '-30'
+        maxY: '30'
         image: '/src/images/clouds-white1.png'
       image2:
-        minY: -20
-        maxY: 20
+        minY: '-20'
+        maxY: '20'
         image: '/src/images/clouds-white2.png'
       image3:
-        minY: -10
-        maxY: 10
+        minY: '-10'
+        maxY: '10'
         image: '/src/images/clouds-white3.png'
       image4:
-        minY: 0
-        maxY: 0
+        minY: '0'
+        maxY: '0'
         image: '/src/images/clouds-white4.png'
     image: ''
   - template: block__cta
