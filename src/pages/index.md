@@ -135,20 +135,20 @@ blocks:
   parallax_background:
     height: 350px
     image1:
-      minY: "-31"
-      maxY: "30"
+      minY: "0"
+      maxY: "0"
       image: "/src/images/clouds1.png"
     image2:
       minY: "-20"
       maxY: "20"
       image: "/src/images/clouds2.png"
     image3:
-      minY: "-10"
-      maxY: "10"
+      minY: "-30"
+      maxY: "30"
       image: "/src/images/clouds3.png"
     image4:
-      minY: "0"
-      maxY: "0"
+      minY: "-50"
+      maxY: "50"
       image: "/src/images/clouds4.png"
   image: ''
   background: ''
