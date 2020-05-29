@@ -57,8 +57,8 @@ blocks:
   content: We’re calling for gamers to unite with fellow players, friends, and family
     to create a new and lasting movement through support and donations. By triumphing
     in the gaming world, we can go a long way towards triumphing in the real world
-    over the common adversary we call cancer. <br><br>Whether you’re a streamer or
-    a spectator, there’s a place in this Quest for you.
+    over the common adversary we call cancer. <br>&lt;br&gt;&lt;br&gt;<br>Whether
+    you’re a streamer or a spectator, there’s a place in this Quest for you.
   button:
     url: https://google.ca
     text: Learn more
