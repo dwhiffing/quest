@@ -169,19 +169,19 @@ blocks:
   parallax_background:
     height: auto
     image1:
-      image: "/src/images/e1.png"
+      image: "/src/images/11.png"
       minY: '0'
       maxY: '0'
     image2:
-      image: "/src/images/e2.png"
+      image: "/src/images/22.png"
       minY: "-1"
       maxY: '1'
     image3:
-      image: "/src/images/e3.png"
+      image: "/src/images/33.png"
       minY: "-2"
       maxY: '2'
     image4:
-      image: "/src/images/e4.png"
+      image: "/src/images/44.png"
       minY: "-3"
       maxY: '3'
   imageWidth: 0px
