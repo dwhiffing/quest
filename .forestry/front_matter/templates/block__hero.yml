@@ -35,6 +35,7 @@ fields:
       maxSize: 64
     label: Background Image
   - name: parallax_background
+    type: field_group
     label: Parallax Background
     fields:
       - type: text
@@ -92,7 +93,6 @@ fields:
           - type: text
             name: maxY
             label: max Y
-
   - type: field_group
     name: button
     label: Button
