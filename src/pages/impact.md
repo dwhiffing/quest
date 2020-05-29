@@ -6,7 +6,7 @@ blocks:
 - template: block__hero
   component: hero
   background: dark-blue
-  title: Our Impact
+  title: Defeating our common enemy
   parallax_background:
     height: 250px
     image1:
@@ -26,7 +26,13 @@ blocks:
       minY: '0'
       maxY: '0'
   variant: bottom
-  subtitle: Defeating our common enemy
+  subtitle: Humankind is facing a massive surge in cancer diagnoses, unlike anything
+    we’ve seen before. Cancer is the second leading cause of death internationally,
+    replacing infectious diseases worldwide as the top killer. In Canada, it’s expected
+    the number of cancer diagnoses will double by 2035. At The Princess Margaret,
+    we feel a sense of urgency to accelerate the pace of discovery now. We are one
+    of the top 5 cancer research centres in the world. With your support, we can go
+    a long way towards defeating cancer in our lifetime.
   background_image: ''
   button:
     url: ''
