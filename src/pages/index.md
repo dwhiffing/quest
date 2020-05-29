@@ -51,9 +51,9 @@ blocks:
   image: "/src/images/swordstone.png"
   background: dark-blue
   orientation: normal
-  imageWidth: 390
+  imageWidth: '390'
   title: Join the Quest
-  height: 40vh
+  height: 50vh
   content: We’re calling for gamers to unite with fellow players, friends, and family
     to create a new and lasting movement through support and donations. By triumphing
     in the gaming world, we can go a long way towards triumphing in the real world
