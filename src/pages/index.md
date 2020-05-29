@@ -75,19 +75,19 @@ blocks:
   parallax_background:
     height: auto
     image1:
-      image: "/src/images/c1.png"
+      image: "/src/images/2d.png"
       minY: "0"
       maxY: "1"
     image2:
-      image: "/src/images/c2.png"
+      image: "/src/images/2c.png"
       minY: "0"
       maxY: "1"
     image3:
-      image: "/src/images/c3.png"
+      image: "/src/images/2b.png"
       minY: "0"
       maxY: "1"
     image4:
-      image: "/src/images/c4.png"
+      image: "/src/images/2a.png"
       minY: "0"
       maxY: "1"
 - template: block__feature
