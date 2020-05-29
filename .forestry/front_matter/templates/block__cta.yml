@@ -35,6 +35,16 @@ fields:
     - pink
     - white
   label: Background
+- name: zIndex
+  type: number
+  label: z Index
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: select
   name: textColor
   config:
