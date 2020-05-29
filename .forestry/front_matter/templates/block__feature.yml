@@ -63,6 +63,7 @@ fields:
       maxSize: 64
     label: Background Image
   - name: parallax_background
+    type: include
     template: parallax_background
     label: Parallax Background
   - type: text
