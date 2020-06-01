@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
       query={layoutQuery}
       render={data => (
         <ParallaxProvider>
-          <div className="mx-auto" style={{ maxWidth: 2560 }}>
+          <div className="mx-auto" style={{ maxWidth: 1600 }}>
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[

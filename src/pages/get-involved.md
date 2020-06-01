@@ -79,7 +79,7 @@ blocks:
   - template: block__image
     component: image
     background: white
-    zIndex: '30'
+    zIndex: '40'
     parallax_background:
       height: 50vh
       image1:
@@ -107,7 +107,7 @@ blocks:
     background_image: ''
     height: 140vh
     top: 100px
-    zIndex: '20'
+    zIndex: '30'
     variant: bottom
     textColor: dark-blue
     title: Fundraise
