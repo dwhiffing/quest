@@ -74,7 +74,7 @@ blocks:
   top: '0'
   variant: ''
   zIndex: 
-  paddingTop: 
+  paddingTop: '0'
 - template: block__image
   component: image
   background: white
