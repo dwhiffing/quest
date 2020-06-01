@@ -154,7 +154,7 @@ blocks:
   background: dark-blue
   orientation: normal
   zIndex: 20
-  imageWidth: 355px
+  imageWidth: 350px
   height: auto
   title: Join the Quest
   content: Whether a streamer, spectator, or supporter, there’s a place in this Quest
