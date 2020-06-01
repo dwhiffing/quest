@@ -48,7 +48,7 @@ blocks:
   title: Who We Are
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
     lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum.
+    ut, condimentum est.
   button:
     url: https://google.ca
     text: Learn more
