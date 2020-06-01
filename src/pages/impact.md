@@ -31,6 +31,9 @@ blocks:
     button:
       url: ''
       text: ''
+    zIndex: 0
+    paddingTop: '0'
+    paddingBottom: '0'
   - template: block__3col
     component: 3col
     title: Quest
@@ -64,6 +67,9 @@ blocks:
         url: ''
         text: ''
     height: auto
+    zIndex: 0
+    paddingTop: '0'
+    paddingBottom: '0'
   - template: block__feature
     component: feature
     image: '/src/images/team.png'
@@ -103,6 +109,9 @@ blocks:
         minY: '0'
         maxY: '0'
     background_image: ''
+    zIndex: 0
+    paddingTop: '0'
+    paddingBottom: '0'
   - template: block__cta
     component: cta
     background: white
@@ -139,8 +148,11 @@ blocks:
         image: '/src/images/g4.png'
         minY: '-5'
         maxY: '5'
-    imageWidth: 0px
-      0
+    imageWidth: 0px 0
+    zIndex: 0
+    paddingTop: '0'
+    paddingBottom: '0'
+    top: ''
   - template: block__feature
     component: feature
     image: '/src/images/swordstone.png'
@@ -178,4 +190,6 @@ blocks:
         image: ''
         minY: '0'
         maxY: '0'
+    paddingTop: '0'
+    paddingBottom: '0'
 ---
