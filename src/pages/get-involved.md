@@ -110,7 +110,9 @@ blocks:
   variant: bottom
   textColor: dark-blue
   title: Fundraise
-  subtitle: Join the Quest by creating a movement of your own.
+  subtitle: 'Not a streamer? You can still join the Quest and raise money in ways
+    that work for you. We welcome gamers to get creative with fundraising, from asking
+    for donations to Quest in lieu of gifts or to donating sales of video games. '
   button:
     url: https://google.ca
     text: Learn more
