@@ -3,64 +3,63 @@ label: block__3col
 hide_body: false
 display_field: title
 fields:
-- type: text
-  name: component
-  label: component
-  hidden: true
-  default: 3col
-- type: text
-  name: height
-  label: Height
-  default: auto
-- type: field_group
-  name: col1
-  label: Column 1
-  fields:
-  - type: include
+  - type: text
+    name: component
+    label: component
+    hidden: true
+    default: 3col
+  - type: text
+    name: height
+    label: Height
+    default: auto
+  - type: field_group
     name: col1
-    label: col1
-    template: column
-- name: zIndex
-  type: number
-  label: z Index
-  hidden: true
-  description: ''
-  default: 0
-  config:
-    min: 
-    max: 
-    step: 
-- name: paddingTop
-  type: text
-  label: padding top
-  description: ''
-  default: 0
-  config:
-    min: 
-    max: 
-    step: 
-- name: paddingBottom
-  type: text
-  label: padding bottom
-  description: ''
-  default: 0
-  config:
-    min: 
-    max: 
-    step: 
-- type: field_group
-  name: col2
-  label: Column 2
-  fields:
-  - type: include
+    label: Column 1
+    fields:
+      - type: include
+        name: col1
+        label: col1
+        template: column
+  - name: zIndex
+    type: number
+    label: z Index
+    description: ''
+    default: 0
+    config:
+      min:
+      max:
+      step:
+  - name: paddingTop
+    type: text
+    label: padding top
+    description: ''
+    default: 0
+    config:
+      min:
+      max:
+      step:
+  - name: paddingBottom
+    type: text
+    label: padding bottom
+    description: ''
+    default: 0
+    config:
+      min:
+      max:
+      step:
+  - type: field_group
     name: col2
-    label: col2
-    template: column
-- type: field_group
-  name: col3
-  label: Column 3
-  fields:
-  - type: include
+    label: Column 2
+    fields:
+      - type: include
+        name: col2
+        label: col2
+        template: column
+  - type: field_group
     name: col3
-    label: col3
-    template: column
+    label: Column 3
+    fields:
+      - type: include
+        name: col3
+        label: col3
+        template: column
