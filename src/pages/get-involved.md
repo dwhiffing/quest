@@ -50,7 +50,7 @@ blocks:
     top five cancer research centers in the world.
   button:
     url: https://google.ca
-    text: Learn more
+    text: Donate Today
   background_image: ''
   parallax_background:
     height: auto
