@@ -20,6 +20,33 @@ fields:
     name: col1
     label: col1
     template: column
+- name: zIndex
+  type: number
+  label: z Index
+  description: ''
+  default: 0
+  config:
+    min: 
+    max: 
+    step: 
+- name: paddingTop
+  type: number
+  label: padding top
+  description: ''
+  default: 0
+  config:
+    min: 
+    max: 
+    step: 
+- name: paddingBottom
+  type: number
+  label: padding top
+  description: ''
+  default: 0
+  config:
+    min: 
+    max: 
+    step: 
 - type: field_group
   name: col2
   label: Column 2

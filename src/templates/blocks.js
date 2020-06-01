@@ -98,6 +98,8 @@ export const pageQuery = graphql`
           top
           imageWidth
           zIndex
+          paddingTop
+          paddingBottom
           variant
           textColor
           orientation

@@ -10,12 +10,12 @@ blocks:
     parallax_background:
       height: 250px
       image1:
-        minY: '50'
-        maxY: '60'
-        image: '/src/images/waves3.png'
+        minY: '1'
+        maxY: '1'
+        image: '/src/images/waves1.png'
       image2:
         minY: '-30'
-        maxY: '35'
+        maxY: '30'
         image: '/src/images/waves2.png'
       image3:
         minY: '-60'
@@ -107,8 +107,7 @@ blocks:
     component: cta
     background: white
     background_image: ''
-    height: 200vh
-    top: 10px
+    height: 100vh
     variant: bottom
     textColor: dark-blue
     orientation: normal
@@ -126,20 +125,20 @@ blocks:
       height: auto
       image1:
         image: '/src/images/g1.png'
-        minY: '0'
-        maxY: '0'
+        minY: '5'
+        maxY: '5'
       image2:
         image: '/src/images/g2.png'
-        minY: '-20'
-        maxY: '20'
+        minY: '5'
+        maxY: '5'
       image3:
         image: '/src/images/g3.png'
-        minY: '-30'
-        maxY: '30'
+        minY: '5'
+        maxY: '5'
       image4:
         image: '/src/images/g4.png'
-        minY: '-50'
-        maxY: '50'
+        minY: '-5'
+        maxY: '5'
     imageWidth: 0px
       0
   - template: block__feature

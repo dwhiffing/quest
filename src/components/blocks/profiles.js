@@ -13,7 +13,7 @@ const Profiles = ({ block }) => (
       className="container flex flex-col mx-auto relative z-10"
       style={{ height: block.height || '100vh' }}
     >
-      <div style={{ maxHeight: 640 }}>
+      <div style={{ maxHeight: 800 }}>
         <FeatureContent
           maxWidth={540}
           block={block}
@@ -26,11 +26,12 @@ const Profiles = ({ block }) => (
                 style={{
                   width: block.imageWidth,
                   borderWidth: 20,
+                  marginBottom: 50,
                 }}
               />
               <div
                 className="absolute py-6 px-8 bg-light-purple text-center rounded-xl"
-                style={{ bottom: -40 }}
+                style={{ bottom: 0 }}
               >
                 <Body>{block.col1.title}</Body>
                 <Button
@@ -42,12 +43,16 @@ const Profiles = ({ block }) => (
           }
         />
       </div>
-      <div className="flex flex-col items-center mt-10">
-        <div className="flex">
-          <Profile col={block.col1} />
-          <Profile col={block.col2} />
-          <Profile col={block.col3} />
-          <Profile col={block.col4} />
+      <div className="flex flex-col items-center mt-20">
+        <div className="flex flex-col md:flex-row">
+          <div className="flex">
+            <Profile col={block.col1} />
+            <Profile col={block.col2} />
+          </div>
+          <div className="flex">
+            <Profile col={block.col3} />
+            <Profile col={block.col4} />
+          </div>
         </div>
 
         <Button
@@ -63,7 +68,10 @@ const Profiles = ({ block }) => (
       </div>
     </div>
 
-    <BackgroundImage {...block} />
+    <BackgroundImage
+      className="background-image background-image-contain"
+      {...block}
+    />
   </section>
 )
 
@@ -72,17 +80,20 @@ export default Profiles
 function Profile({ col }) {
   return (
     <div
-      className="flex flex-1 mx-4 mt-4 items-center flex-col md:flex-row"
-      style={{ minWidth: 300 }}
+      className="flex flex-1 mx-2 mt-4 items-center flex-col md:flex-row"
+      style={{ minWidth: 200 }}
     >
-      <img
-        alt={col.title}
-        srcSet={col.image.childImageSharp.fluid.srcSet}
-        className="my-4 border-light-purple rounded-full mr-4"
-        width={170}
+      <div
+        className="my-4 border-light-purple rounded-full md:mr-4"
         style={{ borderWidth: 10 }}
-      />
-      <div>
+      >
+        <img
+          alt={col.title}
+          srcSet={col.image.childImageSharp.fluid.srcSet}
+          width={170}
+        />
+      </div>
+      <div style={{ minWidth: 100 }}>
         <Body className="font-bold mb-1">{col.title}</Body>
         <Body>{col.content}</Body>
       </div>

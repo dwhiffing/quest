@@ -12,7 +12,11 @@ const Feature = ({ block }) => (
         ? 'background-image-container'
         : ''
     } bg-${block.background || 'dark-blue'}`}
-    style={{ zIndex: block.zIndex || 0 }}
+    style={{
+      paddingBottom: block.paddingBottom || 0,
+      paddingTop: block.paddingTop || 0,
+      zIndex: block.zIndex || 0,
+    }}
   >
     <div
       className="container flex mx-auto relative py-10 z-10"
@@ -38,7 +42,7 @@ export function FeatureContent({ block, imageChild, maxWidth = 400 }) {
         block.orientation === 'reverse' ? 'md:flex-row-reverse' : 'md:flex-row'
       }`}
     >
-      <div className="flex flex-1 justify-center items-center my-8">
+      <div className="flex flex-1 justify-center items-center my-8 md:pr-6">
         {imageChild
           ? imageChild
           : block.image && (

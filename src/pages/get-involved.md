@@ -10,8 +10,8 @@ blocks:
     parallax_background:
       height: 250px
       image1:
-        minY: '0'
-        maxY: '0'
+        minY: '1'
+        maxY: '1'
         image: '/src/images/waves1.png'
       image2:
         minY: '-30'
@@ -73,8 +73,9 @@ blocks:
   - template: block__image
     component: image
     background: white
+    zIndex: 30
     parallax_background:
-      height: 500px
+      height: 50vh
       image1:
         minY: '-30'
         maxY: '30'
@@ -96,8 +97,9 @@ blocks:
     component: cta
     background: light-blue
     background_image: ''
-    height: 160vh
+    height: 140vh
     top: 100px
+    zIndex: 20
     variant: bottom
     textColor: dark-blue
     title: Fundraise
@@ -125,7 +127,6 @@ blocks:
         minY: '-30'
         maxY: '30'
     imageWidth: 0px
-    zIndex: 0
   - template: block__3col
     component: 3col
     background: white
@@ -163,6 +164,7 @@ blocks:
         text: ''
   - template: block__list
     component: list
+    height: auto
     title: Attend an Event
     subtitle:
       We partner with gaming leaders and brands to create unique gaming experiences.

@@ -7,14 +7,22 @@ import { BackgroundImage, ParallaxBackgroundImage } from '../BackgroundImage'
 const CTA = ({ block }) => (
   <section
     className={`background-image-container bg-${block.background}`}
-    style={{ overflow: 'hidden' }}
+    style={{
+      overflow: 'hidden',
+      zIndex: block.zIndex || 1,
+      paddingTop: block.paddingTop || 0,
+      paddingBottom: block.paddingBottom || 0,
+    }}
   >
     <div
       className="container mx-auto flex justify-center items-center"
-      style={{ height: block.height || '50vh', maxHeight: 2000 }}
+      style={{
+        height: block.height || '50vh',
+        maxHeight: 2000,
+      }}
     >
       <div
-        className={`relative z-10 py-20 max-w-xl mx-auto text-center text-${block.textColor ||
+        className={`relative z-10 py-20 px-2 max-w-xl mx-auto text-center text-${block.textColor ||
           'white'}`}
         data-sal="slide-up"
         data-sal-duration="800"
@@ -31,7 +39,10 @@ const CTA = ({ block }) => (
       </div>
     </div>
 
-    <ParallaxBackgroundImage {...block} />
+    <ParallaxBackgroundImage
+      className="background-image background-image-contain"
+      {...block}
+    />
     <BackgroundImage {...block} />
   </section>
 )

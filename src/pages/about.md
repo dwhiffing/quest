@@ -10,8 +10,8 @@ blocks:
     parallax_background:
       height: 250px
       image1:
-        minY: '0'
-        maxY: '0'
+        minY: '1'
+        maxY: '1'
         image: '/src/images/waves1.png'
       image2:
         minY: '-30'
@@ -41,6 +41,7 @@ blocks:
     textColor: dark-blue
     imageWidth: 280px
     height: auto
+    paddingBottom: 80
     orientation: normal
     title: Who We Are
     content:
@@ -74,47 +75,26 @@ blocks:
   - template: block__image
     component: image
     background: white
-    image: ''
     parallax_background:
-      height: auto
+      height: 50vh
       image1:
-        image: ''
-        minY: '0'
-        maxY: '0'
-      image2:
-        image: ''
-        minY: '0'
-        maxY: '0'
-      image3:
-        image: ''
-        minY: '0'
-        maxY: '0'
-      image4:
-        image: ''
-        minY: '0'
-        maxY: '0'
-  - template: block__image
-    component: image
-    background: white
-    parallax_background:
-      height: 500px
-      image1:
-        minY: '-30'
-        maxY: '30'
+        minY: '-10'
+        maxY: '20'
         image: '/src/images/clouds-white1.png'
       image2:
-        minY: '-20'
+        minY: '-30'
         maxY: '20'
         image: '/src/images/clouds-white2.png'
       image3:
-        minY: '-30'
-        maxY: '30'
+        minY: '-10'
+        maxY: '20'
         image: '/src/images/clouds-white3.png'
       image4:
-        minY: '-60'
-        maxY: '60'
+        minY: '0'
+        maxY: '0'
         image: '/src/images/clouds-white4.png'
     image: ''
+    zIndex: 30
   - template: block__cta
     component: cta
     background: light-blue
@@ -150,16 +130,18 @@ blocks:
         maxY: '0'
     top: '0'
     imageWidth: 0px
-    zIndex: 0
+    zIndex: 20
   - template: block__feature
     component: feature
     image: '/src/images/shield.png'
     background: white
     textColor: dark-blue
     imageWidth: 380px
-    height: 100vh
+    height: auto
     orientation: reverse
     title: What we do
+    paddingTop: 50
+    paddingBottom: 50
     content:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
       lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit

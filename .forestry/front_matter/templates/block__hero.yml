@@ -34,6 +34,33 @@ fields:
   config:
     maxSize: 64
   label: Background Image
+- name: zIndex
+  type: number
+  label: z Index
+  description: ''
+  default: 0
+  config:
+    min: 
+    max: 
+    step: 
+- name: paddingTop
+  type: number
+  label: padding top
+  description: ''
+  default: 0
+  config:
+    min: 
+    max: 
+    step: 
+- name: paddingBottom
+  type: number
+  label: padding top
+  description: ''
+  default: 0
+  config:
+    min: 
+    max: 
+    step: 
 - name: parallax_background
   type: field_group
   label: Parallax Background

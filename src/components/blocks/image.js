@@ -8,7 +8,7 @@ const Image = ({ block }) => (
       block.parallax_background && {
         backgroundColor: block.background,
         overflow: 'visible',
-        zIndex: block.zIndex || 10,
+        zIndex: block.zIndex || 1,
       }
     }
   >
@@ -20,7 +20,10 @@ const Image = ({ block }) => (
         srcSet={block.image.childImageSharp.fluid.srcSet}
       />
     )}
-    <ParallaxBackgroundImage {...block} />
+    <ParallaxBackgroundImage
+      className="background-image background-image-contain"
+      {...block}
+    />
   </section>
 )
 

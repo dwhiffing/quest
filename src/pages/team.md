@@ -10,8 +10,8 @@ blocks:
     parallax_background:
       height: 250px
       image1:
-        minY: '0'
-        maxY: '0'
+        minY: '1'
+        maxY: '1'
         image: '/src/images/waves1.png'
       image2:
         minY: '-30'
@@ -86,6 +86,7 @@ blocks:
     image: '/src/images/joystick.png'
     background: white
     imageWidth: 280px
+    paddingBottom: 50
     height: auto
     textColor: dark-blue
     orientation: reverse
@@ -122,31 +123,31 @@ blocks:
   - template: block__image
     component: image
     background: white
+    zIndex: 20
     parallax_background:
-      height: 500px
+      height: 50vh
       image1:
-        minY: '0'
-        maxY: '0'
+        minY: '-10'
+        maxY: '20'
         image: '/src/images/clouds-white1.png'
       image2:
-        minY: '-20'
+        minY: '-30'
         maxY: '20'
         image: '/src/images/clouds-white2.png'
       image3:
-        minY: '-40'
-        maxY: '40'
+        minY: '-10'
+        maxY: '20'
         image: '/src/images/clouds-white3.png'
       image4:
-        minY: '-50'
-        maxY: '50'
+        minY: '0'
+        maxY: '0'
         image: '/src/images/clouds-white4.png'
     image: ''
-    overflow: false
   - template: block__cta
     component: cta
     background: light-blue
     background_image: ''
-    height: 140vh
+    height: 130vh
     top: 150px
     variant: bottom
     textColor: dark-blue
@@ -168,17 +169,17 @@ blocks:
       image2:
         image: '/src/images/f2.png'
         minY: '-10'
-        maxY: '10'
+        maxY: '5'
       image3:
         image: '/src/images/f3.png'
         minY: '-20'
-        maxY: '20'
+        maxY: '10'
       image4:
         image: '/src/images/f4.png'
         minY: '0'
         maxY: '0'
     imageWidth: 0px
-    zIndex: 0
+    zIndex: 10
   - template: block__feature
     component: feature
     image: '/src/images/swordstone.png'

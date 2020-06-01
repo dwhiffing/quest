@@ -40,7 +40,10 @@ const Footer = ({ content }) => (
             <p className="quatro text-center text-sm">
               Sign up for our mailing list for exclusive news and updates
             </p>
-            <div className="flex mt-6 w-full justify-between border-2 rounded-full">
+            <div
+              className="flex mt-6 w-full justify-between border-2 rounded-full"
+              style={{ borderColor: 'white' }}
+            >
               <input
                 className="pl-4 outline-none"
                 placeholder="your email here"

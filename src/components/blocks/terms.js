@@ -5,7 +5,8 @@ const Contact = ({ block }) => (
   <section className={`background-image-container bg-${block.background}`}>
     <div className="container mx-auto pt-10 mt-20">
       <div
-        className={`relative z-10 py-20 text-${block.textColor || 'white'}`}
+        className={`relative z-10 py-20 px-2 text-${block.textColor ||
+          'white'}`}
         style={{
           position:
             block.top && block.top !== '0' && block.top !== '0px'

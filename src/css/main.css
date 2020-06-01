@@ -74,6 +74,16 @@ body {
   z-index: 2;
 }
 
+.background-image-container .background-image-contain {
+  object-fit: contain;
+  object-position: bottom;
+  bottom: 20px;
+}
+
+section {
+  margin: -1px 0;
+}
+
 .background-image .parallax-inner {
   position: absolute;
   left: 0;
@@ -143,7 +153,7 @@ input {
 
 @media (max-width: 767px) {
   .small-image-mobile {
-    width: 250px !important;
+    width: 300px !important;
   }
 }
 

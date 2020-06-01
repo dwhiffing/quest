@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { TextSection, Body } from '../TextSection'
+import { TextSection } from '../TextSection'
 import { GoogleSpreadsheet } from 'google-spreadsheet'
 
-// TODO: Use a form to get validation on email for free
-// Email, Full Name, Comments, Company, Where did you hear about us will be mandatory fields
-// Phone Number and optional field
-// Instead of having different silos, can we have a "Type of Inquiry" dropdown with "General/Game Developer/Press/Brand Partner"? This section will also be optional.
+// TODO: increase spacing of success state to match height of form
 const Contact = ({ block }) => {
   const [hasSubmitted, setHasSubmitted] = useState(false)
   const [sheet, setSheet] = useState({})
@@ -39,7 +36,7 @@ const Contact = ({ block }) => {
       <div className="container mx-auto pt-10 mt-20">
         <div className="flex justify-center items-center">
           <div
-            className={`relative z-10 py-20 max-w-xl mx-auto text-center text-${block.textColor ||
+            className={`relative z-10 py-20 px-2 max-w-xl mx-auto text-center text-${block.textColor ||
               'white'}`}
             style={{
               position:
