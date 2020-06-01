@@ -86,7 +86,7 @@ blocks:
     image: '/src/images/joystick.png'
     background: white
     imageWidth: 280px
-    paddingBottom: 50
+    paddingBottom: '50'
     height: auto
     textColor: dark-blue
     orientation: reverse

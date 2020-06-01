@@ -10,8 +10,8 @@ const CTA = ({ block }) => (
     style={{
       overflow: 'hidden',
       zIndex: block.zIndex || 1,
-      paddingTop: block.paddingTop || 0,
-      paddingBottom: block.paddingBottom || 0,
+      paddingTop: +block.paddingTop || 0,
+      paddingBottom: +block.paddingBottom || 0,
     }}
   >
     <div

@@ -13,8 +13,8 @@ const Feature = ({ block }) => (
         : ''
     } bg-${block.background || 'dark-blue'}`}
     style={{
-      paddingBottom: block.paddingBottom || 0,
-      paddingTop: block.paddingTop || 0,
+      paddingBottom: +block.paddingBottom || 0,
+      paddingTop: +block.paddingTop || 0,
       zIndex: block.zIndex || 0,
     }}
   >

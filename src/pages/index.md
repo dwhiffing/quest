@@ -10,15 +10,15 @@ blocks:
     parallax_background:
       height: auto
       image1:
-        minY: '1'
-        maxY: '1'
+        minY: '5'
+        maxY: '5'
         image: '/src/images/a12.png'
       image2:
-        minY: '-30'
+        minY: '-25'
         maxY: '30'
         image: '/src/images/aa2.png'
       image3:
-        minY: '-50'
+        minY: '-45'
         maxY: '50'
         image: '/src/images/aa3.png'
       image4:
@@ -36,8 +36,8 @@ blocks:
     background: transparent
     textColor: white
     orientation: normal
-    paddingTop: 0
-    paddingBottom: 100
+    paddingTop: '0'
+    paddingBottom: '100'
     imageWidth: 390px
     title: Join the Quest
     height: auto
@@ -103,7 +103,7 @@ blocks:
     height: 80vh
     title: Our Quest
     zIndex: 30
-    paddingBottom: 120
+    paddingBottom: '120'
     content:
       Our goal is to create incredible fundraising experiences that fuel groundbreaking
       cancer research. Alongside world-class researchers, clinicians, and caregivers

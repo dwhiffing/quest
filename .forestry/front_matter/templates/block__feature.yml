@@ -154,7 +154,7 @@ fields:
     step: 
 - name: paddingBottom
   type: number
-  label: padding top
+  label: padding bottom
   description: ''
   default: 0
   config:
