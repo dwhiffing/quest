@@ -3,148 +3,148 @@ label: block__hero
 hide_body: false
 display_field: title
 fields:
+- type: text
+  name: component
+  label: component
+  hidden: true
+  default: hero
+- type: text
+  name: title
+  label: Title
+- type: text
+  name: subtitle
+  label: Subtitle
+- type: select
+  name: background
+  config:
+    source:
+      type: simple
+    options:
+    - transparent
+    - dark-blue
+    - light-blue
+    - light-pink
+    - blue
+    - pink
+    - white
+  label: Background
+  default: transparent
+- name: background_image
+  type: file
+  config:
+    maxSize: 64
+  label: Background Image
+- name: zIndex
+  type: number
+  label: z Index
+  description: ''
+  default: 0
+  config:
+    min: 
+    max: 
+    step: 
+- name: paddingTop
+  type: text
+  label: padding top
+  description: ''
+  default: 0
+  config:
+    min: 
+    max: 
+    step: 
+- name: paddingBottom
+  type: text
+  label: padding bottom
+  description: ''
+  default: 0
+  config:
+    min: 
+    max: 
+    step: 
+- name: parallax_background
+  type: field_group
+  label: Parallax Background
+  fields:
   - type: text
-    name: component
-    label: component
-    hidden: true
-    default: hero
-  - type: text
-    name: title
-    label: Title
-  - type: text
-    name: subtitle
-    label: Subtitle
-  - type: select
-    name: background
-    config:
-      source:
-        type: simple
-      options:
-        - transparent
-        - dark-blue
-        - light-blue
-        - light-pink
-        - blue
-        - pink
-        - white
-    label: Background
-    default: transparent
-  - name: background_image
-    type: file
-    config:
-      maxSize: 64
-    label: Background Image
-  - name: zIndex
-    type: number
-    label: z Index
-    description: ''
-    default: 0
-    config:
-      min:
-      max:
-      step:
-  - name: paddingTop
-    type: text
-    label: padding top
-    description: ''
-    default: 0
-    config:
-      min:
-      max:
-      step:
-  - name: paddingBottom
-    type: text
-    label: padding bottom
-    description: ''
-    default: 0
-    config:
-      min:
-      max:
-      step:
-  - name: parallax_background
-    type: field_group
-    label: Parallax Background
-    fields:
-      - type: text
-        name: height
-        label: Height
-        default: auto
-      - type: field_group
-        name: image1
-        label: Image 1
-        fields:
-          - type: file
-            name: image
-            label: Image
-          - type: number
-            default: 0
-            name: minY
-            label: min Y
-          - type: number
-            default: 0
-            name: maxY
-            label: max Y
-      - type: field_group
-        name: image2
-        label: Image 2
-        fields:
-          - type: file
-            name: image
-            label: Image
-          - type: number
-            default: 0
-            name: minY
-            label: min Y
-          - type: number
-            default: 0
-            name: maxY
-            label: max Y
-      - type: field_group
-        name: image3
-        label: Image 3
-        fields:
-          - type: file
-            name: image
-            label: Image
-          - type: number
-            default: 0
-            name: minY
-            label: min Y
-          - type: number
-            default: 0
-            name: maxY
-            label: max Y
-      - type: field_group
-        name: image4
-        label: Image 4
-        fields:
-          - type: file
-            name: image
-            label: Image
-          - type: number
-            default: 0
-            name: minY
-            label: min Y
-          - type: number
-            default: 0
-            name: maxY
-            label: max Y
+    name: height
+    label: Height
+    default: auto
   - type: field_group
-    name: button
-    label: Button
+    name: image1
+    label: Image 1
     fields:
-      - type: text
-        name: url
-        label: URL
-      - type: text
-        name: text
-        label: Text
-  - type: select
-    name: variant
-    config:
-      source:
-        type: simple
-      options:
-        - normal
-        - bottom
-    label: Variant
+    - type: file
+      name: image
+      label: Image
+    - type: number
+      default: 0
+      name: minY
+      label: min Y
+    - type: number
+      default: 0
+      name: maxY
+      label: max Y
+  - type: field_group
+    name: image2
+    label: Image 2
+    fields:
+    - type: file
+      name: image
+      label: Image
+    - type: number
+      default: 0
+      name: minY
+      label: min Y
+    - type: number
+      default: 0
+      name: maxY
+      label: max Y
+  - type: field_group
+    name: image3
+    label: Image 3
+    fields:
+    - type: file
+      name: image
+      label: Image
+    - type: number
+      default: 0
+      name: minY
+      label: min Y
+    - type: number
+      default: 0
+      name: maxY
+      label: max Y
+  - type: field_group
+    name: image4
+    label: Image 4
+    fields:
+    - type: file
+      name: image
+      label: Image
+    - type: number
+      default: 0
+      name: minY
+      label: min Y
+    - type: number
+      default: 0
+      name: maxY
+      label: max Y
+- type: field_group
+  name: button
+  label: Button
+  fields:
+  - type: text
+    name: url
+    label: URL
+  - type: text
+    name: text
+    label: Text
+- type: select
+  name: variant
+  config:
+    source:
+      type: simple
+    options:
+    - normal
+    - bottom
+  label: Variant
