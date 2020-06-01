@@ -26,7 +26,7 @@ blocks:
       minY: '0'
       maxY: '0'
   variant: bottom
-  subtitle: How you can help to Conquer Cancer In Our Lifetime
+  subtitle: How you can help to conquer cancer through gaming
   background_image: ''
   button:
     url: ''
