@@ -23,6 +23,7 @@ fields:
 - name: zIndex
   type: number
   label: z Index
+  hidden: true
   description: ''
   default: 0
   config:

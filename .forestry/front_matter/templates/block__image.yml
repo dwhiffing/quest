@@ -25,6 +25,7 @@ fields:
   type: number
   label: z Index
   description: ''
+  hidden: true
   default: 0
   config:
     min: 

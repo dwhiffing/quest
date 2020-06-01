@@ -137,20 +137,20 @@ blocks:
           text: ''
       image1:
         image: ''
-        minY:
-        maxY:
+        minY: '0'
+        maxY: '0'
       image2:
         image: ''
-        minY:
-        maxY:
+        minY: '0'
+        maxY: '0'
       image3:
         image: ''
-        minY:
-        maxY:
+        minY: '0'
+        maxY: '0'
       image4:
         image: ''
-        minY:
-        maxY:
+        minY: '0'
+        maxY: '0'
     zIndex: 0
     paddingTop: '0'
     top: ''

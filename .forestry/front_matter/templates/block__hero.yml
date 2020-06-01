@@ -36,6 +36,7 @@ fields:
   label: Background Image
 - name: zIndex
   type: number
+  hidden: true
   label: z Index
   description: ''
   default: 0
