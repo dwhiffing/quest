@@ -30,7 +30,7 @@ blocks:
       text: Learn more
     background_image: ''
     variant: ''
-    zIndex:
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
   - template: block__feature
@@ -44,7 +44,7 @@ blocks:
     imageWidth: 390px
     title: Join the Quest
     height: auto
-    zIndex: 11
+    zIndex: '11'
     content:
       We’re calling for gamers to unite with fellow players, friends, and family
       to create a new and lasting movement through support and donations. By triumphing
@@ -79,7 +79,7 @@ blocks:
     component: image
     image: ''
     background: ''
-    zIndex: 20
+    zIndex: '20'
     parallax_background:
       height: 70vh
       image1:
@@ -107,7 +107,7 @@ blocks:
     imageWidth: 380px
     height: 80vh
     title: Our Quest
-    zIndex: 30
+    zIndex: '30'
     paddingBottom: '110'
     content:
       Our goal is to create incredible fundraising experiences that fuel groundbreaking
@@ -144,7 +144,7 @@ blocks:
     paddingTop: '0'
   - template: block__image
     component: image
-    zIndex: 40
+    zIndex: '40'
     parallax_background:
       height: 350px
       image1:
@@ -171,7 +171,7 @@ blocks:
     component: feature
     background: blue
     background_image: ''
-    zIndex: 30
+    zIndex: '30'
     orientation: normal
     height: 120vh
     top: 200px
@@ -238,7 +238,7 @@ blocks:
     height: auto
     top: '0'
     imageWidth: 0px
-    zIndex:
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
 ---

@@ -31,7 +31,7 @@ blocks:
     button:
       url: ''
       text: ''
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
   - template: block__feature
@@ -73,13 +73,13 @@ blocks:
         maxY: '0'
     top: '0'
     variant: ''
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
   - template: block__image
     component: image
     background: white
-    zIndex: 30
+    zIndex: '30'
     parallax_background:
       height: 50vh
       image1:
@@ -107,7 +107,7 @@ blocks:
     background_image: ''
     height: 140vh
     top: 100px
-    zIndex: 20
+    zIndex: '20'
     variant: bottom
     textColor: dark-blue
     title: Fundraise
@@ -172,7 +172,7 @@ blocks:
       button:
         url: ''
         text: ''
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
   - template: block__list
@@ -246,7 +246,7 @@ blocks:
         maxY: '0'
     top: '0'
     variant: ''
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
 ---

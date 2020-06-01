@@ -34,7 +34,7 @@ blocks:
     button:
       url: ''
       text: ''
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
   - template: block__feature
@@ -75,7 +75,7 @@ blocks:
         maxY: '0'
     top: '0'
     variant: ''
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
   - template: block__image
     component: image
@@ -99,7 +99,7 @@ blocks:
         maxY: '0'
         image: '/src/images/clouds-white4.png'
     image: ''
-    zIndex: 30
+    zIndex: '30'
     paddingTop: '0'
     paddingBottom: '0'
   - template: block__cta
@@ -137,7 +137,7 @@ blocks:
         maxY: '0'
     top: '0'
     imageWidth: 0px
-    zIndex: 20
+    zIndex: '20'
     paddingTop: '0'
     paddingBottom: '0'
   - template: block__feature
@@ -179,7 +179,7 @@ blocks:
         maxY: '0'
     top: '0'
     variant: ''
-    zIndex: 0
+    zIndex: '0'
   - template: block__feature
     component: feature
     background: light-pink
@@ -217,7 +217,7 @@ blocks:
         minY: '-40'
         maxY: '40'
     imageWidth: 0px
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
   - template: block__feature
@@ -257,7 +257,7 @@ blocks:
         maxY: '0'
     top: '0'
     variant: ''
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
 ---

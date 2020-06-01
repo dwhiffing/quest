@@ -31,7 +31,7 @@ blocks:
     button:
       url: ''
       text: ''
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
   - template: block__profiles
@@ -151,7 +151,7 @@ blocks:
         image: ''
         minY: '0'
         maxY: '0'
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
     top: ''
     variant: ''
@@ -162,7 +162,7 @@ blocks:
     orientation: normal
     imageWidth: 350px
     height: auto
-    zIndex: 20
+    zIndex: '20'
     title: Join the Quest
     content: Sign up. Set a goal. And begin your Quest.
     button:

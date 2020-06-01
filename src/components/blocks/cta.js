@@ -9,7 +9,7 @@ const CTA = ({ block }) => (
     className={`background-image-container bg-${block.background}`}
     style={{
       overflow: 'hidden',
-      zIndex: block.zIndex || 1,
+      zIndex: +block.zIndex || 1,
       paddingTop: +block.paddingTop || 0,
       paddingBottom: +block.paddingBottom || 0,
     }}

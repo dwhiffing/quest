@@ -31,7 +31,7 @@ blocks:
     button:
       url: ''
       text: ''
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
   - template: block__3col
@@ -67,7 +67,7 @@ blocks:
         url: ''
         text: ''
     height: auto
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
   - template: block__feature
@@ -109,7 +109,7 @@ blocks:
         minY: '0'
         maxY: '0'
     background_image: ''
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
   - template: block__cta
@@ -149,7 +149,7 @@ blocks:
         minY: '-5'
         maxY: '5'
     imageWidth: 0px 0
-    zIndex: 0
+    zIndex: '0'
     paddingTop: '0'
     paddingBottom: '0'
     top: ''
@@ -158,7 +158,7 @@ blocks:
     image: '/src/images/swordstone.png'
     background: dark-blue
     orientation: normal
-    zIndex: 20
+    zIndex: '20'
     imageWidth: 350px
     height: auto
     title: Join the Quest

@@ -15,7 +15,7 @@ const Feature = ({ block }) => (
     style={{
       paddingBottom: +block.paddingBottom || 0,
       paddingTop: +block.paddingTop || 0,
-      zIndex: block.zIndex || 0,
+      zIndex: +block.zIndex || 0,
     }}
   >
     <div
