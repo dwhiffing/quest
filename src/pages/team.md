@@ -155,6 +155,66 @@ blocks:
     paddingTop: '0'
     top: ''
     variant: ''
+  - template: block__image
+    component: image
+    background: white
+    zIndex: 20
+    parallax_background:
+      height: 50vh
+      image1:
+        minY: '-10'
+        maxY: '20'
+        image: '/src/images/clouds-white1.png'
+      image2:
+        minY: '-30'
+        maxY: '20'
+        image: '/src/images/clouds-white2.png'
+      image3:
+        minY: '-10'
+        maxY: '20'
+        image: '/src/images/clouds-white3.png'
+      image4:
+        minY: '0'
+        maxY: '0'
+        image: '/src/images/clouds-white4.png'
+    image: ''
+  - template: block__cta
+    component: cta
+    background: light-blue
+    background_image: ''
+    height: 130vh
+    top: 150px
+    variant: bottom
+    textColor: dark-blue
+    title: Our Partners
+    subtitle:
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
+      lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
+      ut, condimentum est.
+    button:
+      url: https://google.ca
+      text: Learn more
+    image: ''
+    parallax_background:
+      height: auto
+      image1:
+        image: '/src/images/f1.png'
+        minY: '0'
+        maxY: '0'
+      image2:
+        image: '/src/images/f2.png'
+        minY: '-10'
+        maxY: '5'
+      image3:
+        image: '/src/images/f3.png'
+        minY: '-20'
+        maxY: '10'
+      image4:
+        image: '/src/images/f4.png'
+        minY: '0'
+        maxY: '0'
+    imageWidth: 0px
+    zIndex: 10
   - template: block__feature
     component: feature
     image: '/src/images/swordstone.png'
