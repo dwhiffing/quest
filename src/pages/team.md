@@ -151,7 +151,7 @@ blocks:
       maxY: '0'
   zIndex: '0'
   paddingTop: '0'
-  top: ''
+  top: '0'
   variant: ''
 - template: block__image
   component: image
