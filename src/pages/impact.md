@@ -148,7 +148,7 @@ blocks:
   zIndex: '0'
   paddingTop: '0'
   paddingBottom: '0'
-  top: ''
+  top: '0'
 - template: block__feature
   component: feature
   image: "/src/images/swordstone.png"
