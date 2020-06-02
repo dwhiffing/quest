@@ -51,8 +51,8 @@ blocks:
     over the common adversary we call cancer. <br><br><br>Whether you’re a streamer
     or a spectator, there’s a place in this Quest for you.
   button:
-    url: https://google.ca
-    text: Learn more
+    url: "/get-involved"
+    text: Get Involved
   background_image: ''
   parallax_background:
     height: auto
