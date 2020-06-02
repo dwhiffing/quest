@@ -112,8 +112,8 @@ blocks:
     patients at The Princess Margaret, across Canada, and around the world. The Princess
     Margaret is one of the top five cancer research centers in the world. '
   button:
-    url: https://google.ca
-    text: Get Involved
+    url: ''
+    text: ''
   image: ''
   parallax_background:
     height: auto
