@@ -179,8 +179,8 @@ blocks:
     Find out how you can make a difference.
   image: blank
   button:
-    url: https://google.ca
-    text: Learn more
+    url: "/get-involved"
+    text: Get Involved
   textColor: ''
   parallax_background:
     height: auto
