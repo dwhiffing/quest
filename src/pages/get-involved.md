@@ -149,10 +149,10 @@ blocks:
     content: Anyone can play an integral part in conquering cancer. We welcome any
       and all streamers to introduce Quest to their audiences of one or millions.
       By hosting a charity stream on our behalf, streamers can do what they love for
-      a lasting global impact. Whether you’re experienced or new to streaming, our
-      tools, support, and resources will get you started on your Quest today.
+      a lasting global impact. <br><br>Whether you’re experienced or new to streaming,
+      our tools, support, and resources will get you started on your Quest today.
     button:
-      text: test
+      text: Join Now
       url: http://www.google.ca
   col2:
     title: Other
@@ -162,8 +162,8 @@ blocks:
       asking for donations to Quest in lieu of gifts or to donating sales of video
       games.
     button:
-      text: Google
-      url: http://www.google.ca
+      text: Contact
+      url: "/contact"
   col3:
     image: ''
     title: ''
