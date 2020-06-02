@@ -209,8 +209,8 @@ blocks:
   title: Get in Touch
   subtitle: Interested in learning more?
   button:
-    url: https://google.ca
-    text: Contact CTA
+    url: "/contact"
+    text: Contact
   image: ''
   textColor: ''
   background_image: ''
