@@ -83,7 +83,7 @@ blocks:
     the world closer and closer to a cure. When Questers play, future cancer patients
     will win.
   button:
-    url: https://google.ca
+    url: "/about"
     text: Learn more
   top: '0'
   variant: ''
@@ -118,7 +118,7 @@ blocks:
   textColor: dark-blue
   orientation: normal
   title: A Project by Princess Margaret Cancer Center
-  subtitle: The Foundation is dedicated to Conquering Cancer In Our Lifetime, raising
+  subtitle: The Foundation is dedicated to Conquering Cancer in Our Lifetime, raising
     funds that accelerate cancer research, education and clinical care benefitting
     patients at The Princess Margaret, across Canada, and around the world. The Princess
     Margaret is one of the top five cancer research centers in the world.
@@ -161,8 +161,8 @@ blocks:
   content: Whether a streamer, spectator, or supporter, there’s a place in this Quest
     for you.
   button:
-    url: https://google.ca
-    text: Learn more
+    url: "/get-involved"
+    text: Get Involved
   textColor: ''
   background_image: ''
   top: '0'
