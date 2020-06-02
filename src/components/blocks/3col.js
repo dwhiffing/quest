@@ -23,7 +23,7 @@ export default ThreeCol
 function Column({ col }) {
   return col && col.image ? (
     <div
-      className="flex-1 mx-4 my-8"
+      className="flex-1 mx-8 my-8"
       style={{
         maxWidth: 400,
         textAlign: col.button && col.button.text ? 'left' : 'center',
@@ -34,7 +34,7 @@ function Column({ col }) {
           alt={col.title}
           srcSet={col.image.childImageSharp.fluid.srcSet}
           className="mb-4 mx-auto"
-          style={{ maxWidth: 350 }}
+          style={{ maxWidth: 300 }}
         />
       )}
       <Heading>{col.title}</Heading>

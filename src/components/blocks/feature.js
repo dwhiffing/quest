@@ -42,7 +42,7 @@ export function FeatureContent({ block, imageChild, maxWidth = 400 }) {
         block.orientation === 'reverse' ? 'md:flex-row-reverse' : 'md:flex-row'
       }`}
     >
-      <div className="flex flex-1 justify-center items-center my-8 md:pr-6">
+      <div className="flex flex-1 justify-center items-center my-8 md:pr-20">
         {imageChild
           ? imageChild
           : block.image && (
