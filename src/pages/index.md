@@ -45,11 +45,8 @@ blocks:
   title: Join the Quest
   height: auto
   zIndex: '11'
-  content: We’re calling for gamers to unite with fellow players, friends, and family
-    to create a new and lasting movement through support and donations. By triumphing
-    in the gaming world, we can go a long way towards triumphing in the real world
-    over the common adversary we call cancer. <br><br><br>Whether you’re a streamer
-    or a spectator, there’s a place in this Quest for you.
+  content: Whether a streamer, spectator, or supporter, there’s a place in this Quest
+    for you.
   button:
     url: "/get-involved"
     text: Get Involved
