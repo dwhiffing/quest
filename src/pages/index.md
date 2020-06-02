@@ -115,7 +115,7 @@ blocks:
     cancer patients can win.
   image: "/src/images/shield.png"
   button:
-    url: https://google.ca
+    url: "/about"
     text: Learn more
   textColor: ''
   background_image: ''
