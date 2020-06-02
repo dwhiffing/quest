@@ -50,8 +50,8 @@ blocks:
     with a purposeful mission. Our purpose is to mobilize this community to put their
     love of conquering games towards helping to conquer cancer.
   button:
-    url: https://google.ca
-    text: Learn more
+    url: ''
+    text: ''
   background_image: ''
   parallax_background:
     height: auto
