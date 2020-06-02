@@ -175,7 +175,7 @@ blocks:
       button:
         url: ''
         text: ''
-    zIndex: '0'
+    zIndex: '50'
     paddingTop: '0'
     paddingBottom: '0'
   - template: block__list

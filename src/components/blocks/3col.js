@@ -6,9 +6,10 @@ const ThreeCol = ({ block }) => (
   <section
     className={`bg-${block.background || 'dark-blue'} text-${block.textColor ||
       'white'}`}
+    style={{ zIndex: +block.zIndex || 0 }}
   >
     <div
-      className="container justify-evenly flex mx-auto py-20 relative z-10 flex-col lg:flex-row items-center"
+      className="container justify-evenly flex mx-auto py-20 relative z-10 flex-col lg:flex-row"
       style={{ height: block.height || '100vh' }}
     >
       <Column col={block.col1} />
@@ -37,10 +38,10 @@ function Column({ col }) {
           style={{ maxWidth: 300 }}
         />
       )}
-      <Heading>{col.title}</Heading>
+      <Heading className="mt-10 mb-3">{col.title}</Heading>
       <Body>{col.content}</Body>
       {col.button && (
-        <Button button={col.button} className="bg-dark-blue text-white mt-3" />
+        <Button button={col.button} className="bg-dark-blue text-white mt-6" />
       )}
     </div>
   ) : (

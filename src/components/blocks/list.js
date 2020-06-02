@@ -23,7 +23,7 @@ function Item({ col }) {
   return (
     <>
       <div className="flex flex-1 mx-4 mt-4 items-center flex-col md:flex-row">
-        <div className="flex-1">
+        <div className="flex-1 md:pr-10">
           <Heading className="mb-2">{col.title}</Heading>
           <Body>{col.content}</Body>
         </div>
