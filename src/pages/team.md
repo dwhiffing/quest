@@ -158,7 +158,7 @@ blocks:
   - template: block__image
     component: image
     background: white
-    zIndex: 20
+    zIndex: '20'
     parallax_background:
       height: 50vh
       image1:
@@ -214,7 +214,7 @@ blocks:
         minY: '0'
         maxY: '0'
     imageWidth: 0px
-    zIndex: 10
+    zIndex: '10'
   - template: block__feature
     component: feature
     image: '/src/images/swordstone.png'
