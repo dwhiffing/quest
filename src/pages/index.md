@@ -102,7 +102,7 @@ blocks:
   orientation: reverse
   imageWidth: 380px
   height: 80vh
-  title: Our Quest
+  title: Future Cancer Patients Win
   zIndex: '30'
   paddingBottom: '110'
   content: Questers will do what they do best to move the world closer to conquering
