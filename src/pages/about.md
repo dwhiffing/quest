@@ -189,9 +189,18 @@ blocks:
   top: 200px
   variant: bottom
   title: How it Works
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  content: We rely on our partnerships with streamers big and small to bring our cause
+    to their audiences. These streamers volunteer their time and streams to raise
+    money for Quest.Whether experienced or new to streaming, our tools, support, and
+    resources will help any and all streamers get started on their Quest today.<br><br>Donations,
+    whether through the site, streams, or to Questers, fund our vision to Conquer
+    Cancer In Our Lifetime. All donations to Quest go directly to fund cancer research
+    and care at The Princess Margaret.<br><br>We partner with gaming leaders and brands
+    to create unique gaming experiences. These events will bring our community together,
+    strengthen our impact, celebrate our supporters, and inspire more to join our
+    mission to conquer cancer.<br><br>We need everyone’s help, whether a gamer or
+    not. For those who want to get involved in other ways, we welcome all fundraising
+    efforts!
   image: ''
   button:
     url: https://google.ca
