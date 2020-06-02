@@ -96,7 +96,7 @@ const Contact = ({ block }) => {
                       name: e.target.value,
                     })
                   }
-                  label="Full Name"
+                  label="Full name"
                 />
                 <Input
                   value={state.email}
@@ -108,7 +108,7 @@ const Contact = ({ block }) => {
                     })
                   }
                   type="email"
-                  label="Email Address"
+                  label="Email"
                 />
               </div>
 
@@ -147,7 +147,6 @@ const Contact = ({ block }) => {
                     })
                   }
                   value={state.about}
-                  required
                   label="Where did you hear about us?"
                 />
               </div>
@@ -161,7 +160,6 @@ const Contact = ({ block }) => {
                     })
                   }
                   value={state.comments}
-                  required
                   label="Comments"
                 />
               </div>

@@ -25,9 +25,6 @@ blocks:
       minY: "-80"
       maxY: '80'
       image: "/src/images/abg.png"
-  button:
-    url: https://google.ca
-    text: Learn more
   background_image: ''
   variant: ''
   zIndex: '0'

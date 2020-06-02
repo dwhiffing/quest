@@ -38,7 +38,7 @@ const Footer = ({ content }) => (
             <input type="hidden" name="u" value="aa449736ade3b13ffe2102e4a" />
             <input type="hidden" name="id" value="0cd3d3511b" />
             <p className="quatro text-center text-sm">
-              Sign up for our mailing list for exclusive news and updates
+              Sign up to our mailing list for exclusive news and updates
             </p>
             <div
               className="flex mt-6 w-full justify-between border-2 rounded-full"
