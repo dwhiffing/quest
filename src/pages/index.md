@@ -105,11 +105,8 @@ blocks:
   title: Our Quest
   zIndex: '30'
   paddingBottom: '110'
-  content: Our goal is to create incredible fundraising experiences that fuel groundbreaking
-    cancer research. Alongside world-class researchers, clinicians, and caregivers
-    at Princess Margaret Cancer Centre, Questers will do what they do best to move
-    the world closer to Conquering Cancer In Our Lifetime. When Questers play, future
-    cancer patients can win.
+  content: Questers will do what they do best to move the world closer to conquering
+    cancer.
   image: "/src/images/shield.png"
   button:
     url: "/about"
