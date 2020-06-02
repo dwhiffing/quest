@@ -7,7 +7,7 @@ import { Button } from './Button'
 
 const Header = ({ siteTitle = '' }) => {
   return (
-    <header className="absolute mx-auto w-full z-20" style={{ maxWidth: 1600 }}>
+    <header className="absolute mx-auto w-full z-20" style={{ maxWidth: 1800 }}>
       <section>
         <Nav siteTitle={siteTitle} />
       </section>
