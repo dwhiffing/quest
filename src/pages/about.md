@@ -188,7 +188,7 @@ blocks:
   height: 120vh
   top: 200px
   variant: bottom
-  title: How it Works
+  title: How It Works
   content: We rely on our partnerships with streamers big and small to bring our cause
     to their audiences. These streamers volunteer their time and streams to raise
     money for Quest.Whether experienced or new to streaming, our tools, support, and
