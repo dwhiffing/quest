@@ -74,7 +74,7 @@ blocks:
   background: light-pink
   textColor: dark-blue
   orientation: normal
-  title: Our Quest
+  title: Future Cancer Patients Win
   imageWidth: 500px
   height: 100vh
   content: Our goal is to create incredible fundraising experiences that fuel groundbreaking
