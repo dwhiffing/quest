@@ -27,7 +27,7 @@ blocks:
       maxY: '0'
   variant: bottom
   subtitle: We unite a world of gamers with world-class cancer specialists to conquer
-    cancer.
+    cancer
   background_image: ''
   button:
     url: ''
