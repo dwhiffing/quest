@@ -150,10 +150,10 @@ blocks:
   paddingTop: '51'
   paddingBottom: '51'
   content: We are an always-on platform that allows gamers to join the most important
-    quest of all, anytime, anywhere. We partner with streamers, gamers, developers
+    quest of all, anytime, anywhere. We partner with streamers, gamers, developers,
     and more to create gaming content and experiences that engage both players and
-    audiences – all with the greater purpose to raise funds for The Princess Margaret
-    Cancer Foundation.
+    audiences. Together, we will raise funds for The Princess Margaret Cancer Foundation
+    to conquer cancer.
   button:
     url: https://google.ca
     text: Learn more
