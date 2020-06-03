@@ -50,7 +50,7 @@ blocks:
     Margaret
   button:
     url: https://google.ca
-    text: Donate
+    text: Donate Today
   background_image: ''
   parallax_background:
     height: auto
