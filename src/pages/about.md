@@ -186,7 +186,7 @@ blocks:
   background_image: ''
   orientation: normal
   height: 120vh
-  top: 200px
+  top: 100px
   variant: bottom
   title: How It Works
   content: We raise funds through partnerships with streamers who host charity streams
