@@ -198,8 +198,8 @@ blocks:
     our supporters, and inspire more to join our mission to conquer cancer.
   image: ''
   button:
-    url: "/about"
-    text: Learn more
+    url: ''
+    text: ''
   parallax_background:
     height: auto
     image1:
