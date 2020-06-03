@@ -26,8 +26,8 @@ blocks:
       minY: '0'
       maxY: '0'
   variant: bottom
-  subtitle: 'We unite a world of gamers with world-class cancer researchers to Conquer
-    Cancer In Our Lifetime. '
+  subtitle: We unite a world of gamers with world-class cancer specialists to conquer
+    cancer.
   background_image: ''
   button:
     url: ''
