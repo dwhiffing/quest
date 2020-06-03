@@ -47,7 +47,7 @@ blocks:
   title: Who We Are
   content: We’re the gaming fundraising organization of The Princess Margaret Cancer
     Foundation.<br><br>The gaming community is a passionate force, highly motivated
-    with a purposeful mission. Our purpose is to mobilize this community to put their
+    with a purposeful mission. Our goal is to mobilize this community to put their
     love of conquering games towards helping to conquer cancer.
   button:
     url: ''
