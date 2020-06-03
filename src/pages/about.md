@@ -256,7 +256,7 @@ blocks:
       minY: '0'
       maxY: '0'
   top: '0'
-  variant: ''
+  variant: normal
   zIndex: '0'
   paddingTop: '0'
   paddingBottom: '0'
