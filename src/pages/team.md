@@ -227,8 +227,8 @@ blocks:
   title: Join the Quest
   content: Sign up. Set a goal. And begin your Quest.
   button:
-    url: https://google.ca
-    text: Learn more
+    url: ''
+    text: Join Now
   textColor: ''
   background_image: ''
   parallax_background:
