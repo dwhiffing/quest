@@ -57,7 +57,7 @@ blocks:
       image: ''
   height: auto
   top: '0'
-  imageWidth: '0'
+  imageWidth: 350px
   content: Our mission is clear. Our community consists of passionate gamers, eager
     to make a difference while doing what they love most. This greater purpose will
     unite gamers who, even in the heat of competition, will be playing as one team.
@@ -66,11 +66,11 @@ blocks:
   title: The Quest Community
   image: "/src/images/globe.png"
   background: white
-  textColor: ''
+  textColor: dark-blue
   background_image: ''
-  zIndex: ''
-  paddingTop: ''
-  paddingBottom: ''
+  zIndex: '0'
+  paddingTop: '50'
+  paddingBottom: '50'
   variant: ''
   button:
     url: ''
