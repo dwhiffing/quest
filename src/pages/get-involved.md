@@ -180,7 +180,7 @@ blocks:
   imageWidth: 350px
   height: auto
   title: Join the Quest
-  content: Whether a streamer, spectator or supporter, there’s a place in this Quest
+  content: Whether a streamer, spectator, or supporter, there’s a place in this Quest
     for you.
   button:
     url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
