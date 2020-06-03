@@ -87,11 +87,13 @@ function Profile({ col }) {
         className="my-4 border-light-purple rounded-full md:mr-4"
         style={{ borderWidth: 10 }}
       >
-        <img
-          alt={col.title}
-          srcSet={col.image.childImageSharp.fluid.srcSet}
-          width={170}
-        />
+        {col.image && (
+          <img
+            alt={col.title}
+            srcSet={col.image.childImageSharp.fluid.srcSet}
+            width={170}
+          />
+        )}
       </div>
       <div style={{ minWidth: 100 }}>
         <Body className="font-bold mb-1">{col.title}</Body>
