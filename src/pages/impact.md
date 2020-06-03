@@ -161,8 +161,8 @@ blocks:
   content: Whether a streamer, spectator, or supporter, there’s a place in this Quest
     for you.
   button:
-    url: "/get-involved"
-    text: Get Involved
+    url: https://thepmcf.ca/Home
+    text: About PMCF
   textColor: ''
   background_image: ''
   top: '0'
