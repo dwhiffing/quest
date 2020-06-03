@@ -113,7 +113,7 @@ blocks:
     Margaret is one of the top five cancer research centers in the world. '
   button:
     url: https://thepmcf.ca/Home
-    text: Learn More
+    text: About PMCF
   image: ''
   parallax_background:
     height: auto
