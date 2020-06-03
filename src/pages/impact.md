@@ -123,8 +123,8 @@ blocks:
     patients at The Princess Margaret, across Canada, and around the world. The Princess
     Margaret is one of the top five cancer research centers in the world.
   button:
-    url: https://google.ca
-    text: Learn more
+    url: https://thepmcf.ca/Home
+    text: About PMCF
   image: ''
   parallax_background:
     height: auto
