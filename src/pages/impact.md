@@ -137,11 +137,11 @@ blocks:
       minY: '5'
       maxY: '5'
     image3:
-      image: "/src/images/g3.png"
+      image: ''
       minY: '5'
       maxY: '5'
     image4:
-      image: "/src/images/g4.png"
+      image: ''
       minY: "-5"
       maxY: '5'
   imageWidth: 0px 0
