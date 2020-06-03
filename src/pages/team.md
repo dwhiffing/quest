@@ -34,55 +34,47 @@ blocks:
   zIndex: '0'
   paddingTop: '0'
   paddingBottom: '0'
-- template: block__profiles
-  component: profiles
-  image: "/src/images/team.png"
-  title: The Quest Community
+- template: block__feature
+  component: feature
+  orientation: normal
+  parallax_background:
+    height: auto
+    image1:
+      minY: '0'
+      maxY: '0'
+      image: ''
+    image2:
+      minY: '0'
+      maxY: '0'
+      image: ''
+    image3:
+      minY: '0'
+      maxY: '0'
+      image: ''
+    image4:
+      minY: '0'
+      maxY: '0'
+      image: ''
+  height: auto
+  top: '0'
+  imageWidth: '0'
   content: Our mission is clear. Our community consists of passionate gamers, eager
     to make a difference while doing what they love most. This greater purpose will
     unite gamers who, even in the heat of competition, will be playing as one team.
     They will mobilize themselves and their communities, with enthusiasm and pride,
     to make a real impact on our cause.
-  button:
-    url: https://google.ca
-    text: Learn more
-  button2:
-    url: https://google.ca
-    text: View All Questers
+  title: The Quest Community
+  image: "/src/images/globe.png"
   background: white
-  textColor: dark-blue
-  variant: bottom
-  height: auto
-  imageWidth: 500px
-  background_image: "/src/images/fade-ruins.png"
-  col1:
-    title: ''
-    image: ''
-    content: ''
-    button:
-      text: ''
-      url: ''
-  col2:
-    title: "@handle"
-    image: "/src/images/avatar.png"
-    content: 12 streams
-    button:
-      text: ''
-      url: ''
-  col3:
-    title: "@handle"
-    image: "/src/images/avatar.png"
-    content: 12 streams
-    button:
-      url: ''
-      text: ''
-  col4:
-    title: "@handle"
-    image: "/src/images/avatar.png"
-    content: 12 streams
-    button:
-      url: ''
-      text: ''
+  textColor: ''
+  background_image: ''
+  zIndex: ''
+  paddingTop: ''
+  paddingBottom: ''
+  variant: ''
+  button:
+    url: ''
+    text: ''
 - template: block__feature
   component: feature
   image: "/src/images/joystick.png"
