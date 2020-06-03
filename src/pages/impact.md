@@ -117,7 +117,7 @@ blocks:
   variant: bottom
   textColor: dark-blue
   orientation: normal
-  title: A Project by Princess Margaret Cancer Center
+  title: A Project by The Princess Margaret
   subtitle: The Foundation is dedicated to Conquering Cancer in Our Lifetime, raising
     funds that accelerate cancer research, education and clinical care benefitting
     patients at The Princess Margaret, across Canada, and around the world. The Princess
