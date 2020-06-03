@@ -155,7 +155,7 @@ blocks:
     audiences. Together, we will raise funds for The Princess Margaret Cancer Foundation
     to conquer cancer.
   button:
-    url: https://google.ca
+    url: "/about"
     text: Learn more
   background_image: ''
   parallax_background:
