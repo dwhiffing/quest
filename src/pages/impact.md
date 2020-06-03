@@ -49,7 +49,7 @@ blocks:
       text: ''
       url: ''
   col2:
-    title: Staff
+    title: People
     image: "/src/images/heart.png"
     content: 3,200+ people working on cancer research and care, from healthcare professionals
       to scientists
