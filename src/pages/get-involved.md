@@ -172,38 +172,6 @@ blocks:
   zIndex: '50'
   paddingTop: '0'
   paddingBottom: '0'
-- template: block__list
-  component: list
-  height: auto
-  title: Attend an Event
-  subtitle: We partner with gaming leaders and brands to create unique gaming experiences.
-    These events will bring our community together, strengthen our impact, celebrate
-    our supporters, and inspire more to join our mission to conquer cancer.
-  background: light-pink
-  textColor: dark-blue
-  col1:
-    title: Event A
-    image: "/src/images/event.png"
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-      lectus, quis ullamcorper augue.
-    button:
-      text: ''
-      url: ''
-  col2:
-    title: Event B
-    image: "/src/images/event.png"
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-      lectus, quis ullamcorper augue.
-    button:
-      text: ''
-      url: ''
-  col3:
-    image: ''
-    title: ''
-    content: ''
-    button:
-      url: ''
-      text: ''
 - template: block__feature
   component: feature
   image: "/src/images/swordstone.png"
