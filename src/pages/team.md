@@ -56,9 +56,9 @@ blocks:
   imageWidth: 500px
   background_image: "/src/images/fade-ruins.png"
   col1:
-    title: "@handle"
-    image: "/src/images/avatar.png"
-    content: 12 streams
+    title: ''
+    image: ''
+    content: ''
     button:
       text: ''
       url: ''
