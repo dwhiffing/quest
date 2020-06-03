@@ -27,7 +27,7 @@ blocks:
       maxY: '0'
   variant: bottom
   subtitle: How Quest to Conquer Cancer and Princess Margaret Cancer Foundation are
-    defeating cancer.
+    defeating cancer
   background_image: ''
   button:
     url: ''
