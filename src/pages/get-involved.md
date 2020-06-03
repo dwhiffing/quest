@@ -184,7 +184,7 @@ blocks:
     for you.
   button:
     url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
-    text: Learn more
+    text: Join Now
   textColor: ''
   background_image: ''
   parallax_background:
