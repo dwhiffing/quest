@@ -46,8 +46,8 @@ blocks:
     content: 200+ types of cancer treated including many of the world's most complex
       and rare cases
     button:
-      text: ''
-      url: ''
+      text: '1'
+      url: '1'
   col2:
     title: People
     image: "/src/images/heart.png"
