@@ -151,7 +151,7 @@ blocks:
       our tools, support, and resources will get you started on your Quest today.
     button:
       text: Join Now
-      url: http://www.google.ca
+      url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
   col2:
     title: Fundraise
     image: "/src/images/icon2.png"
