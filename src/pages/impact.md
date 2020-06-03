@@ -133,7 +133,7 @@ blocks:
       minY: '5'
       maxY: '5'
     image2:
-      image: "/src/images/g2.png"
+      image: ''
       minY: '5'
       maxY: '5'
     image3:
