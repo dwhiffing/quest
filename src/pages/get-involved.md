@@ -49,7 +49,7 @@ blocks:
     All donations to Quest go directly to fund cancer research and care at The Princess
     Margaret
   button:
-    url: https://google.ca
+    url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
     text: Donate Today
   background_image: ''
   parallax_background:
