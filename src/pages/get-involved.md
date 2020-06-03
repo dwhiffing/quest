@@ -150,8 +150,8 @@ blocks:
       a lasting global impact. <br><br>Whether you’re experienced or new to streaming,
       our tools, support, and resources will get you started on your Quest today.
     button:
-      text: Join Now
-      url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
+      text: Contact
+      url: "/contact"
   col2:
     title: Fundraise
     image: "/src/images/icon2.png"
