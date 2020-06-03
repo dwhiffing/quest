@@ -112,8 +112,8 @@ blocks:
   title: Join the Quest
   subtitle: ''
   button:
-    url: https://google.ca
-    text: Learn more
+    url: ''
+    text: ''
   image: ''
   parallax_background:
     height: auto
