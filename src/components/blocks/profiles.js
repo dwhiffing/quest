@@ -55,16 +55,18 @@ const Profiles = ({ block }) => (
           </div>
         </div>
 
-        <Button
-          className="bg-blue text-white"
-          style={{
-            padding: '35px 100px',
-            borderRadius: 60,
-            marginTop: 100,
-            marginBottom: 380,
-          }}
-          button={block.button2}
-        />
+        {block.button2 && (
+          <Button
+            className="bg-blue text-white"
+            style={{
+              padding: '35px 100px',
+              borderRadius: 60,
+              marginTop: 100,
+              marginBottom: 380,
+            }}
+            button={block.button2}
+          />
+        )}
       </div>
     </div>
 

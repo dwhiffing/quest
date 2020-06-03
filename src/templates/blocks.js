@@ -108,10 +108,6 @@ export const pageQuery = graphql`
             url
             text
           }
-          button2 {
-            url
-            text
-          }
           parallax_background {
             height
             image1 {
@@ -200,17 +196,17 @@ export const pageQuery = graphql`
             title
             content
           }
-          col4 {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 800) {
-                  srcSet
-                }
-              }
-            }
-            title
-            content
-          }
+          # col4 {
+          #   image {
+          #     childImageSharp {
+          #       fluid(maxWidth: 800) {
+          #         srcSet
+          #       }
+          #     }
+          #   }
+          #   title
+          #   content
+          # }
         }
       }
     }
