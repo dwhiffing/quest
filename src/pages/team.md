@@ -184,7 +184,7 @@ blocks:
     to co-branded events to collateral creation. We’d love to discuss opportunities
     to partner together to defeat our common enemy, cancer.  '
   button:
-    url: https://quest.onrender.com/contact
+    url: "/contact"
     text: Contact
   image: ''
   parallax_background:
