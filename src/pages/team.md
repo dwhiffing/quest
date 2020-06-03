@@ -179,12 +179,13 @@ blocks:
   variant: bottom
   textColor: dark-blue
   title: Our Partners
-  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at vehicula
-    lectus, quis ullamcorper augue. Curabitur vel sapien pharetra, fermentum elit
-    ut, condimentum est.
+  subtitle: 'Gaming and non-gaming brands alike are vital partners in helping to further
+    our cause with more audiences. Partnerships can take any form, from sponsorships
+    to co-branded events to collateral creation. We’d love to discuss opportunities
+    to partner together to defeat our common enemy, cancer.  '
   button:
-    url: https://google.ca
-    text: Learn more
+    url: https://quest.onrender.com/contact
+    text: Contact
   image: ''
   parallax_background:
     height: auto
