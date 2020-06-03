@@ -186,7 +186,7 @@ blocks:
   background_image: ''
   orientation: normal
   height: 120vh
-  top: 150px
+  top: 100px
   variant: bottom
   title: How It Works
   content: We raise funds through partnerships with streamers who host charity streams
@@ -198,8 +198,8 @@ blocks:
     our supporters, and inspire more to join our mission to conquer cancer.
   image: ''
   button:
-    url: ''
-    text: ''
+    url: "/get-involved"
+    text: Get Involved
   parallax_background:
     height: auto
     image1:
