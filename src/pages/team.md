@@ -175,7 +175,7 @@ blocks:
   background: light-blue
   background_image: ''
   height: 130vh
-  top: 80px
+  top: 60px
   variant: bottom
   textColor: dark-blue
   title: Our Partners
