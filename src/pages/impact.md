@@ -6,7 +6,7 @@ blocks:
 - template: block__hero
   component: hero
   background: dark-blue
-  title: Our Impact on Cancer
+  title: Our Impact
   parallax_background:
     height: 250px
     image1:
@@ -26,8 +26,8 @@ blocks:
       minY: '0'
       maxY: '0'
   variant: bottom
-  subtitle: How we at Quest and Princess Margaret Cancer Foundation are Conquering
-    Cancer in Our Lifetime.
+  subtitle: How Quest to Conquer Cancer and Princess Margaret Cancer Foundation are
+    defeating cancer
   background_image: ''
   button:
     url: ''
