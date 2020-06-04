@@ -168,16 +168,16 @@ input {
   .feature-container {
     max-height: 110vh;
   }
-  .nav .mx-2 {
+  nav .mx-2 {
     margin: 0 5px;
   }
 }
 
 @media only screen and (max-width: 350px) {
-  .nav .mx-2 {
+  nav .mx-2 {
     margin: 0 3px;
   }
-  .nav .text-xs {
+  nav .text-xs {
     font-size: 0.55rem;
   }
 }
