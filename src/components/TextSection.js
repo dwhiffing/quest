@@ -6,6 +6,9 @@ export const TextSection = block => (
     <Heading className="mb-6">{block.title}</Heading>
     <Body>{block.content || block.subtitle}</Body>
     <Button {...block} className="mt-8" />
+    {block.button2 && (
+      <Button {...block} button={block.button2} className="mt-4" />
+    )}
   </>
 )
 

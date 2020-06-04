@@ -108,6 +108,10 @@ export const pageQuery = graphql`
             url
             text
           }
+          button2 {
+            url
+            text
+          }
           parallax_background {
             height
             image1 {

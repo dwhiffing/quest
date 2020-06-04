@@ -85,6 +85,9 @@ blocks:
   button:
     url: "/about"
     text: Learn more
+  button2:
+    url: ''
+    text: ''
   top: '0'
   variant: ''
   parallax_background:
@@ -163,6 +166,9 @@ blocks:
   button:
     url: https://thepmcf.ca/Home
     text: About PMCF
+  button2:
+    url: ''
+    text: ''
   textColor: ''
   background_image: ''
   top: '0'

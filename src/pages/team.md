@@ -75,6 +75,9 @@ blocks:
   button:
     url: ''
     text: ''
+  button2:
+    url: ''
+    text: ''
 - template: block__feature
   component: feature
   image: "/src/images/joystick.png"
@@ -92,39 +95,14 @@ blocks:
   button:
     url: "/get-involved"
     text: Get Involved
+  button2:
+    url: ''
+    text: ''
   background_image: ''
   parallax_background:
     height: auto
     imageWidth: 500px
     background_image: "/src/images/fade-ruins.png"
-    col1:
-      title: "@handle"
-      image: "/src/images/avatar.png"
-      content: 12 streams
-      button:
-        text: ''
-        url: ''
-    col2:
-      title: "@handle"
-      image: "/src/images/avatar.png"
-      content: 12 streams
-      button:
-        text: ''
-        url: ''
-    col3:
-      title: "@handle"
-      image: "/src/images/avatar.png"
-      content: 12 streams
-      button:
-        url: ''
-        text: ''
-    col4:
-      title: "@handle"
-      image: "/src/images/avatar.png"
-      content: 12 streams
-      button:
-        url: ''
-        text: ''
     image1:
       image: ''
       minY: '0'
@@ -222,6 +200,9 @@ blocks:
   button:
     url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
     text: Join Now
+  button2:
+    url: ''
+    text: ''
   textColor: ''
   background_image: ''
   parallax_background:

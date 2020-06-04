@@ -47,6 +47,9 @@ blocks:
   button:
     url: "/get-involved"
     text: Get Involved
+  button2:
+    url: ''
+    text: ''
   background_image: ''
   parallax_background:
     height: auto
@@ -172,6 +175,9 @@ blocks:
   button:
     url: "/get-involved"
     text: Get Involved
+  button2:
+    url: ''
+    text: ''
   textColor: ''
   parallax_background:
     height: auto
