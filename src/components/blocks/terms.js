@@ -16,14 +16,18 @@ const Contact = ({ block }) => (
         }}
       >
         <Heading className="mb-6">{block.title}</Heading>
-        <Body>{block.content}</Body>
-        <Heading className="mt-20" style={{ fontSize: 24 }}>
-          Security
-        </Heading>
+        <p dangerouslySetInnerHTML={{ __html: block.content }} />
+        {block.security && (
+          <Heading className="mt-20" style={{ fontSize: 24 }}>
+            Security
+          </Heading>
+        )}
         <Body>{block.security}</Body>
-        <Heading className="mt-20" style={{ fontSize: 24 }}>
-          Cookies
-        </Heading>
+        {block.cookies && (
+          <Heading className="mt-20" style={{ fontSize: 24 }}>
+            Cookies
+          </Heading>
+        )}
         <Body>{block.cookies}</Body>
       </div>
     </div>
