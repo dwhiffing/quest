@@ -8,7 +8,7 @@ const Footer = ({ content }) => (
   <footer>
     <div
       className="flex background-image-container bg-dark-blue"
-      style={{ height: 840 }}
+      style={{ height: 840, zIndex: 100, position: 'relative' }}
     >
       <img
         className="background-image"

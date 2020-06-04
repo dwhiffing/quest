@@ -107,7 +107,7 @@ blocks:
   - template: block__3col
     component: 3col
     title: Join the Quest
-    top: '20vw'
+    top: '6vw'
     background: light-blue
     height: auto
     textColor: dark-blue
@@ -187,7 +187,7 @@ blocks:
     image: ''
     background: 'light-blue'
     paddingTop: '0'
-    paddingBottom: '66%'
+    paddingBottom: '58%'
   - template: block__cta
     component: cta
     background: white

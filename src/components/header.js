@@ -66,14 +66,14 @@ export function Nav({ siteTitle }) {
 export function NavLinks() {
   return (
     <div className="flex md:items-stretch md:flex-no-shrink md:flex-grow justify-center md:justify-end">
-      <div className="mt-6">
+      <div className="mt-4 flex flex-wrap justify-center items-center">
         <StaticQuery
           query={navbarQuery}
           render={data =>
             data.allMainMenuJson.edges.map(edge => {
               return edge.node.type === 'internal' ? (
                 <Link
-                  className="nav-link text-xs lg:text-sm mx-2 lg:mx-4"
+                  className="nav-link mt-2 text-xs lg:text-sm mx-2 lg:mx-4"
                   key={edge.node.id}
                   to={edge.node.url}
                 >

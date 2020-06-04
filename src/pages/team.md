@@ -177,15 +177,15 @@ blocks:
       image2:
         image: '/src/images/f2.png'
         minY: '-10'
-        maxY: '5'
+        maxY: '10'
       image3:
         image: '/src/images/f3.png'
         minY: '-20'
-        maxY: '10'
+        maxY: '20'
       image4:
         image: '/src/images/f4.png'
-        minY: '0'
-        maxY: '0'
+        minY: '-40'
+        maxY: '40'
     imageWidth: 0px
     zIndex: '10'
     paddingTop: ''

@@ -40,7 +40,7 @@ body {
   background-repeat: repeat;
   min-height: 100vh;
   background-color: #101424;
-  min-width: 411px;
+  min-width: 300px;
 }
 
 .button {
@@ -166,6 +166,6 @@ input {
 }
 @media only screen and (max-width: 600px) {
   .feature-container {
-    max-height: 100vh;
+    max-height: 110vh;
   }
 }
