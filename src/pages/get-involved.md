@@ -78,13 +78,13 @@ blocks:
     variant: ''
     zIndex: '40'
     paddingTop: '0'
-    paddingBottom: '60'
+    paddingBottom: '60px'
   - template: block__image
     component: image
     background: white
     zIndex: '40'
     parallax_background:
-      height: 50vh
+      height: auto
       image1:
         minY: '-30'
         maxY: '30'
@@ -103,46 +103,12 @@ blocks:
         image: '/src/images/clouds-white4.png'
     image: ''
     paddingTop: '0'
-    paddingBottom: '0'
-  - template: block__cta
-    component: cta
-    background: light-blue
-    background_image: ''
-    height: 140vh
-    top: 100px
-    zIndex: '30'
-    variant: bottom
-    textColor: dark-blue
-    title: Join the Quest
-    subtitle: ''
-    button:
-      url: ''
-      text: ''
-    image: ''
-    parallax_background:
-      height: auto
-      image1:
-        image: '/src/images/h1.png'
-        minY: '0'
-        maxY: '0'
-      image2:
-        image: '/src/images/h2.png'
-        minY: '-10'
-        maxY: '10'
-      image3:
-        image: '/src/images/h3.png'
-        minY: '-25'
-        maxY: '25'
-      image4:
-        image: '/src/images/h4.png'
-        minY: '-30'
-        maxY: '30'
-    imageWidth: 0px
-    paddingTop: '0'
-    paddingBottom: '0'
+    paddingBottom: '30%'
   - template: block__3col
     component: 3col
-    background: white
+    title: Join the Quest
+    top: '20vw'
+    background: light-blue
     height: auto
     textColor: dark-blue
     col1:
@@ -175,12 +141,56 @@ blocks:
       button:
         url: ''
         text: ''
-    zIndex: '50'
-    paddingTop: '0'
+    zIndex: '30'
+    paddingTop: '30px'
     paddingBottom: '0'
+    parallax_background:
+      height: auto
+      image1:
+        image: ''
+        minY: '0'
+        maxY: '0'
+      image2:
+        image: ''
+        minY: '0'
+        maxY: '0'
+      image3:
+        image: ''
+        minY: '0'
+        maxY: '0'
+      image4:
+        image: ''
+        minY: '0'
+        maxY: '0'
+  - template: block__image
+    component: image
+    zIndex: '20'
+    background_image: ''
+    parallax_background:
+      height: auto
+      image1:
+        image: '/src/images/h1.png'
+        minY: '0'
+        maxY: '0'
+      image2:
+        image: '/src/images/h2.png'
+        minY: '0'
+        maxY: '0'
+      image3:
+        image: '/src/images/h3.png'
+        minY: '0'
+        maxY: '0'
+      image4:
+        image: '/src/images/h4.png'
+        minY: '0'
+        maxY: '0'
+    image: ''
+    background: 'light-blue'
+    paddingTop: '0'
+    paddingBottom: '66%'
   - template: block__cta
     component: cta
-    background: light-purple
+    background: white
     textColor: dark-blue
     background_image: ''
     height: auto
@@ -211,8 +221,8 @@ blocks:
     top: '0'
     imageWidth: 0px
     zIndex: '20'
-    paddingTop: '0'
-    paddingBottom: '0'
+    paddingTop: '50px'
+    paddingBottom: '50px'
   - template: block__feature
     component: feature
     image: '/src/images/swordstone.png'

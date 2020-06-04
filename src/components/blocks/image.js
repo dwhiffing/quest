@@ -4,13 +4,17 @@ import { ParallaxBackgroundImage } from '../BackgroundImage'
 const Image = ({ block }) => (
   <section
     className="background-image-container"
-    style={
-      block.parallax_background && {
-        backgroundColor: block.background,
-        overflow: 'visible',
-        zIndex: +block.zIndex || 1,
-      }
-    }
+    style={{
+      ...(block.parallax_background
+        ? {
+            backgroundColor: block.background,
+            overflow: 'visible',
+            zIndex: +block.zIndex || 1,
+          }
+        : {}),
+      paddingBottom: block.paddingBottom || 0,
+      paddingTop: block.paddingTop || 0,
+    }}
   >
     {block.image && (
       <img

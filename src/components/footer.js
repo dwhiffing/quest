@@ -14,7 +14,7 @@ const Footer = ({ content }) => (
         className="background-image"
         alt="footer-background"
         src={footerImage}
-        style={{ top: -200, height: '130%' }}
+        style={{ top: -200, height: '134%' }}
       />
       <div
         className="relative z-10 flex-1 flex justify-between items-center flex-col self-end"

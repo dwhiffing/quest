@@ -9,9 +9,16 @@ fields:
   hidden: true
   default: 3col
 - type: text
+  name: title
+  label: Title
+- type: text
   name: height
   label: Height
   default: auto
+- type: text
+  name: top
+  label: Top
+  default: '0'
 - type: field_group
   name: col1
   label: Column 1
@@ -63,3 +70,71 @@ fields:
     name: col3
     label: col3
     template: column
+- name: parallax_background
+  type: field_group
+  label: Parallax Background
+  fields:
+  - type: text
+    name: height
+    label: Height
+    default: auto
+  - type: field_group
+    name: image1
+    label: Image 1
+    fields:
+    - type: file
+      name: image
+      label: Image
+    - type: number
+      default: 0
+      name: minY
+      label: min Y
+    - type: number
+      default: 0
+      name: maxY
+      label: max Y
+  - type: field_group
+    name: image2
+    label: Image 2
+    fields:
+    - type: file
+      name: image
+      label: Image
+    - type: number
+      default: 0
+      name: minY
+      label: min Y
+    - type: number
+      default: 0
+      name: maxY
+      label: max Y
+  - type: field_group
+    name: image3
+    label: Image 3
+    fields:
+    - type: file
+      name: image
+      label: Image
+    - type: number
+      default: 0
+      name: minY
+      label: min Y
+    - type: number
+      default: 0
+      name: maxY
+      label: max Y
+  - type: field_group
+    name: image4
+    label: Image 4
+    fields:
+    - type: file
+      name: image
+      label: Image
+    - type: number
+      default: 0
+      name: minY
+      label: min Y
+    - type: number
+      default: 0
+      name: maxY
+      label: max Y

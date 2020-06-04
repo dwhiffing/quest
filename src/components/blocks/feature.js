@@ -13,13 +13,14 @@ const Feature = ({ block }) => (
         : ''
     } bg-${block.background || 'dark-blue'}`}
     style={{
-      paddingBottom: +block.paddingBottom || 0,
-      paddingTop: +block.paddingTop || 0,
+      paddingBottom: block.paddingBottom || 0,
+      paddingTop: block.paddingTop || 0,
       zIndex: +block.zIndex || 0,
     }}
   >
     <div
-      className="container flex mx-auto relative py-10 z-10"
+      className={`container flex mx-auto relative py-10 z-10 ${block.height !==
+        'auto' && 'feature-container'}`}
       data-sal="slide-up"
       data-sal-duration="800"
       data-sal-delay="200"
@@ -28,14 +29,21 @@ const Feature = ({ block }) => (
       <FeatureContent block={block} />
     </div>
 
-    <ParallaxBackgroundImage {...block} />
+    <ParallaxBackgroundImage
+      className={
+        block.variant === 'bottom'
+          ? 'background-image background-image-contain'
+          : 'background-image'
+      }
+      {...block}
+    />
     <BackgroundImage {...block} />
   </section>
 )
 
 export default Feature
 
-export function FeatureContent({ block, imageChild, maxWidth = 400 }) {
+export function FeatureContent({ block, imageChild, maxWidth = '90vw' }) {
   return (
     <div
       className={`flex flex-1 justify-between flex-col ${

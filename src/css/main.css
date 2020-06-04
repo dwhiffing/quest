@@ -164,3 +164,8 @@ input {
 [data-sal='slide-up'] {
   transform: translateY(10%);
 }
+@media only screen and (max-width: 600px) {
+  .feature-container {
+    max-height: 100vh;
+  }
+}
