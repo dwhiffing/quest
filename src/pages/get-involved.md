@@ -191,13 +191,13 @@ blocks:
   textColor: dark-blue
   background_image: ''
   height: auto
-  title: Attend an Event (TBD)
+  title: Attend an Event
   subtitle: We partner with gaming leaders and brands to create unique gaming experiences.
     These events will bring our community together, strengthen our impact, celebrate
     our supporters, and inspire more to join our mission to conquer cancer.
   button:
-    url: https://thepmcf.ca/Home
-    text: About PMCF
+    url: "/contact"
+    text: Stay Tuned
   image: ''
   parallax_background:
     height: auto
