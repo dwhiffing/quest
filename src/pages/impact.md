@@ -160,11 +160,11 @@ blocks:
       minY: '5'
       maxY: '5'
     image3:
-      image: "/src/images/frame-2.png"
+      image: "/src/images/frame-36.png"
       minY: '5'
       maxY: '5'
     image4:
-      image: ''
+      image: "/src/images/frame-35.png"
       minY: "-5"
       maxY: '5'
   imageWidth: 0px 0
