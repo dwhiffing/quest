@@ -152,15 +152,15 @@ blocks:
   parallax_background:
     height: auto
     image1:
-      image: "/src/images/g1.png"
+      image: "/src/images/frame-30.png"
       minY: '5'
       maxY: '5'
     image2:
-      image: ''
+      image: "/src/images/frame-1.png"
       minY: '5'
       maxY: '5'
     image3:
-      image: ''
+      image: "/src/images/frame-2.png"
       minY: '5'
       maxY: '5'
     image4:
