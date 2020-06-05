@@ -161,12 +161,12 @@ blocks:
       maxY: '5'
     image3:
       image: "/src/images/frame-36.png"
-      minY: '5'
-      maxY: '5'
+      minY: "-20"
+      maxY: '20'
     image4:
       image: "/src/images/frame-35.png"
-      minY: "-5"
-      maxY: '5'
+      minY: "-25"
+      maxY: '25'
   imageWidth: 0px 0
   zIndex: '0'
   paddingTop: '0'
