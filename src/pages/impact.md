@@ -130,7 +130,7 @@ blocks:
   background_image: ''
   zIndex: '0'
   paddingTop: '0'
-  paddingBottom: '0'
+  paddingBottom: 200px
   subtitle: ''
 - template: block__cta
   component: cta
