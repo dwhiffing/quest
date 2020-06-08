@@ -121,7 +121,6 @@ const Contact = ({ block }) => {
                     })
                   }
                   value={state.company}
-                  required
                   label="Company"
                 />
                 <Input
@@ -139,16 +138,19 @@ const Contact = ({ block }) => {
               </div>
 
               <div className="flex flex-1">
-                <Input
-                  onChange={e =>
-                    setState({
-                      ...state,
-                      about: e.target.value,
-                    })
-                  }
-                  value={state.about}
+                <Select
                   label="Where did you hear about us?"
-                />
+                  value={state.about}
+                  onChange={e => setState({ ...state, about: e.target.value })}
+                >
+                  <option label="Streamer" value="streamer" />
+                  <option label="Word of Mouth" value="word_of_mouth" />
+                  <option label="Social Media" value="social_media" />
+                  <option label="Your Organization" value="organization" />
+                  <option label="Saw an ad for it" value="advertisement" />
+                  <option label="Through PMCF" value="pmcf" />
+                  <option label="Through search engines" value="search" />
+                </Select>
               </div>
 
               <div className="flex flex-1">
