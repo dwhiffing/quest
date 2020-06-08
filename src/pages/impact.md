@@ -129,7 +129,7 @@ blocks:
       maxY: '0'
   background_image: ''
   zIndex: '0'
-  paddingTop: '100'
+  paddingTop: 100px
   paddingBottom: '0'
   subtitle: ''
 - template: block__cta
