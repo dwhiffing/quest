@@ -107,7 +107,7 @@ blocks:
   button2:
     url: ''
     text: ''
-  top: 200px
+  top: '0'
   variant: ''
   parallax_background:
     height: auto
@@ -130,7 +130,7 @@ blocks:
   background_image: ''
   zIndex: '0'
   paddingTop: '0'
-  paddingBottom: 200px
+  paddingBottom: '0'
   subtitle: ''
 - template: block__cta
   component: cta
