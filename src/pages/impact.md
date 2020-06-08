@@ -107,7 +107,7 @@ blocks:
   button2:
     url: ''
     text: ''
-  top: 500px
+  top: "-100px"
   variant: ''
   parallax_background:
     height: auto
