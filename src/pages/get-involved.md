@@ -129,8 +129,8 @@ blocks:
       asking for donations to Quest in lieu of gifts or to donating sales of video
       games.
     button:
-      text: Join Now
-      url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
+      text: Contact
+      url: "/contact"
   col3:
     image: ''
     title: ''
