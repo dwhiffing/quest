@@ -205,8 +205,8 @@ blocks:
     our supporters, and inspire more to join our mission to conquer cancer.
   image: ''
   button:
-    url: "/get-involved"
-    text: Get Involved
+    url: ''
+    text: ''
   button2:
     url: ''
     text: ''
