@@ -124,6 +124,18 @@ p {
   text-transform: uppercase;
   color: white;
   white-space: nowrap;
+  border-bottom: 2px solid transparent1;
+  transition: all 300ms;
+  padding-left: 2px;
+}
+
+.nav-link:hover {
+  opacity: 0.5;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #ee207b;
+  opacity: 1 !important;
 }
 
 section {

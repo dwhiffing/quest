@@ -71,9 +71,13 @@ export function NavLinks() {
           query={navbarQuery}
           render={data =>
             data.allMainMenuJson.edges.map(edge => {
+              const active =
+                edge.node.url.replace(/\//g, '') ===
+                window.location.pathname.replace(/\//g, '')
               return edge.node.type === 'internal' ? (
                 <Link
-                  className="nav-link mt-2 text-xs lg:text-sm mx-2 lg:mx-4"
+                  className={`nav-link mt-2 text-xs lg:text-sm mx-2 lg:mx-4${active &&
+                    ' active'}`}
                   key={edge.node.id}
                   to={edge.node.url}
                 >
