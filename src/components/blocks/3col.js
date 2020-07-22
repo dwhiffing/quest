@@ -23,10 +23,11 @@ const ThreeCol = ({ block }) => (
     <div style={{ top: block.top || 0, position: 'relative' }}>
       {block.title && (
         <Heading
-          className="text-3xl md:text-5xl"
+          className="text-3xl md:text-4xl pt-10"
           style={{
             textAlign: 'center',
-            margin: '0 auto',
+            marginLeft: 'auto',
+            marginRight: 'auto',
             maxWidth: block.variant === 'bottom' ? 'calc(100% - 20px)' : 650,
           }}
         >

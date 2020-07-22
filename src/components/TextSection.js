@@ -3,7 +3,7 @@ import { Button } from './Button'
 
 export const TextSection = block => (
   <>
-    <Heading className="mb-6">{block.title}</Heading>
+    <Heading className="text-3xl md:text-4xl mb-6">{block.title}</Heading>
     <Body>{block.content || block.subtitle}</Body>
     <Button {...block} className="mt-8" />
     {block.button2 && (

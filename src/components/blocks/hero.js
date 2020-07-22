@@ -19,7 +19,7 @@ const Hero = ({ block }) => (
         }`}
       >
         <Heading
-          className="text-3xl md:text-5xl"
+          className="text-3xl md:text-4xl"
           style={{
             maxWidth: block.variant === 'bottom' ? 'calc(100% - 20px)' : 650,
           }}
