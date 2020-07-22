@@ -27,7 +27,7 @@ const Footer = ({ content }) => (
           </div>
         </div>
 
-        <div
+        {/* <div
           className="flex flex-col justify-center items-center bg-dark-blue text-white max-w-lg px-10 py-10 mx-10"
           style={{ borderRadius: 12 }}
         >
@@ -61,7 +61,7 @@ const Footer = ({ content }) => (
               />
             </div>
           </form>
-        </div>
+        </div> */}
 
         <div className="flex justify-between items-center w-full max-w-6xl px-4 my-10">
           <img
