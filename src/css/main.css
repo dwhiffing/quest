@@ -44,7 +44,7 @@ body {
 }
 
 .button {
-  padding: 4px 24px 0px;
+  padding: 0 24px 0px;
   border-radius: 20px;
   font-family: Quatro;
   font-weight: 500;
@@ -192,4 +192,8 @@ input {
   nav .text-xs {
     font-size: 0.55rem;
   }
+}
+
+select option {
+  color: black;
 }
