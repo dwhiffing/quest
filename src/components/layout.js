@@ -11,7 +11,7 @@ import sal from 'sal.js'
 import 'sal.js/dist/sal.css'
 import '../css/main.css'
 
-const Layout = ({ children }) => {
+const Layout = ({ location, children }) => {
   useEffect(() => {
     sal()
   }, [])
@@ -34,9 +34,15 @@ const Layout = ({ children }) => {
             >
               <html lang="en" />
             </Helmet>
-            <Header siteTitle={data.site.siteMetadata.title} />
+            <Header
+              location={location}
+              siteTitle={data.site.siteMetadata.title}
+            />
             {children}
-            <Footer content={data.site.siteMetadata.footer} />
+            <Footer
+              location={location}
+              content={data.site.siteMetadata.footer}
+            />
           </div>
         </ParallaxProvider>
       )}

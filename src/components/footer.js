@@ -4,7 +4,7 @@ import logo from '../images/logo.png'
 import headerImage from '../images/header2.png'
 import { NavLinks } from './header'
 
-const Footer = ({ content }) => (
+const Footer = ({ location, content }) => (
   <footer>
     <div
       className="flex background-image-container bg-dark-blue"
@@ -23,7 +23,7 @@ const Footer = ({ content }) => (
         <div className="mx-auto max-w-2xl flex justify-center relative z-10">
           <div className="flex flex-col items-center">
             <img alt="logo" src={logo} width={200} className="mb-10" />
-            <NavLinks />
+            <NavLinks location={location} />
           </div>
         </div>
 
