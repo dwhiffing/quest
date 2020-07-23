@@ -166,7 +166,7 @@ blocks:
   parallax_background:
     height: auto
     image1:
-      image: "/src/images/h1.png"
+      image: "/src/images/h1-1.png"
       minY: "0"
       maxY: "0"
     image2:
