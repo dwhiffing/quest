@@ -116,7 +116,7 @@ blocks:
       minY: '0'
       maxY: '0'
     image2:
-      image: "/src/images/h2a.png"
+      image: "/src/images/h2a-1.png"
       minY: "-10"
       maxY: '10'
     image3:
