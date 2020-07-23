@@ -82,7 +82,7 @@ blocks:
   parallax_background:
     height: auto
     image1:
-      image: "/src/images/2d.png"
+      image: "/src/images/frame-34.png"
       minY: "0"
       maxY: "0"
     image2:
