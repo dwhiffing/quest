@@ -14,11 +14,11 @@ blocks:
       maxY: '1'
       image: "/src/images/waves1.png"
     image2:
-      minY: "-30"
-      maxY: '30'
+      minY: "0"
+      maxY: '40'
       image: "/src/images/waves2.png"
     image3:
-      minY: "-60"
+      minY: "0"
       maxY: '60'
       image: "/src/images/waves3.png"
     image4:
@@ -109,7 +109,7 @@ blocks:
   textColor: dark-blue
   background_image: "/src/images/islands.png"
   height: 120vh
-  title: A Project by The Princess Margaret
+  title: A Project by The Princess Margaret Foundation
   subtitle: The Princess Margaret Cancer Foundation is dedicated to Conquering Cancer
     In Our Lifetime. This project raises funds that accelerate cancer research, education,
     and clinical care for patients at The Princess Margaret, across Canada, and around

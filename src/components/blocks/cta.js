@@ -15,10 +15,9 @@ const CTA = ({ block }) => (
     }}
   >
     <div
-      className="container mx-auto flex justify-center items-center"
+      className="container mx-auto flex justify-center items-center cta-container"
       style={{
         height: block.height || '50vh',
-        maxHeight: 2000,
       }}
     >
       <div

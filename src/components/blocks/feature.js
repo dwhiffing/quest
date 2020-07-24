@@ -49,8 +49,9 @@ export function FeatureContent({ block, imageChild, maxWidth = '90vw' }) {
       className={`flex flex-1 justify-between flex-col ${
         block.orientation === 'reverse' ? 'md:flex-row-reverse' : 'md:flex-row'
       }`}
+      style={{ maxWidth: 900, margin: '0 auto', position: 'relative' }}
     >
-      <div className="flex flex-1 justify-center items-center my-8 md:pr-20">
+      <div className="flex flex-1 justify-center items-center my-8">
         {imageChild
           ? imageChild
           : block.image && (

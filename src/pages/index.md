@@ -15,7 +15,7 @@ blocks:
       image: "/src/images/a12.png"
     image2:
       minY: "-25"
-      maxY: '30'
+      maxY: '50'
       image: "/src/images/aa2.png"
     image3:
       minY: "-45"
@@ -26,7 +26,7 @@ blocks:
       maxY: '80'
       image: "/src/images/abg.png"
   background_image: ''
-  variant: ''
+  variant: 'index'
   zIndex: '0'
   paddingTop: '0'
   paddingBottom: '0'

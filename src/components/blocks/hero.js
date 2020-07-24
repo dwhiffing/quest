@@ -5,7 +5,12 @@ import { Body, Heading } from '../TextSection'
 
 const Hero = ({ block }) => (
   <section
-    className={`background-image-container h-screen bg-${block.background}`}
+    className={`background-image-container ${
+      block.variant === 'index' ? 'background-index background-bottom' : ''
+    } ${block.variant === 'bottom' ? 'background-bottom' : ''} h-screen bg-${
+      block.background
+    }`}
+    style={{ minHeight: 660 }}
   >
     <div className="container mx-auto">
       <div

@@ -74,6 +74,20 @@ body {
   z-index: 2;
 }
 
+.background-image-container.background-index {
+  background-color: #4c3291;
+}
+
+.background-image-container.background-index .background-image {
+  min-height: 350px !important;
+}
+
+.background-image-container.background-bottom .background-image {
+  top: auto;
+  bottom: 0;
+  min-height: 150px;
+}
+
 .background-image-container .background-image-contain {
   object-fit: contain;
   object-position: bottom;
@@ -95,7 +109,7 @@ section {
 h1 {
   font-family: Quatro;
   font-size: 50px;
-  line-height: 58px;
+  line-height: 41px;
   font-style: normal;
   font-weight: bold;
 }
@@ -164,8 +178,11 @@ input {
 }
 
 @media (max-width: 767px) {
+  .container {
+    min-height: 600px;
+  }
   .small-image-mobile {
-    width: 300px !important;
+    width: 200px !important;
   }
 }
 
@@ -176,21 +193,49 @@ input {
 [data-sal='slide-up'] {
   transform: translateY(10%);
 }
+
+.cta-container {
+  max-height: 2000px;
+}
+
+.col-image {
+  max-width: 300px;
+}
+
 @media only screen and (max-width: 600px) {
+  .col-image {
+    max-width: 250px;
+  }
+  .background-image-container.background-bottom .background-image {
+    min-height: 80px;
+  }
   .feature-container {
-    max-height: 110vh;
+    max-height: 100vh;
+  }
+  .cta-container {
+    max-height: 100vh;
   }
   nav .mx-2 {
     margin: 0 5px;
   }
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 
 @media only screen and (max-width: 350px) {
+  .col-image {
+    max-width: 200px;
+  }
   nav .mx-2 {
     margin: 0 3px;
   }
   nav .text-xs {
     font-size: 0.55rem;
+  }
+  p {
+    font-size: 13px;
   }
 }
 

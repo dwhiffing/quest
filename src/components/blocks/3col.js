@@ -65,8 +65,7 @@ function Column({ col }) {
         <img
           alt={col.title}
           srcSet={col.image.childImageSharp.fluid.srcSet}
-          className="mb-4 mx-auto"
-          style={{ maxWidth: 300 }}
+          className="mb-4 mx-auto col-image"
         />
       )}
       <Heading className="mt-10 mb-3">{col.title}</Heading>

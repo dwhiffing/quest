@@ -30,13 +30,13 @@ export const ParallaxBackgroundImage = ({
   }
 
   const { image1, image2, image3, image4, height } = parallax_background
-
+  const divisor = window.innerWidth > 500 ? 1 : 4
   return (
     <div style={{ minHeight: height }}>
       {image4 && image4.image && (
         <Parallax
           className={className}
-          y={[image4.minY || 0, image4.maxY || 0]}
+          y={[image4.minY / divisor || 0, image4.maxY / divisor || 0]}
           styleInner={{ maxHeight: height }}
         >
           <img
@@ -49,7 +49,7 @@ export const ParallaxBackgroundImage = ({
       {image3 && image3.image && (
         <Parallax
           className={className}
-          y={[image3.minY || 0, image3.maxY || 0]}
+          y={[image3.minY / divisor || 0, image3.maxY / divisor || 0]}
           styleInner={{ maxHeight: height }}
         >
           <img
@@ -62,7 +62,7 @@ export const ParallaxBackgroundImage = ({
       {image2 && image2.image && (
         <Parallax
           className={className}
-          y={[image2.minY || 0, image2.maxY || 0]}
+          y={[image2.minY / divisor || 0, image2.maxY / divisor || 0]}
           styleInner={{ maxHeight: height }}
         >
           <img
@@ -75,7 +75,7 @@ export const ParallaxBackgroundImage = ({
       {image1 && image1.image && (
         <Parallax
           className={className}
-          y={[image1.minY || 0, image1.maxY || 0]}
+          y={[image1.minY / divisor || 0, image1.maxY / divisor || 0]}
           styleInner={{ maxHeight: height }}
         >
           <img

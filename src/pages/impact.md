@@ -14,11 +14,11 @@ blocks:
       maxY: '1'
       image: "/src/images/waves1.png"
     image2:
-      minY: "-30"
-      maxY: '30'
+      minY: "0"
+      maxY: '40'
       image: "/src/images/waves2.png"
     image3:
-      minY: "-60"
+      minY: "0"
       maxY: '60'
       image: "/src/images/waves3.png"
     image4:
@@ -95,7 +95,7 @@ blocks:
   orientation: normal
   title: Future Cancer Patients Win
   imageWidth: 500px
-  height: 100vh
+  height: 120vh
   content: Our goal is to create incredible fundraising experiences that fuel groundbreaking
     cancer research. Alongside world-class researchers, teachers, and caregivers at
     Princess Margaret Cancer Foundation, Questers will do what they do best to move
@@ -140,7 +140,7 @@ blocks:
   variant: bottom
   textColor: dark-blue
   orientation: normal
-  title: A Project by The Princess Margaret
+  title: A Project by The Princess Margaret Foundation
   subtitle: The Foundation is dedicated to Conquering Cancer in Our Lifetime, raising
     funds that accelerate cancer research, education and clinical care benefitting
     patients at The Princess Margaret, across Canada, and around the world. The Princess

@@ -14,11 +14,11 @@ blocks:
       maxY: '1'
       image: "/src/images/waves1.png"
     image2:
-      minY: "-30"
-      maxY: '30'
+      minY: "0"
+      maxY: '40'
       image: "/src/images/waves2.png"
     image3:
-      minY: "-60"
+      minY: "0"
       maxY: '60'
       image: "/src/images/waves3.png"
     image4:
