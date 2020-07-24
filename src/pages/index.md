@@ -203,7 +203,7 @@ blocks:
   imageWidth: 0px
   paddingTop: '0'
   paddingBottom: '0'
-  variant: ''
+  variant: 'bottom'
 - template: block__cta
   component: cta
   background: dark-blue
