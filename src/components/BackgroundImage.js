@@ -30,7 +30,7 @@ export const ParallaxBackgroundImage = ({
   }
 
   const { image1, image2, image3, image4, height } = parallax_background
-  const divisor = window.innerWidth > 500 ? 1 : 4
+  const divisor = 4
   return (
     <div style={{ minHeight: height }}>
       {image4 && image4.image && (
