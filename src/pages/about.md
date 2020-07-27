@@ -14,11 +14,11 @@ blocks:
       maxY: '1'
       image: "/src/images/waves1.png"
     image2:
-      minY: "0"
+      minY: '0'
       maxY: '40'
       image: "/src/images/waves2.png"
     image3:
-      minY: "0"
+      minY: '0'
       maxY: '60'
       image: "/src/images/waves3.png"
     image4:
@@ -116,7 +116,7 @@ blocks:
     the world. The Princess Margaret is one of the top five cancer research centres
     in the world.
   button:
-    url: https://thepmcf.ca/Home
+    url: https://thepmcf.ca/About-Us/About-the-Foundation/Vision-Mission-Strategy
     text: About PMCF
   image: ''
   parallax_background:
