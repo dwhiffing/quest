@@ -8,7 +8,7 @@ export const Button = ({
 }) =>
   button && button.text ? (
     <a
-      target="_blank"
+      target={button.url.match(/^http/) ? '_blank' : ''}
       rel="noopener noreferrer"
       href={button.url}
       style={style}
