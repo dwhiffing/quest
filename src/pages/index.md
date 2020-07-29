@@ -6,7 +6,10 @@ blocks:
   component: hero
   background: ''
   title: Join a quest that will change our world forever
-  subtitle: ''
+  subtitle: Our community consists of passionate gamers, eager to make a difference
+    while doing what they love most. We are looking for streamers to host charity
+    streams, for audiences of one or millions, to raise funds for cancer research
+    and care at The Princess Margaret.
   parallax_background:
     height: auto
     image1:
@@ -26,7 +29,7 @@ blocks:
       maxY: '80'
       image: "/src/images/abg.png"
   background_image: ''
-  variant: 'index'
+  variant: ''
   zIndex: '0'
   paddingTop: '0'
   paddingBottom: '0'
@@ -203,7 +206,7 @@ blocks:
   imageWidth: 0px
   paddingTop: '0'
   paddingBottom: '0'
-  variant: 'bottom'
+  variant: bottom
 - template: block__cta
   component: cta
   background: dark-blue
