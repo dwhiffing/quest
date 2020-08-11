@@ -6,8 +6,8 @@ blocks:
   component: hero
   background: ''
   title: Join a quest that will change our world forever
-  subtitle: Join today to host a charity stream to raise funds for cancer research
-    and care at The Princess Margaret.
+  subtitle: Our community consists of passionate gamers, making a difference while
+    doing what they love.
   parallax_background:
     height: auto
     image1:
