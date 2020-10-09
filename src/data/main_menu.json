@@ -27,6 +27,11 @@
   {
     "type": "external",
     "url": "https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501",
+    "title": "Donate"
+  },
+  {
+    "type": "external",
+    "url": "https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501",
     "title": "Login"
   }
 ]
