@@ -103,6 +103,38 @@ blocks:
   image: ''
   paddingTop: "0"
   paddingBottom: 30%
+- template: block__hero
+  component: hero
+  background: transparent
+  parallax_background:
+    height: auto
+    image1:
+      minY: '0'
+      maxY: '0'
+      image: ''
+    image2:
+      minY: '0'
+      maxY: '0'
+      image: ''
+    image3:
+      minY: '0'
+      maxY: '0'
+      image: ''
+    image4:
+      minY: '0'
+      maxY: '0'
+      image: ''
+  title: Start Quest
+  subtitle: Join the Quest...<br><br>Whether you donate, fundraise, or tune in, your
+    support makes a huge difference in our fight to conquer cancer. <br><br>
+  button:
+    text: Join Now
+    url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
+  background_image: ''
+  zIndex: ''
+  paddingTop: ''
+  paddingBottom: ''
+  variant: ''
 - template: block__3col
   component: 3col
   title: Join the Quest
