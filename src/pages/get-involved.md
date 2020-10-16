@@ -14,11 +14,11 @@ blocks:
       maxY: '1'
       image: "/src/images/waves1.png"
     image2:
-      minY: "0"
+      minY: '0'
       maxY: '40'
       image: "/src/images/waves2.png"
     image3:
-      minY: "0"
+      minY: '0'
       maxY: '60'
       image: "/src/images/waves3.png"
     image4:
@@ -26,7 +26,7 @@ blocks:
       minY: '0'
       maxY: '0'
   variant: bottom
-  subtitle: How you can help to conquer cancer through gaming
+  subtitle: 'Join the Quest in just a few clicks '
   background_image: ''
   button:
     url: ''
