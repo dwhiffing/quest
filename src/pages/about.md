@@ -26,8 +26,11 @@ blocks:
       minY: '0'
       maxY: '0'
   variant: bottom
-  subtitle: We unite a world of gamers with world-class cancer specialists to conquer
-    cancer
+  subtitle: Our community is made up of people just like you. <br> <br> Without physical
+    distance as a barrier, Questers are supporters from all over the world that come
+    together to support our shared goal to conquer cancer in our lifetime. Whether
+    you are participating as a gamer or a viewer, you are a valued member of the Quest
+    team.
   background_image: ''
   button:
     url: ''
@@ -78,70 +81,6 @@ blocks:
   variant: ''
   zIndex: '0'
   paddingTop: '0'
-- template: block__image
-  component: image
-  background: white
-  parallax_background:
-    height: auto
-    image1:
-      minY: "-10"
-      maxY: "20"
-      image: "/src/images/clouds-white1.png"
-    image2:
-      minY: "-30"
-      maxY: "20"
-      image: "/src/images/clouds-white2.png"
-    image3:
-      minY: "-10"
-      maxY: "20"
-      image: "/src/images/clouds-white3.png"
-    image4:
-      minY: "0"
-      maxY: "0"
-      image: "/src/images/clouds-white4.png"
-  image: ''
-  zIndex: "30"
-  paddingTop: "0"
-  paddingBottom: 30%
-- template: block__cta
-  component: cta
-  background: light-blue
-  textColor: dark-blue
-  background_image: "/src/images/islands.png"
-  height: 120vh
-  title: A Project by The Princess Margaret Foundation
-  subtitle: The Princess Margaret Cancer Foundation is dedicated to Conquering Cancer
-    In Our Lifetime. This project raises funds that accelerate cancer research, education,
-    and clinical care for patients at The Princess Margaret, across Canada, and around
-    the world. The Princess Margaret is one of the top five cancer research centres
-    in the world.
-  button:
-    url: https://thepmcf.ca/About-Us/About-the-Foundation/Vision-Mission-Strategy
-    text: About PMCF
-  image: ''
-  parallax_background:
-    height: auto
-    image1:
-      image: ''
-      minY: '0'
-      maxY: '0'
-    image2:
-      image: ''
-      minY: '0'
-      maxY: '0'
-    image3:
-      image: ''
-      minY: '0'
-      maxY: '0'
-    image4:
-      image: ''
-      minY: '0'
-      maxY: '0'
-  top: '0'
-  imageWidth: 0px
-  zIndex: '20'
-  paddingTop: '0'
-  paddingBottom: '0'
 - template: block__feature
   component: feature
   image: "/src/images/shield.png"
@@ -186,6 +125,31 @@ blocks:
   top: '0'
   variant: ''
   zIndex: '0'
+- template: block__image
+  component: image
+  background: white
+  parallax_background:
+    height: auto
+    image1:
+      minY: "-10"
+      maxY: "20"
+      image: "/src/images/clouds-white1.png"
+    image2:
+      minY: "-30"
+      maxY: "20"
+      image: "/src/images/clouds-white2.png"
+    image3:
+      minY: "-10"
+      maxY: "20"
+      image: "/src/images/clouds-white3.png"
+    image4:
+      minY: "0"
+      maxY: "0"
+      image: "/src/images/clouds-white4.png"
+  image: ''
+  zIndex: "30"
+  paddingTop: "0"
+  paddingBottom: 30%
 - template: block__feature
   component: feature
   background: light-pink
@@ -232,6 +196,43 @@ blocks:
   zIndex: '0'
   paddingTop: '0'
   paddingBottom: '0'
+- template: block__cta
+  component: cta
+  background: light-blue
+  textColor: dark-blue
+  background_image: "/src/images/islands.png"
+  height: 120vh
+  title: A Project by The Princess Margaret Cancer Foundation
+  button:
+    url: https://thepmcf.ca/About-Us/About-the-Foundation/Vision-Mission-Strategy
+    text: About PMCF
+  image: ''
+  parallax_background:
+    height: auto
+    image1:
+      image: ''
+      minY: '0'
+      maxY: '0'
+    image2:
+      image: ''
+      minY: '0'
+      maxY: '0'
+    image3:
+      image: ''
+      minY: '0'
+      maxY: '0'
+    image4:
+      image: ''
+      minY: '0'
+      maxY: '0'
+  top: '0'
+  imageWidth: 0px
+  zIndex: '20'
+  paddingTop: '0'
+  paddingBottom: '0'
+  subtitle: 'A Project by The Princess Margaret Cancer Foundation<br><br>The Princess
+    Margaret Cancer Foundation creates events to engage and inspire different communities
+    full of warriors like you to come together to conquer cancer. '
 - template: block__feature
   component: feature
   image: "/src/images/sword.png"

@@ -46,11 +46,15 @@ blocks:
   title: Join the Quest
   height: auto
   zIndex: '11'
-  content: Whether a streamer, spectator, or supporter, there’s a place in this Quest
-    for you.
+  content: A Quest to change the world...<br><br>Quest to Conquer Cancer is a fundraising
+    initiative from The Princess Margaret Cancer Foundation that unites passionate
+    gamers from all over the world to make a difference while doing what they love.
+    <br><br>The Quest to Conquer Cancer fundraising season begins in early October,
+    leading into a weeklong, unified fundraising finale December 5th -12th called
+    Quest Together, Conquer Together.
   button:
-    url: "/get-involved"
-    text: Get Involved
+    url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
+    text: Learn More
   button2:
     url: ''
     text: ''
@@ -113,7 +117,7 @@ blocks:
     cancer.
   image: "/src/images/shield.png"
   button:
-    url: "/about"
+    url: "/impact"
     text: Learn more
   textColor: ''
   background_image: ''
@@ -138,7 +142,9 @@ blocks:
   top: '0'
   variant: ''
   paddingTop: '0'
-  subtitle: ''
+  subtitle: 'Future Cancer Patients Win...<br><br>All proceeds raised directly support
+    more than 1,300 world-class researchers and scientists as they continue to push
+    boundaries and set global standards in cancer care­. '
 - template: block__image
   component: image
   zIndex: "40"
