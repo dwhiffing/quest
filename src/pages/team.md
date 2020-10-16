@@ -6,7 +6,7 @@ blocks:
 - template: block__hero
   component: hero
   background: dark-blue
-  title: 'Meet the international community of Questers joining forces to conquer cancer. '
+  title: Community
   parallax_background:
     height: 250px
     image1:
@@ -26,7 +26,8 @@ blocks:
       minY: '0'
       maxY: '0'
   variant: bottom
-  subtitle: ''
+  subtitle: 'Meet the international community of Questers joining forces to conquer
+    cancer. '
   background_image: ''
   button:
     url: ''
