@@ -20,7 +20,7 @@ const Footer = ({ location, content }) => (
         className="relative z-10 flex-1 flex justify-between items-center flex-col self-end"
         style={{ height: 530 }}
       >
-        <div className="mx-auto max-w-2xl flex justify-center relative z-10">
+        <div className="mx-auto max-w-3xl flex justify-center relative z-10">
           <div className="flex flex-col items-center">
             <img alt="logo" src={logo} width={200} className="mb-10" />
             <NavLinks location={location} />

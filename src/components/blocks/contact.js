@@ -19,6 +19,10 @@ const Contact = ({ block }) => {
 
   useEffect(() => {
     const doThing = async () => {
+      if (!process.env.GATSBY_SHEET_ID || !process.env.GATSBY_SERVICE_ACCOUNT_EMAIL || !process.env.GATSBY_SERVICE_ACCOUNT_KEY) {
+        return
+      }
+      
       const doc = new GoogleSpreadsheet(process.env.GATSBY_SHEET_ID)
       await doc.useServiceAccountAuth({
         client_email: process.env.GATSBY_SERVICE_ACCOUNT_EMAIL,
