@@ -142,9 +142,9 @@ blocks:
   top: '0'
   variant: ''
   paddingTop: '0'
-  subtitle: 'Future Cancer Patients Win...<br><br>All proceeds raised directly support
-    more than 1,300 world-class researchers and scientists as they continue to push
-    boundaries and set global standards in cancer care­. '
+  subtitle: 'Future Cancer Patients Win...  All proceeds raised directly support more
+    than 1,300 world-class researchers and scientists as they continue to push boundaries
+    and set global standards in cancer care­. '
 - template: block__image
   component: image
   zIndex: "40"
