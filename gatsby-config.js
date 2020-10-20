@@ -9,13 +9,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-google-tagmanager",
-      options: {
-        id: "GTM-WN6SLP7", 
-        includeInDevelopment: false, 
-      },
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -56,10 +49,18 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/images`, 
         name: 'images',
       },
     },
+
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-WN6SLP7", 
+        includeInDevelopment: false, 
+      },
+    }, 
 
     {
       resolve: `gatsby-plugin-google-analytics`,
