@@ -184,7 +184,7 @@ blocks:
   imageWidth: 0px 0
   zIndex: '0'
   paddingTop: '0'
-  paddingBottom: '0'
+  paddingBottom: 500px
   top: "-1px"
 - template: block__feature
   component: feature
