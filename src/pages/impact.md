@@ -136,7 +136,7 @@ blocks:
   component: cta
   background: white
   background_image: ''
-  height: 100vh
+  height: 160vh
   variant: bottom
   textColor: dark-blue
   orientation: normal
@@ -184,7 +184,7 @@ blocks:
   imageWidth: 0px 0
   zIndex: '0'
   paddingTop: '0'
-  paddingBottom: 500px
+  paddingBottom: '0'
   top: "-1px"
 - template: block__feature
   component: feature
