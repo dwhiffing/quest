@@ -136,7 +136,7 @@ blocks:
   component: cta
   background: white
   background_image: ''
-  height: 160vh
+  height: 180vh
   variant: bottom
   textColor: dark-blue
   orientation: normal
