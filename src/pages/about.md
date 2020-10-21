@@ -230,9 +230,9 @@ blocks:
   zIndex: '20'
   paddingTop: '0'
   paddingBottom: '0'
-  subtitle: 'A Project by The Princess Margaret Cancer Foundation<br><br>The Princess
-    Margaret Cancer Foundation creates events to engage and inspire different communities
-    full of warriors like you to come together to conquer cancer. '
+  subtitle: 'The Princess Margaret Cancer Foundation creates events to engage and
+    inspire different communities full of warriors like you to come together to conquer
+    cancer. '
 - template: block__feature
   component: feature
   image: "/src/images/sword.png"
