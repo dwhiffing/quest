@@ -14,11 +14,11 @@ blocks:
       maxY: '1'
       image: "/src/images/waves1.png"
     image2:
-      minY: "0"
+      minY: '0'
       maxY: '40'
       image: "/src/images/waves2.png"
     image3:
-      minY: "0"
+      minY: '0'
       maxY: '60'
       image: "/src/images/waves3.png"
     image4:
@@ -140,11 +140,25 @@ blocks:
   variant: bottom
   textColor: dark-blue
   orientation: normal
-  title: A Project by The Princess Margaret Foundation
-  subtitle: The Foundation is dedicated to Conquering Cancer in Our Lifetime, raising
-    funds that accelerate cancer research, education and clinical care benefitting
-    patients at The Princess Margaret, across Canada, and around the world. The Princess
-    Margaret is one of the top five cancer research centers in the world.
+  title: CHANGING PEOPLE’S LIVES WITH QUEST TO CONQUER CANCER
+  subtitle: Nearly 1 in 3 North Americans will be diagnosed with cancer in their lifetime.
+    The need to continue to fund world-leading research is vital, because it offers
+    real hope to patients living with cancer. We are always pushing the envelope –  in
+    our research labs, with patient care and even in  the way we raise the funds for
+    these critical programs. I’m excited to announce the launch of Quest to Conquer
+    Cancer and build a community of gamers who are using their passion to fundraise
+    in support of The Princess Margaret. <br><br>I’m looking forward to seeing gamers
+    unite around the world as we launch our first fundraising season for Quest which
+    will culminate in an epic fundraising finale in December. <br><br>The funds that
+    Questers help raise allow The Princess Margaret to remain as one of the top 5
+    cancer research centres in the world. Many of our world-leading researchers are
+    making the impossible possible, thanks to the tremendous philanthropic support
+    that comes from our Questers, donors, volunteers and supporters.<br><br>The Princess
+    Margaret is transforming cancer care across the globe thanks to advances in technology,
+    fueled by the innovation of our cancer experts and the generosity of our community.
+    By joining Quest, you are helping us to advance on our vision, to Conquer Cancer
+    In Our Lifetime.<br><br>Join the movement. Join the Quest!<br><br>Sincerely,<br>Michael
+    Burns<br>President & CEO
   button:
     url: https://thepmcf.ca/Home
     text: About PMCF
