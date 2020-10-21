@@ -261,9 +261,9 @@ blocks:
   orientation: normal
   imageWidth: 350px
   height: auto
-  title: Join the Quest
-  content: Whether a streamer, spectator, or supporter, there’s a place in this Quest
-    for you.
+  title: Start Quest
+  content: Join the Quest...<br><br>Whether you donate, fundraise, or tune in, your
+    support makes a huge difference in our fight to conquer cancer.
   button:
     url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
     text: Join Now
