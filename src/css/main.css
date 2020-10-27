@@ -242,3 +242,13 @@ input {
 select option {
   color: black;
 }
+
+@media only screen and (max-width: 482px) {
+  nav .bg-white {
+    margin-top: 10px;
+  }
+
+  footer .bg-white { 
+    margin-top: 10px;
+  }
+}
