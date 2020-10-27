@@ -87,7 +87,7 @@ export function NavLinks({ location }) {
                 <Button
                   key={edge.node.id}
                   button={{ text: edge.node.title, url: edge.node.url }}
-                  className="bg-white text-dark-blue text-xs lg:text-sm ml-2 hidden md:inline-flex"
+                  className="bg-white text-dark-blue text-xs lg:text-sm ml-2 md:inline-flex"
                 />
               )
             })
