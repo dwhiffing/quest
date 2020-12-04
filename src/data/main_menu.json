@@ -25,6 +25,11 @@
     "title": "CONTACT"
   },
   {
+    "type": "internal",
+    "url": "https://questtoconquercancer.com/questtogether/",
+    "title": "Quest Together"
+  },
+  {
     "type": "external",
     "url": "https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501",
     "title": "Donate"
