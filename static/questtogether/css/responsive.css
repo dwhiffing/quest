@@ -61,6 +61,12 @@
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
+  #section-3 .cta-main {
+    width: 88%;
+  }
+  #section-3 #schedule-img {
+    width: 90%;
+  }
   #section-3 #globe-img {
     width: 90%;
   }
@@ -71,6 +77,9 @@
     margin-top: 70px;
   }
   #section-5 img {
+    width: 100%;
+  }
+  #section-5 #prizes-img {
     width: 100%;
   }
   #section-8 #scroll-img {
@@ -129,6 +138,9 @@
   }
   #clouds-img-2 {
     width: 1000px;
+  }
+  .temp-mobile-fix {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
