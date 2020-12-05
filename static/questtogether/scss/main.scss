@@ -253,49 +253,7 @@ select option {
   footer .bg-white { 
     margin-top: 10px;
   }
-}
-
-//Donor Drive Thermomemter Widget  
-.dd-thermo-horizontal {
-  min-width: 300px; /* Protects dimensions for mobile */
-  position: relative;
-}
-.dd-thermo-mask {
-  position: absolute;
-  right: 0;
-  left: 0;
-  margin: auto;
-  z-index: 1000;
-  width: 40px;
-  height: 200px;
-}
-.dd-thermo-progress {
-  background: red;
-  height: 100%;
-  text-align: right;
-}
-.dd-thermo-track {
-  position: relative;
-  background: #ccc;
-  overflow: hidden;
-}
-.dd-thermo-raised {
-  float: left;
-  margin-top: 10px; 
-}
-.dd-thermo-goal {
-  float: right;
-  margin-top: 10px;
-}
-.dd-thermo-track {
-  height: 40px;
-}
-.dd-thermo-percent {
-  position: relative;
-  max-width: 100%;
-  text-align: left;
-  margin-bottom: 10px;
-}
+} 
 
 //
 .align-content {
@@ -522,7 +480,7 @@ section {
     }
     
     .streamer-div {
-      display: inline-block;
+      display: inline-block; 
     }
   } 
 }  
@@ -537,6 +495,11 @@ section {
   
   #diamond-div {
     width: 50px;
+  }
+
+  span {
+    font-family: 'Quatro'; 
+    font-weight: 700;
   }
 }
 
@@ -821,5 +784,524 @@ footer {
     .footer-right {
       float: right;
     }
+  }
+}
+
+
+
+//
+.dd-thermo-horizontal {
+  min-width: 300px;
+  width: 1000px;
+  /* Protects dimensions for mobile */
+  position: relative;
+}
+.dd-thermo-horizontal .dd-thermo-mask {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 1000;
+  width: auto;
+  height: 43px;
+}
+.dd-thermo-horizontal .dd-thermo-progress {
+  background: red;
+  height: 100%;
+  text-align: right;
+}
+.dd-thermo-horizontal .dd-thermo-track {
+  position: relative;
+  background: transparent;
+  overflow: hidden;
+  height: 43px;
+  border-radius: 1000px;
+}
+.dd-thermo-horizontal .dd-thermo-raised {
+  float: left;
+}
+.dd-thermo-horizontal .dd-thermo-goal {
+  float: right;
+}
+.dd-thermo-horizontal .dd-thermo-percent {
+  max-width: 100%;
+  text-align: right;
+  position: relative;
+}
+.dd-thermo-horizontal .dd-thermo-percent-flag {
+  display: inline-block;
+  background: none;
+}
+.dd-widget:empty {
+  display: none;
+}
+.dd-milestone-wrapper {
+  position: relative;
+}
+.dd-milestone-list {
+  width: calc(100% - 12px / 2);
+  height: 43px;
+  position: absolute;
+}
+.dd-milestone-mark {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0 auto -6px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  z-index: 1005;
+  box-shadow: none;
+  padding: 0;
+  line-height: 1;
+  font-family: inherit;
+}
+.dd-milestone-mark .dd-description {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  left: -94px;
+  width: 200px;
+  margin-bottom: 7px;
+  pointer-events: none;
+  transition: opacity 0.2s ease-out;
+  z-index: 1000;
+}
+.dd-milestone-mark .dd-description:before {
+  bottom: -7px;
+  content: " ";
+  display: block;
+  height: 7px;
+  left: 0;
+  position: absolute;
+  width: 7px;
+}
+.dd-milestone-mark .dd-description:after {
+  border-left: solid transparent 7px;
+  border-right: solid transparent 7px;
+  border-top: solid rgba(0, 0, 0, 0.8) 7px;
+  bottom: -7px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -7px;
+  position: absolute;
+  width: 0;
+}
+.dd-milestone-mark .dd-description strong {
+  display: block;
+}
+.dd-milestone-mark:hover .dd-description,
+.dd-milestone-mark:focus .dd-description {
+  opacity: 1;
+}
+@media only screen and (max-width: 768px) {
+  .dd-milestone-mark .dd-description {
+    display: none !important;
+  }
+}
+@keyframes gradientWave {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.dd-thermo-horizontal {
+  min-width: auto;
+}
+.dd-thermo-horizontal .dd-description {
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  text-transform: none;
+}
+.dd-thermo-horizontal .dd-thermo-mask,
+.dd-thermo-horizontal .dd-thermo-percent {
+  display: none;
+}
+.dd-thermo-horizontal .dd-thermo-raised,
+.dd-thermo-horizontal .dd-thermo-goal {
+  color: #EE2A7B;
+  font-family: "quatro-bold", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  width: 50%;
+}
+.dd-thermo-horizontal .dd-milestone-wrapper,
+.dd-thermo-horizontal .dd-thermo-track {
+  order: 3;
+  width: 100%;
+}
+.dd-thermo-horizontal .dd-milestone-wrapper {
+  z-index: 1;
+}
+.dd-thermo-horizontal .dd-thermo-raised {
+  order: 1;
+  text-align: left;
+}
+.dd-thermo-horizontal .dd-thermo-goal {
+  order: 2;
+  text-align: right;
+}
+.dd-thermo-horizontal .dd-thermo-track {
+  position: relative;
+}
+.dd-thermo-horizontal .dd-thermo-track:after {
+  border-radius: 1000px;
+  border: 3px solid #fabfd7;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+.dd-thermo-horizontal .dd-thermo-progress {
+  animation: thermo-progress-horz 1s 1 forwards ease-out, gradientWave 10s infinite linear;
+  background-size: 200% 200%;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+  background-image: -moz-linear-gradient(left, #f03f88 0%, #fabfd7 100%);
+  background-image: -webkit-linear-gradient(left, #f03f88 0%, #fabfd7 100%);
+  background-image: linear-gradient(to right, #f03f88 0%, #fabfd7 100%);
+}
+.dd-thermo-horizontal .dd-page-edit-btn {
+  top: auto;
+  bottom: 0;
+}
+.dd-thermo-horizontal.dd-alt .dd-thermo-raised,
+.dd-thermo-horizontal.dd-alt .dd-thermo-goal {
+  color: #FFFFFF;
+}
+@media only screen and (max-width: 641px) {
+  .dd-thermo-horizontal .dd-thermo-raised,
+  .dd-thermo-horizontal .dd-thermo-goal {
+    width: 100%;
+    text-align: center;
+  }
+  .dd-thermo-horizontal .dd-thermo-raised,
+  .dd-thermo-horizontal .dd-thermo-track {
+    margin-bottom: 15px;
+  }
+  .dd-thermo-horizontal .dd-thermo-raised {
+    order: 1;
+  }
+  .dd-thermo-horizontal .dd-thermo-goal {
+    margin-bottom: 0;
+  }
+  .dd-thermo-horizontal .dd-milestone-wrapper,
+  .dd-thermo-horizontal .dd-thermo-track {
+    order: 2;
+  }
+  .dd-thermo-horizontal .dd-page-edit-btn {
+    bottom: auto;
+  }
+}
+.dd-thermo-vertical,
+.dd-thermo-vertical .dd-thermo-track {
+  text-align: center;
+  margin: 0 auto;
+}
+.dd-thermo-vertical {
+  position: relative;
+}
+.dd-thermo-vertical strong {
+  display: block;
+  clear: both;
+  color: #EE2A7B;
+}
+.dd-thermo-vertical .dd-thermo-mask {
+  background: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 1000;
+  height: 220px;
+  width: 43px;
+}
+.dd-thermo-vertical .dd-thermo-progress {
+  text-align: right;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #67219E;
+}
+.dd-thermo-vertical .dd-thermo-track {
+  height: 220px;
+  background: transparent;
+  border-radius: 1000px;
+  position: relative;
+  width: 43px;
+  overflow: hidden;
+}
+.dd-thermo-vertical .dd-thermo-percent {
+  color: #EE2A7B;
+}
+.dd-widget:empty {
+  display: none;
+}
+@keyframes thermo-progress-vert {
+  0% {
+    height: 0;
+  }
+}
+.dd-thermo-vertical > * {
+  margin-bottom: 15px !important;
+}
+.dd-thermo-vertical > *:last-child {
+  margin-bottom: 0 !important;
+}
+.dd-thermo-vertical .dd-thermo-raised,
+.dd-thermo-vertical .dd-thermo-goal {
+  color: #EE2A7B;
+  font-family: "quatro-bold", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.dd-thermo-vertical .dd-thermo-track {
+  position: relative;
+}
+.dd-thermo-vertical .dd-thermo-track:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 1000px;
+  border: 3px solid #fabfd7;
+  z-index: 0;
+}
+.dd-thermo-vertical .dd-thermo-progress {
+  animation: thermo-progress-vert 1s 1 forwards ease-out;
+  z-index: 1;
+  background-image: -moz-linear-gradient(top, #fabfd7 0%, #f03f88 100%);
+  background-image: -webkit-linear-gradient(top, #fabfd7 0%, #f03f88 100%);
+  background-image: linear-gradient(to bottom, #fabfd7 0%, #f03f88 100%);
+}
+.dd-total-raised span {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  color: #EE2A7B;
+  display: inline-block;
+  font-family: "quatro-bold", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.dd-badges,
+.dd-incentive-option-list,
+.dd-milestones,
+.dd-thermo-horizontal {
+  display: flex;
+  align-items: baseline;
+  align-content: flex-start;
+}
+.dd-badges,
+.dd-incentive-option-list,
+.dd-thermo-horizontal {
+  flex-wrap: wrap;
+}
+.dd-badges .dd-btn-link,
+.dd-milestones .dd-btn-link,
+.dd-incentive-option-list .dd-btn-link {
+  font-size: 16px;
+}
+.dd-badges .dd-btn-link:after,
+.dd-milestones .dd-btn-link:after,
+.dd-incentive-option-list .dd-btn-link:after {
+  content: "\f0da";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 18px;
+  margin-left: 5px;
+  transition: all 0.5s ease-in-out;
+}
+.dd-badges .dd-btn-link:hover:after,
+.dd-milestones .dd-btn-link:hover:after,
+.dd-incentive-option-list .dd-btn-link:hover:after,
+.dd-badges .dd-btn-link:focus:after,
+.dd-milestones .dd-btn-link:focus:after,
+.dd-incentive-option-list .dd-btn-link:focus:after {
+  transform: translateX(5px);
+}
+.dd-top-team-groups .dd-view-more-link:after,
+.dd-top-fundraisers .dd-view-more-link:after,
+.dd-top-teams .dd-view-more-link:after,
+.dd-events .dd-view-more-link:after {
+  content: "\f067";
+  font-family: FontAwesome;
+  margin-left: 5px;
+}
+.dd-badges {
+  text-align: center;
+}
+.dd-badges .dd-description {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  left: -75px;
+  width: 200px;
+  margin-bottom: 7px;
+  pointer-events: none;
+  transition: opacity 0.2s ease-out;
+  z-index: 1000;
+}
+.dd-badges .dd-description:before {
+  bottom: -7px;
+  content: " ";
+  display: block;
+  height: 7px;
+  left: 0;
+  position: absolute;
+  width: 7px;
+}
+.dd-badges .dd-description:after {
+  border-left: solid transparent 7px;
+  border-right: solid transparent 7px;
+  border-top: solid rgba(0, 0, 0, 0.8) 7px;
+  bottom: -7px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -7px;
+  position: absolute;
+  width: 0;
+}
+.dd-badges .dd-description strong {
+  display: block;
+}
+/* No Badges */
+.dd-badge-missing {
+  background: url("../../../resources/img/badges/badge-placeholder.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 20px auto;
+}
+.dd-badge-missing span {
+  display: none;
+}
+/* Badge Display */
+.dd-badges ul {
+  margin: 0;
+  padding: 0px;
+}
+.dd-badges li {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 50px;
+  padding: 0px;
+}
+.dd-badges li:hover .dd-description,
+.dd-badges li:focus .dd-description {
+  opacity: 1;
+}
+.dd-badges img {
+  width: 50px;
+  height: 50px;
+  filter: none;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+  image-rendering: -webkit-optimize-contrast;
+}
+@media only screen and (max-width: 641px) {
+  .dd-badges .dd-description {
+    display: none !important;
+  }
+}
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.dd-badges h1 {
+  width: 100%;
+}
+.dd-badges ul {
+  margin-right: 30px;
+}
+.dd-badges li {
+  margin: 0;
+}
+.dd-badges p {
+  margin-bottom: 0;
+}
+.dd-badges .dd-badge img {
+  animation: popIn 1s 1 forwards cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  opacity: 0;
+  transform: scale(0);
+}
+.dd-badges.dd-alt h1,
+.dd-badges.dd-alt p,
+.dd-badges.dd-alt .dd-btn-link {
+  color: #FFFFFF;
+}
+.dd-badges.dd-alt h1 {
+  display: none;
+}
+.dd-badges.dd-no-badges {
+  align-items: center;
+}
+.dd-badges.dd-no-badges p,
+.dd-badges.dd-no-badges .dd-btn-link {
+  padding: 10px;
+}
+.dd-badges.dd-no-badges .dd-badge-missing {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  margin: 0;
+}
+@media only screen and (max-width: 641px) {
+  .dd-badges > * {
+    width: 100% !important;
+  }
+  .dd-badges ul {
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+  .dd-badges.dd-no-badges .dd-badge-missing {
+    background-position: center;
   }
 }

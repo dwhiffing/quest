@@ -21,16 +21,16 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" /> 
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/responsive.css">  
+  <link rel="stylesheet" href="css/responsive.css">   
   
   <!--Donor Drive Thermometer Widget-->  
-  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> 
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script type="text/javascript">
-    window.ddWidgetOptions = { 
-      
+    window.ddWidgetOptions = {
+      // this is entirely optional see below for available settings
     };
-  </script>
-  <script type="text/javascript" src="//questtoconquercancer.donordrive.com/resources/js/donordrive.widget.js" async></script> 
+  </script> 
+  <script type="text/javascript" src="https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501/resources/js/donordrive.widget.js" async></script>  
   
 </head>
 <body>
@@ -88,19 +88,19 @@
     
     <section id="header">
       <div class="align-content">
-        <img id="clouds-img" src="assets/Clouds.png" alt=""> 
+        <img id="clouds-img" src="assets/Clouds.png" alt="">  
       </div> 
       <div id="header-content" class="section-content">
         <div>
-          <h2>Get ready to...</h2>
+          <h2>Join us, as we...</h2>
           <br>
-          <h1>QUEST TOGETHER, CONQUER TOGETHER</h1>
+          <h1>QUEST TOGETHER, CONQUER TOGETHER</h1> 
           <br>
           <br>
           <br>
           <div class="header-streamer">
             <div class="streamer-div">
-              <img class="streamer-img" src="assets/techniq1.jpg" alt="">  
+              <img class="streamer-img" src="assets/techniq1.jpg" alt="">     
             </div>
             <div class="streamer-div"> 
               <h1>TECHNIQ</h1>
@@ -113,10 +113,13 @@
           </div>
           <br>
           <br>
-          <br>
-          <!--Donor Drive Thermometer Widget-->
-          <div class="align-content">
-            <img id="donation-bar" src="assets/donation-bar.png" alt=""> 
+          <br> 
+          <!--Donor Drive Thermometer Widget--> 
+          <div class="align-content"> 
+            
+              <div class="dd-widget dd-thermo-horizontal dd-editable-content dd-editable-goal dd-alt u-z-0 widget-number-2 dd-widget-complete" role="complementary" data-type="thermometer" data-orientation="horizontal" data-show-raised="true" data-show-goal="true" data-total-raised="" data-currency-format="fancy" data-show-percent="false"> <strong class="dd-thermo-raised"> $232,303 CAD <span class="dd-label">Raised</span> </strong>   <div class="dd-thermo-mask"></div> <div class="dd-thermo-track"> <div aria-label="You\&amp;apos;ve raised ${widgetData.percent}% of your goal!" class="dd-thermo-progress dd-thermo-progress-46" style="width: 46%" tab-index="0"></div> </div> <strong class="dd-thermo-goal"> <span class="dd-label">Goal</span> $500,000 CAD </strong></div> 
+            
+          </div>   
           </div>
         </div>
       </div>
@@ -140,11 +143,11 @@
               </p>
               <br>
               <p>
-                The fundraising season culminates into an event, Quest Together, Conquer Together; beginning December 5th at 12PM EST. We’ve curated a schedule of our incredible broadcasters and teams, all united in our mission to Conquer Cancer In Our Lifetime.  Be sure to tune in and support The Princess Margaret Cancer Foundation as we #QuestTogether. 
+                The fundraising season culminates into this event, Quest Together, Conquer Together; happening <span>NOW.</span> We’ve curated a schedule of our incredible broadcasters and teams, all united in our mission to Conquer Cancer In Our Lifetime.  Be sure to tune in until December 12th and support The Princess Margaret Cancer Foundation as we <span>#QuestTogether.</span>
               </p>
               <br>
               <div class="section-content">
-                <img id="diamond-div" src="assets/Diamond Motif Divider.png" alt=""> 
+                <img id="diamond-div" src="assets/Diamond Motif Divider.png" alt="">  
                 <br>
                 <br>
                 <p>Keep scrolling to learn more!</p>
@@ -170,7 +173,7 @@
               <h1>MEET OUR QUESTERS</h1> 
               <br>
               <p>
-                Check out a few of the many inspiring people that will be participating in the Quest Together, Conquer Together event!
+                Check out a few of the many inspiring people participating in the Quest Together, Conquer Together event! 
               </p>
               <br>
               <p>
@@ -232,7 +235,7 @@
         <div>
           <div class='align-content'>
             <div class="temp-mobile-fix">
-              <p>The broadcast will begin on December 5th with streamers going live every day of the week until December 12th. 
+              <p>The broadcast is happening now with streamers going live every day of the week until December 12th. 
               </p>
               <br>
               <p>
@@ -558,11 +561,11 @@
                                 </div>
                               </div>
                             </div>
-                          </div>
+                          </div> 
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> 
                 </footer>
                 
                 <!-- Optional JavaScript -->

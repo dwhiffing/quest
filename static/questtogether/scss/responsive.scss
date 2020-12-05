@@ -27,11 +27,19 @@
   .br-res {
     display: block !important;
   }
+
+  .dd-thermo-horizontal {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden; 
+  }
+
+  #header #header-sprite {
+    display: none;
   }
   
   #navbar {
