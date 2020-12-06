@@ -39,7 +39,7 @@
   }
   #navbar {
     margin-left: 0;
-    padding: 40px 0px;
+    padding: 15px 0px;
   }
   #navbar .logo1 {
     width: 170px;
@@ -52,6 +52,9 @@
   }
   #header .header-streamer h1 {
     font-size: 30px;
+  }
+  #header .header-title {
+    font-size: 28px;
   }
   #header .header-streamer .streamer-img {
     margin-right: 0;
