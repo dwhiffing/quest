@@ -1,0 +1,156 @@
+@media screen and (max-width: 1300px) {
+  #navbar {
+    padding: 50px 20px;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  #navbar .logo2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  #navbar {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    margin-left: -80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #donation-bar {
+    width: 95% !important;
+  }
+  .br-res {
+    display: block !important;
+  }
+  .dd-thermo-horizontal {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  #header #header-sprite {
+    display: none;
+  }
+  #navbar {
+    margin-left: 0;
+    padding: 15px 0px;
+  }
+  #navbar .logo1 {
+    width: 170px;
+  }
+  #navbar .nav-item {
+    margin: 10px 0;
+  }
+  #donation-bar {
+    width: 95% !important;
+  }
+  #header .header-streamer h1 {
+    font-size: 30px;
+  }
+  #header .header-title {
+    font-size: 28px;
+  }
+  #header .header-streamer .streamer-img {
+    margin-right: 0;
+    margin-bottom: 23px;
+    margin-top: -30px;
+  }
+  #section-1 {
+    padding-top: 0;
+  }
+  #section-1 #sword-stone {
+    margin-top: 40px;
+  }
+  #section-2 .cta-main {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  #section-3 .cta-main {
+    width: 88%;
+  }
+  #section-3 #schedule-img {
+    width: 90%;
+  }
+  #section-3 #globe-img {
+    width: 90%;
+  }
+  #section-3 .cta-main {
+    margin-top: 20px;
+  }
+  #section-4 #stetho-img {
+    margin-top: 70px;
+  }
+  #section-5 img {
+    width: 100%;
+  }
+  #section-5 #prizes-img {
+    width: 100%;
+  }
+  #section-8 #scroll-img {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  #section-8 .col-md-4 {
+    text-align: center;
+  }
+  #section-10 #sword-img {
+    width: 80%;
+  }
+  #woods-img {
+    margin-top: -100px;
+  }
+  #section-6 #stream-vid {
+    margin-top: 100px;
+  }
+  #section-7 {
+    padding-top: 200px;
+  }
+  #section-9 .staff-block {
+    margin: 50px 0;
+  }
+  #section-10 {
+    padding-top: 100px;
+  }
+  footer #footer-content {
+    margin-top: -700px;
+  }
+  .cta-main {
+    width: 100%;
+  }
+  #header #clouds-img {
+    width: 1000px;
+    margin-top: 60px;
+  }
+  #header #mountains-img {
+    width: 800px;
+    margin-top: 500px;
+  }
+  #ruins-img {
+    width: 800px;
+    padding: 50px 0 100px 0;
+  }
+  #woods-img {
+    width: 768px;
+    padding: 50px 0 20px 0;
+  }
+  #mountains-img-2 {
+    width: 1000px;
+  }
+  #teepee-img {
+    width: 1000px;
+    padding: 100px 0 80px 0;
+  }
+  #clouds-img-2 {
+    width: 1000px;
+  }
+  .temp-mobile-fix {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
