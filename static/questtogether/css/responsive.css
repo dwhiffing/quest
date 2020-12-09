@@ -1,5 +1,14 @@
 @media screen and (max-width: 1300px) {
   #navbar {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    margin-left: -80px;
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  #navbar {
     padding: 50px 20px;
   }
 }
@@ -7,14 +16,6 @@
 @media screen and (max-width: 1550px) {
   #navbar .logo2 {
     display: none;
-  }
-}
-
-@media screen and (max-width: 1180px) {
-  #navbar {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-    margin-left: -80px;
   }
 }
 
@@ -151,6 +152,9 @@
   }
   .temp-mobile-fix {
     width: 90%;
+  }
+  footer .footer-links {
+    padding-bottom: 200px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
