@@ -251,6 +251,10 @@ select option {
   footer .bg-white { 
     margin-top: 10px;
   }
+  
+  nav .mt-4 {
+    width: 300px;
+  }
 }
 
 footer .max-w-3xl {
