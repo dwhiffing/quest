@@ -256,6 +256,6 @@ select option {
 //Footer links max width increase
 footer {
   .max-w-3xl {
-    max-width: 120rem;
+    max-width: 120rem !important;
   }
 }
