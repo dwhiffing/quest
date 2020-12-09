@@ -252,3 +252,10 @@ select option {
     margin-top: 10px;
   }
 }
+
+//Footer links max width increase
+footer {
+  .max-w-3xl {
+    max-width: 120rem;
+  }
+}
