@@ -728,6 +728,10 @@ footer {
   margin-top: -100px;
 }
 
+footer .br-mobile-fix {
+  display: none;
+}
+
 footer a {
   -webkit-transition: 0.3s;
   transition: 0.3s;

@@ -717,6 +717,10 @@ section {
 footer {
   margin-top: -100px;
 
+  .br-mobile-fix {
+    display: none;
+  }
+
   a {
     transition: 0.3s;
   }
