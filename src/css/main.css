@@ -255,6 +255,10 @@ select option {
   nav .mt-4 {
     width: 300px;
   }
+  
+  section .text-3xl {
+    padding-top: 90px;  
+  }
 }
 
 footer .max-w-3xl {
