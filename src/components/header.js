@@ -42,13 +42,11 @@ export function Nav({ location, siteTitle }) {
       <div className="flex">
         <div className="flex-1 flex items-center mt-6">
           <div className="flex-1 flex justify-center">
-            <Link to="/">
-              <img
+              <a href="/home/"><img 
                 alt={siteTitle}
                 src={logo}
                 style={{ minWidth: 100, maxWidth: 200 }}
-              />
-            </Link>
+              /></a>
           </div>
           <img
             alt={siteTitle}
