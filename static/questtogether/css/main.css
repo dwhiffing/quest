@@ -738,7 +738,7 @@ footer a {
 }
 
 footer .footer-links {
-  padding-bottom: 300px;
+  padding-bottom: 230px;
 }
 
 footer .footer-links p {
@@ -786,6 +786,10 @@ footer #footer-content .cta-round {
 
 footer #footer-content .cta-round p {
   color: black;
+}
+
+footer .footer-social {
+  margin: 0 20px !important;
 }
 
 footer .footer-copyright .links p {

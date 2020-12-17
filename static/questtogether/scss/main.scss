@@ -182,7 +182,7 @@ input {
 }
 
 @media (max-width: 767px) {
-
+  
   .small-image-mobile {
     width: 200px !important;
   }
@@ -352,7 +352,7 @@ section {
   font-size: 0.875rem;
   padding: 50px 100px;
   z-index: 9;
-
+  
   a {
     color: white;
   }
@@ -376,12 +376,12 @@ section {
     background: white; 
     margin: 0 20px;
     padding: 10px;
-
+    
     a {
       color: black;
     }
   }
-
+  
   .links {
     display: inline-block; 
     margin: 10px;
@@ -393,7 +393,7 @@ section {
       font-weight: 700;
     }
   }
-
+  
   .cta-round {
     background: white;
     padding: 5px 18px 2px 18px;
@@ -403,11 +403,11 @@ section {
       color: black;
     }
   }
-
+  
   a {
     transition: 0.3s;
   }
-
+  
   .links {
     p {
       margin-bottom: 0;
@@ -437,7 +437,7 @@ section {
     margin-right: auto;
     margin-top: -70px; 
   }
-
+  
   #header-sprite {
     position: absolute; 
     width: 150px;
@@ -447,7 +447,7 @@ section {
     margin-left: auto;
     margin-right: auto; 
   }
-
+  
   #donation-bar {
     width: 980px;
   }
@@ -490,7 +490,7 @@ section {
 //
 #section-1 {
   padding-top: 50px;
-
+  
   #sword-stone {
     width: 100%;
   }
@@ -498,7 +498,7 @@ section {
   #diamond-div {
     width: 50px;
   }
-
+  
   span {
     font-family: 'Quatro'; 
     font-weight: 700;
@@ -644,12 +644,12 @@ section {
   .cta-main {
     float: left;
   }
-
+  
   a {
     color: $pink;
     transition: 0.3s;
   }
-
+  
   a:hover {
     color: #9a1b50;
     transition: 0.3s;
@@ -707,7 +707,7 @@ section {
 //
 #section-10 {  
   padding: 50px 0;
-
+  
   #sword-img {
     width: 40%; 
   }
@@ -716,18 +716,18 @@ section {
 //
 footer {
   margin-top: -100px;
-
+  
   .br-mobile-fix {
     display: none;
   }
-
+  
   a {
     transition: 0.3s;
   }
-
+  
   .footer-links {
-    padding-bottom: 300px;
-
+    padding-bottom: 230px;
+    
     p {
       margin-bottom: 0;
     }
@@ -752,7 +752,7 @@ footer {
       width: 200px;
       padding-bottom: 60px;
     }
-
+    
     .links {
       display: inline-block; 
       margin: 10px;
@@ -764,7 +764,7 @@ footer {
         font-weight: 700;
       }
     }
-
+    
     .cta-round {
       background: white;
       padding: 10px 25px 7px 25px;
@@ -775,25 +775,27 @@ footer {
       }
     }
   }
-
+  
+  .footer-social {
+    margin: 0 20px !important;
+  }
+  
   .footer-copyright {
     .links {
       p {
         font-size: 12px !important;
       }
     }
-
+    
     .footer-left {
-      float: left;
+      float: left; 
     }
-
+    
     .footer-right {
       float: right;
     }
   }
 }
-
-
 
 //
 .dd-thermo-horizontal {
