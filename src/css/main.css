@@ -264,3 +264,7 @@ select option {
 footer .max-w-3xl {
   max-width: 120rem !important;
 }
+
+img, video {
+  max-width: none;
+}
