@@ -346,7 +346,7 @@ section {
 }
 
 #woods-img {
-  margin-top: -250px;
+  margin-top: -50px;
   margin-bottom: -25px;
 }
 
@@ -433,6 +433,7 @@ section {
 #header {
   overflow: hidden;
   margin-top: -200px;
+  padding-bottom: 0;
 }
 
 #header #clouds-img {
@@ -457,7 +458,7 @@ section {
   position: absolute;
   width: 150px;
   right: 415px;
-  bottom: 239px;
+  bottom: 139px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -473,7 +474,16 @@ section {
   left: 0;
   right: 0;
   margin: auto;
-  top: 462px;
+  top: 250px;
+}
+
+#header #header-video {
+  margin-top: 40px;
+  width: 1000px;
+  height: 565px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
 }
 
 #header .header-streamer {
@@ -502,7 +512,8 @@ section {
 }
 
 #section-1 {
-  padding-top: 50px;
+  padding-top: 35px;
+  padding-bottom: 110px;
 }
 
 #section-1 #sword-stone {
@@ -516,6 +527,24 @@ section {
 #section-1 span {
   font-family: 'Quatro';
   font-weight: 700;
+}
+
+#section-2 h1 {
+  text-align: center;
+}
+
+#section-2 #video-2 {
+  width: 500px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+#section-2 .twitter-timeline {
+  width: 500px !important;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
 }
 
 #section-2 #quester {
@@ -548,6 +577,42 @@ section {
 
 #section-3 {
   padding-top: 200px;
+}
+
+#section-3 #video-3 {
+  width: 100%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+#section-3 #discord-widget {
+  width: 350px;
+  height: 500px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#section-3 h1 {
+  text-align: center;
+  font-size: 28px;
+}
+
+#section-3 h1 span {
+  color: #EE2A7B;
+}
+
+#section-3 h1 a {
+  color: #EE2A7B;
+  text-decoration: underline;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#section-3 h1 a:hover {
+  color: #901448;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #section-3 #schedule-img {
@@ -601,6 +666,28 @@ section {
   padding-bottom: 280px;
 }
 
+#section-6 #charity-img {
+  width: 80%;
+}
+
+#section-6 h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#section-6 h1 a {
+  color: #EE2A7B;
+  text-decoration: underline;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#section-6 h1 a:hover {
+  color: #901448;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 #section-6 #stream-vid {
   width: 100%;
   border-radius: 10px;
@@ -634,13 +721,48 @@ section {
 
 #section-7 .cta-main h1 {
   color: white !important;
-  margin-top: -59px;
-  font-size: 25px !important;
 }
 
 #section-7 .cta-main img {
   width: 300px;
   height: 70px;
+}
+
+#section-11 {
+  padding-top: 110px;
+}
+
+#section-11 #video-11 {
+  width: 500px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+#section-11 #rewards-img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#section-11 .cta-main {
+  padding-top: 10px;
+}
+
+#section-11 .cta-main h1 {
+  color: white !important;
+  font-size: 25px !important;
+  margin-top: -59px;
+}
+
+#section-11 .cta-main img {
+  width: 300px;
+  height: 70px;
+}
+
+#section-8 {
+  padding-top: 220px;
 }
 
 #section-8 #scroll-img {
@@ -738,7 +860,7 @@ footer a {
 }
 
 footer .footer-links {
-  padding-bottom: 230px;
+  padding-bottom: 280px;
 }
 
 footer .footer-links p {

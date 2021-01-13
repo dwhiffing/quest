@@ -20,8 +20,22 @@
   }
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1200px) {
+  #section-2 #video-2 {
+    width: 400px;
+  }
   
+  #section-2 .twitter-timeline {
+    width: 400px;
+  }
+  
+}
+
+@media screen and (max-width: 1050px) {
+  #header #header-video {
+    width: 800px;
+    height: 480px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -32,7 +46,7 @@
   .br-res {
     display: block !important;
   }
-
+  
   .dd-thermo-horizontal {
     width: 90%;
   }
@@ -42,11 +56,11 @@
   body {
     overflow-x: hidden; 
   }
-
+  
   .br-mobile-fix {
     display: inline !important; 
   }
-
+  
   #header #header-sprite {
     display: none;
   }
@@ -72,7 +86,7 @@
   #header .header-streamer h1 {
     font-size: 30px; 
   }
-
+  
   #header .header-title {
     font-size: 28px;
   }
@@ -82,7 +96,7 @@
     margin-bottom: 23px;
     margin-top: -30px;
   }  
-
+  
   #section-1 {
     padding-top: 0; 
   }
@@ -94,13 +108,13 @@
   #section-2 .cta-main {
     transform: scale(0.8);
   }
-
+  
   #section-3 {
     .cta-main {
       width: 88%; 
     }
   }
-
+  
   #section-3 #schedule-img {
     width: 90%;
   }
@@ -112,6 +126,11 @@
   #section-3 .cta-main {
     margin-top: 20px;
   }
+
+  #section-3 #discord-widget {
+    margin-top: 30px;
+    width: 100%;
+  }
   
   #section-4 #stetho-img {
     margin-top: 70px;
@@ -120,7 +139,7 @@
   #section-5 img {
     width: 100%;
   }
-
+  
   #section-5 #prizes-img {
     width: 100%; 
   }
@@ -129,7 +148,7 @@
     width: 80%;
     margin-bottom: 40px;
   }
-
+  
   #section-8 {
     .col-md-4 {
       text-align: center; 
@@ -147,7 +166,7 @@
   #section-6 #stream-vid {
     margin-top: 100px;
   }
-
+  
   #section-7 {
     padding-top: 200px;
   }
@@ -155,7 +174,7 @@
   #section-9 .staff-block {
     margin: 50px 0;
   }
-
+  
   #section-10 {
     padding-top: 100px;
   }
@@ -167,46 +186,76 @@
   .cta-main {
     width: 100%; 
   }
-
+  
   #header #clouds-img {
     width: 1000px;
     margin-top: 60px;
   }
-
+  
   #header #mountains-img {
     width: 800px;
     margin-top: 500px;
   }
-
+  
   #ruins-img {
     width: 800px;
     padding: 50px 0 100px 0;
   }
-
+  
   #woods-img {
     width: 768px;
     padding: 50px 0 20px 0;
   }
-
+  
   #mountains-img-2 {
     width: 1000px;
   }
-
+  
   #teepee-img {
     width: 1000px;
     padding: 100px 0 80px 0;
   }
-
+  
   #clouds-img-2 {
     width: 1000px;
   }
-
+  
   .temp-mobile-fix {
     width: 90%; 
   }
-
+  
   footer .footer-links {
     padding-bottom: 200px;
-}
+  }
 
+  #header #header-video {
+    width: 300px;
+    height: 200px;
+  }
+
+  #header #header-content {
+    top: 320px;
+  }
+
+  #section-1 {
+    padding-top: 100px; 
+  }
+
+  #section-2 #video-2 {
+    width: 300px;
+  }
+  
+  #section-2 .twitter-timeline {
+    width: 300px;
+    padding-top: 50px !important;
+  }
+  
+  
+  #charity-img {
+    padding-top: 30px;
+  }
+
+  #section-11 #video-11 {
+    width: 300px;
+  }
 }

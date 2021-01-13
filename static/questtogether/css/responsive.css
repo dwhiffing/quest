@@ -19,6 +19,22 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  #section-2 #video-2 {
+    width: 400px;
+  }
+  #section-2 .twitter-timeline {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #header #header-video {
+    width: 800px;
+    height: 480px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   #donation-bar {
     width: 95% !important;
@@ -86,6 +102,10 @@
   }
   #section-3 .cta-main {
     margin-top: 20px;
+  }
+  #section-3 #discord-widget {
+    margin-top: 30px;
+    width: 100%;
   }
   #section-4 #stetho-img {
     margin-top: 70px;
@@ -158,6 +178,29 @@
   }
   footer .footer-links {
     padding-bottom: 200px;
+  }
+  #header #header-video {
+    width: 300px;
+    height: 200px;
+  }
+  #header #header-content {
+    top: 320px;
+  }
+  #section-1 {
+    padding-top: 100px;
+  }
+  #section-2 #video-2 {
+    width: 300px;
+  }
+  #section-2 .twitter-timeline {
+    width: 300px;
+    padding-top: 50px !important;
+  }
+  #charity-img {
+    padding-top: 30px;
+  }
+  #section-11 #video-11 {
+    width: 300px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
