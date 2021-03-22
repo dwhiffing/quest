@@ -31,17 +31,17 @@
   },
   {
     "type": "external",
-    "url": "https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501",
+    "url": "https://questtoconquercancer.donordrive.com/",
     "title": "Login"
   },
   {
     "type": "external",
-    "url": "https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501&_ga=2.107463426.1040782371.1607540405-1249012015.1605905789",
+    "url": "https://questtoconquercancer.donordrive.com/",
     "title": "JOIN NOW"
   },
   {
     "type": "external",
-    "url": "https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501",
+    "url": "https://questtoconquercancer.donordrive.com/",
     "title": "Donate"
   }
 ]
