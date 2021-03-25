@@ -81,50 +81,6 @@ blocks:
   variant: ''
   zIndex: '0'
   paddingTop: '0'
-- template: block__feature
-  component: feature
-  image: "/src/images/shield.png"
-  background: white
-  textColor: dark-blue
-  imageWidth: 380px
-  height: auto
-  orientation: reverse
-  title: What We Do
-  paddingTop: 51px
-  paddingBottom: 51px
-  content: We are an always-on platform that allows gamers to join the most important
-    quest of all, anytime, anywhere. We partner with streamers, gamers, developers,
-    and more to create gaming content and experiences that engage both players and
-    audiences. Together, we will raise funds for The Princess Margaret Cancer Foundation
-    to conquer cancer.
-  button:
-    url: ''
-    text: ''
-  button2:
-    url: ''
-    text: ''
-  background_image: ''
-  parallax_background:
-    height: auto
-    image1:
-      image: ''
-      minY: '0'
-      maxY: '0'
-    image2:
-      image: ''
-      minY: '0'
-      maxY: '0'
-    image3:
-      image: ''
-      minY: '0'
-      maxY: '0'
-    image4:
-      image: ''
-      minY: '0'
-      maxY: '0'
-  top: '0'
-  variant: ''
-  zIndex: '0'
 - template: block__image
   component: image
   background: white
@@ -159,14 +115,12 @@ blocks:
   height: 120vh
   top: 100px
   variant: bottom
-  title: How It Works
-  content: We raise funds through partnerships with streamers who host charity streams
-    for their audiences. Every streamer with any size audience helps to get us to
-    our goal of conquering cancer. All donations to streamers or through the site
-    go directly to fund cancer research and care at The Princess Margaret.<br><br>We
-    also partner with gaming leaders and brands to create unique gaming experiences.
-    These events will bring our community together, strengthen our impact, celebrate
-    our supporters, and inspire more to join our mission to conquer cancer.
+  title: What We Do
+  content: Quest to Conquer Cancer is the newly launched fundraising initiative by
+    The Princess Margaret Cancer Foundation. We raise funds through partnerships with
+    streamers who host charity streams for their audiences. Every streamer participating
+    helps us reach our goal of conquering cancer. All donations go directly to fund
+    cancer research and care at The Princess Margaret.
   image: ''
   button:
     url: ''
@@ -244,11 +198,11 @@ blocks:
   content: Whether a streamer, spectator, or supporter, there’s a place in this Quest
     for you.
   button:
-    url: "/get-involved"
-    text: Get Involved
+    url: http://discord.gg/wug9GZU
+    text: Discord
   button2:
-    url: ''
-    text: ''
+    url: "/get-involved"
+    text: 'Get Involved '
   textColor: ''
   background_image: ''
   parallax_background:
