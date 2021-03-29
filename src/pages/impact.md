@@ -144,7 +144,7 @@ blocks:
   content: Whether a streamer, spectator, or supporter, there’s a place in this Quest
     for you.
   button:
-    url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
+    url: https://questtoconquercancer.donordrive.com/
     text: Join Now
   button2:
     url: ''

@@ -199,7 +199,7 @@ blocks:
   title: Join the Quest
   content: Sign up. Set a goal. And begin your Quest.
   button:
-    url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
+    url: https://questtoconquercancer.donordrive.com/
     text: Join Now
   button2:
     url: ''

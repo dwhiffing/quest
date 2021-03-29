@@ -49,11 +49,8 @@ blocks:
     All donations to Quest go directly to fund cancer research and care at The Princess
     Margaret
   button:
-    url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
+    url: https://questtoconquercancer.donordrive.com/
     text: Donate Today
-  button2:
-    url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
-    text: Streamers
   background_image: ''
   parallax_background:
     height: auto
@@ -120,7 +117,7 @@ blocks:
       our tools, support, and resources will get you started on your Quest today.
     button:
       text: Join Now
-      url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
+      url: https://questtoconquercancer.donordrive.com/
   col2:
     title: Fundraise
     image: "/src/images/icon2.png"
@@ -233,7 +230,7 @@ blocks:
   content: Join the Quest...<br><br>Whether you donate, fundraise, or tune in, your
     support makes a huge difference in our fight to conquer cancer.
   button:
-    url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
+    url: https://questtoconquercancer.donordrive.com/
     text: Join Now
   button2:
     url: ''

@@ -158,7 +158,7 @@ blocks:
   height: 120vh
   title: A Project by The Princess Margaret Cancer Foundation
   button:
-    url: https://thepmcf.ca/About-Us/About-the-Foundation/Vision-Mission-Strategy
+    url: https://thepmcf.ca/why-give/top5/
     text: About PMCF
   image: ''
   parallax_background:
