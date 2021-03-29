@@ -53,7 +53,7 @@ blocks:
     leading into a weeklong, unified fundraising finale December 5th -12th called
     Quest Together, Conquer Together.
   button:
-    url: https://questtoconquercancer.donordrive.com/index.cfm?fuseaction=donorDrive.event&eventID=501
+    url: https://questtoconquercancer.donordrive.com/
     text: Learn More
   button2:
     url: ''
