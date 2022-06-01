@@ -35,7 +35,7 @@
     "react-helmet": "^6.1.0",
     "react-scroll-parallax": "^2.3.4",
     "sal.js": "^0.8.1",
-    "sharp": "^0.26.2",
+    "sharp": "^0.30.5",
     "tailwindcss": "^1.9.5",
     "tls": "0.0.1"
   },
